@@ -1,0 +1,9 @@
+﻿Filler,State,ALP,GRN,IND,KAP,LNP,LP,NP,XEN,Grand Total,Lead,Percentage,Party,CenterLat,CenterLong
+1,Australian Capital Territory,3,0,0,0,0,0,0,0,3,1,100%,ALP,,
+2,New South Wales,28,0,6,0,0,6,6,0,46,0.608695652,61%,ALP,,
+3,Northern Territory,2,0,0,0,0,0,0,0,2,1,100%,ALP,,
+4,Queensland,12,1,0,1,16,0,0,0,30,-0.533333333,53%,LNP,,
+5,South Australia,7,0,0,0,0,2,0,1,10,0.7,70%,ALP,,
+6,Tasmania,4,0,1,0,0,0,0,0,5,0.8,80%,ALP,,
+7,Victoria,27,0,2,0,0,6,3,0,38,0.710526316,71%,ALP,145.5,-34
+8,Western Australia,11,0,1,0,0,4,0,0,16,0.6875,69%,ALP,,
