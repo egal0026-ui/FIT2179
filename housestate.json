@@ -1,0 +1,79 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+      "title": "Percentage of Seats held by leading Party by state in 2025",
+
+      "height": 500,
+      "width": 800,
+      "config": {
+    "background": "aliceblue"
+  },
+
+      "layer": [
+        {
+          "params": [
+            {"name": "state_selector", 
+            "select": {"type": "point", "fields": ["State"], "on": "click"}}
+          ]
+                
+             ,
+          "projection": {
+            "type": "equirectangular",
+            "center": [135, -26],
+            "scale": 700
+          },
+          "data": {
+            "url": "Data/STE_2021_AUST_GDA2020.json",
+            "format": { "type": "topojson", "feature": "STE_2021_AUST_GDA2020" }
+          },
+
+          "transform": [
+            {
+              "lookup": "properties.STE_NAME21",
+              "from": {
+                "data": {
+                  "url": "Data/HouseSeatsByState.csv"
+                },
+                "key": "State",
+                "fields": ["State", "Lead", "Party", "Percentage", "CenterLat", "CenterLong"]
+              }
+            }
+          ],
+
+          "mark": { "type": "geoshape" },
+          "encoding": {
+            "fill": {
+              "field": "Lead",
+              "type": "quantitative",
+              "scale": {
+                "domain": [-1, 1],
+                "range": ["#0571b0", "#f7f7f7", "#ca0020"]
+              },
+              "legend": null
+            },
+            "tooltip": [
+              { "field": "Party", "type": "nominal" },
+              { "field": "State", "type": "nominal" },
+              { "field": "Percentage", "type": "ordinal" }
+            ],
+            "opacity": {
+              "condition": {
+                "param": "state_selector",
+                "value": 1
+              },
+              "value": 0.8
+            },
+            "strokeWidth": {
+              "condition": {
+                "param": "state_selector",
+                "value": 1
+              },
+              "value": 0.25
+            },
+            "stroke": { "value": "#000" }
+          }
+        }
+      ]
+    }
+    

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "title": "Timeline of Governing Parties in Australia and the Prime Minister 1901-2026",
+  "width": 1200,
+  "height": 400,
+  "padding": 5,
+
+  "data": [
+    {
+        "name": "Elections",
+        "url":"Data/ElectionWinners.csv",
+        "format": {"type": "csv", "parse": {"StartYearUnix": "string", "EndYear":"number"}}
+    },
+    {
+        "name": "PrimeMinisters",
+        "url":"Data/PrimeMinisters.csv",
+        "format": {"type": "csv", "parse": {"StartDateUnix": "number", "EndDateUnix": "number", "Start": "number", "End": "number"}}
+    },
+    {
+        "name": "OppLeaders",
+        "url":"Data/OppLeaders.csv",
+        "format": {"type": "csv", "parse": {"OppStart": "number", "OppEnd": "number"}}
+    }
+],
+ 
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "band",
+      "range": [0, {"signal": "height"}],
+      "domain": {"data": "PrimeMinisters", "field": "Surname"}
+    },
+    {
+      "name": "xscale",
+      "range": "width",
+      "type": "time",
+      "round": true,
+      "domain": {"fields": [{"data": "Elections", "field": "StartYearUnix"}, {"data": "PrimeMinisters", "field": "StartDateUnix"}, {"data": "PrimeMinisters", "field": "EndDateUnix"}]}
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["PROT","ALP","LIB","NAT","CP","UAP","FT"],
+      "range": ["#74a9cf","#ef3b2c","#0570b0","#386cb0","#7fc97f","#fec44f","#fed976"]
+    }
+  ],
+
+  "axes": [
+    {"orient": "bottom", "scale": "xscale", "format": "%Y"}
+  ],
+
+  "layers": [
+    
+  ],
+
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "Elections"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "Label"},
+          "x2": {"scale": "xscale", "field": "EndYear"},
+          "y": {"value": -8},
+          "height": {"field": {"group": "height"}, "offset": 8},
+          "fill": {
+            "field": "Party", 
+            "type": "nominal",
+            "scale": "color"          
+          },
+          "opacity": {"value": 0.3},
+          "tooltip":[
+            {"field": "Party", "type":"nominal"}
+          ]
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "PrimeMinisters"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "StartDateUnix", "type": "temporal"},
+          "x2": {"scale": "xscale", "field": "EndDateUnix", "type": "temporal"},
+          "y":{"value":75},
+          "height": {"value": 50},
+          "fill": {
+            "field": "Party", 
+            "type": "nominal",
+            "scale": "color"          
+          },
+          "stroke": {"value": "#000"},
+          "tooltip": {"signal": "datum"}
+        }
+        }
+      },
+      {
+      "type": "rect",
+      "from": {"data": "OppLeaders"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "OppStart", "type": "temporal"},
+          "x2": {"scale": "xscale", "field": "OppEnd", "type": "temporal"},
+          "y": {"value": 275},
+          "height": {"value": 50},
+          "fill": {
+              "field": "Party", 
+              "type": "nominal",
+              "scale": "color"          
+            },
+          "stroke": {"value": "#000"},
+          "tooltip": [
+                      {"field": "Surname", "type":"nominal", "title": "Opposition Leader"}
+        ]
+          },
+          "update": {
+            "strokeWidth": {"value": 1}
+          },
+          "hover": {
+            "strokeWidth": {"value": 2}
+          }
+            
+          
+        }
+      }
+  ]
+}

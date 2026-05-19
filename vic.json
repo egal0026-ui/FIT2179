@@ -1,0 +1,77 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+      "title": "House of Representative Seats held by each Party in Victoria",  
+    
+    "height": 500,
+      "width": 800,
+      "config": {
+    "background": "aliceblue"
+  },
+      "layer": [
+        {
+          "projection": {
+            "type": "equirectangular",
+            "center": [145.5, -36],
+            "scale": 5000
+          },
+          "data": {
+            "url": "Data/AUS_ELB_region.json",
+            "format": { "type": "topojson", "feature": "AUS_ELB_region" }
+          },
+          "transform": [
+            {
+              "lookup": "properties.Elect_div",
+              "from": {
+                "data": {
+                  "url": "Data/HouseSeats2025.csv"
+                },
+                "key": "DivisionNm",
+                "fields": ["State", "DivisionNm", "PartyAb", "ElectYear"]
+              }
+            }, {
+                "filter": "datum.State == 'Victoria'"
+            }
+          ],
+          "mark": { "type": "geoshape" },
+          "encoding": {
+            "fill": {
+              "field": "PartyAb",
+              "type": "nominal",
+              "scale": {
+                "domain": [
+                  "ALP",
+                  "LP",
+                  "NP",
+                  "LNP",
+                  "GRN",
+                  "KAP",
+                  "IND",
+                  "XEN"
+                ],
+                "range": [
+                  "#ca0020",
+                  "#0571b0",
+                  "#3182bd",
+                  "#9ecae1",
+                  "#2ca25f",
+                  "#6baed6",
+                  "#bdbdbd",
+                  "#e6550d"
+                ]
+              },
+              "legend": null
+            },
+            "stroke": { "value": "#fff" },
+            "tooltip": [
+              { "field": "PartyAb", "type": "nominal" },
+              { "field": "State", "type": "nominal" },
+              { "field": "DivisionNm", "type": "nominal" }
+            ]
+          }
+        }
+      ]
+    }
+  
+

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "Most Seats held by each Party that has won seats in the House of Representatives",
+  "height": 600,
+  "width": 400,
+  "config": {
+    "background": "aliceblue"
+  },
+  "data": {
+    "url": "Data/Parties.csv"
+  },
+  "transform": [{
+    "filter": "datum.HoRSeats > 0"
+  }],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "HoRSeats", "type": "quantitative", "title": "Most seats held by party"},
+    "y": {"field": "PartyNm", "type": "nominal", "title": "Party", "sort": "-x" },
+    "tooltip": [
+        {"field": "HoRSeats", "type": "quantitative"},
+        {"field": "HouseYear", "type": "ordinal"}
+    ]
+  }
+}

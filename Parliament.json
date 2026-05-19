@@ -1,0 +1,99 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "A timeline visualization of the lives of the first five U.S. presidents.",
+  "width": 800,
+  "height": 400,
+  "padding": 5,
+
+  "data": [
+    {
+        "name": "Elections",
+        "url":"Data/ElectionWinners.csv",
+        "format": {"type": "csv", "parse": {"StartYearUnix": "string", "EndYear":"string"}}
+    },
+    {
+        "name": "PrimeMinisters",
+        "url":"Data/PrimeMinisters.csv",
+        "format": {"type": "csv", "parse": {"StartDateUnix": "number", "EndDateUnix": "number", "Start": "number", "End": "number"}}
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "band",
+      "range": [0, {"signal": "height"}],
+      "domain": ["FT","PROT", "ALP", "NAT", "UAP", "LIB", "CP"]
+    },
+    {
+      "name": "xscale",
+      "type": "time",
+      "range": "width",
+      "round": true,
+      "domain": {"fields": [{"data": "Elections", "field": "StartYearUnix"}, {"data": "Elections", "field": "EndYear"}, {"data": "PrimeMinisters", "field": "StartDateUnix"}, {"data": "PrimeMinisters", "field": "EndDateUnix"}]}
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["PROT","ALP","LIB","NAT","CP","UAP","FT"],
+      "range": ["#74a9cf","#ef3b2c","#0570b0","#386cb0","#7fc97f","#fec44f","#fed976"]
+    }
+  ],
+
+  "axes": [
+    {"orient": "bottom", "scale": "xscale", "format": "%Y"},
+    {"orient":"left", "scale": "yscale"}
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "Elections"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "StartYearUnix", "type": "temporal"},
+          "x2": {"scale": "xscale", "field": "EndYear", "type": "temporal"},
+          "y": {"scale": "yscale", "field": "Party"},
+          "height": {"value": 40},
+           "fill": {
+              "field": "Party", 
+              "type": "nominal",
+              "scale": "color"          
+            },
+          "stroke": {"value": "#000"},
+          "tooltip": [
+                      {"field": "Party", "type":"nominal", "title": "Opposition Leader"}
+        ]
+        },
+        "update": {
+            "strokeWidth": {"value": 0.5}
+          },
+        "hover": {
+            "strokeWidth": {"value": 1}
+          }
+            
+      }
+    },{
+      "type": "symbol",
+      "from": {"data": "PrimeMinisters"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "StartDateUnix", "type": "temporal"},
+          "y":{"scale": "yscale", "field": "Party", "offset": 20},
+          "shape": {"value": "circle"},
+          "size": {"value": 200},
+          "fill": {
+            "field": "Party", 
+            "type": "nominal",
+            "scale": "color"          
+          },
+          "stroke": {"value": "#000"},
+          "tooltip": [
+                      {"field": "Surname", "type":"nominal", "title": "Prime Minister"}
+        ]
+        }
+
+        }
+      }
+  ]
+}
