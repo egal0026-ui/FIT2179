@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "height": 600,
   "width": "container",
-  "config": {
+      "config": {
     "background": "white",
     "style": {
       "cell": {
@@ -20,11 +20,11 @@
   "params": [
     {
       "name": "zoom_level",
-      "value": 5000,
+      "value": 1800,
       "bind": {
         "input": "range",
-        "min": 5000,
-        "max": 20000,
+        "min": 1800,
+        "max": 15000,
         "step": 100,
         "name": "Zoom into Map: "
       }
@@ -34,7 +34,7 @@
     {
       "projection": {
         "type": "equirectangular",
-        "center": [145, -37.5],
+        "center": [138, -35],
         "scale": { "expr": "zoom_level" }
       },
       "data": {
@@ -53,7 +53,7 @@
           }
         },
         {
-          "filter": "datum.State != 'Victoria'"
+          "filter": "datum.State != 'South Australia'"
         }
       ],
 
@@ -62,7 +62,7 @@
         "color": {
           "condition": {
             "param": "zoom_level",
-            "value": "#616161"
+            "value": "#404040"
           },
           "legend": null
         },
@@ -79,7 +79,7 @@
     {
       "projection": {
         "type": "equirectangular",
-        "center": [145, -37.5],
+        "center": [138, -35],
         "scale": { "expr": "zoom_level" }
       },
       "data": {
@@ -98,7 +98,7 @@
           }
         },
         {
-          "filter": "datum.State == 'Victoria'"
+          "filter": "datum.State == 'South Australia'"
         }
       ],
       "mark": { "type": "geoshape" },
@@ -108,12 +108,12 @@
           "type": "nominal",
           "scale": {
      "domain": [
-          "Australian Labor Party","Liberal Party","The Nationals",
-          "Australian Greens","Independent"
+          "Australian Labor Party","Liberal Party",
+          "Centre Alliance"
         ],
         "range": [
-          "#e14645","#1c4f9c","#1c4f9c",
-          "#10c25b","#969696"
+          "#e14645","#1c4f9c",
+          "#ff6300"
         ]
           },
           "legend": null

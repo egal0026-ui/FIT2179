@@ -1,41 +1,112 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "title": "Number of Seats by Party in the House of Representatives 1901-2026",
   "data": {
     "url": "Data/HouseSeatsByParty.csv"
   },
-  "width": 1000,
+  "width": "container",
   "height": 600,
   "config": {
-    "background": "aliceblue"
+    "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      },
+      "axis": {
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14
+      }
+    },
+    "padding": 15
   },
-  "transform": [
-    {"filter": "datum.Elected !== '0'"}
-  ],
+  "transform": [{ "filter": "datum['Seats Elected'] !== '0'" }],
   "mark": {
     "type": "circle",
     "opacity": 0.8,
-    "stroke": "black",
+    "stroke": "#000",
     "strokeWidth": 1
   },
   "encoding": {
     "x": {
       "field": "Year",
       "type": "temporal",
-      "axis": {"grid": false}
-    },
-    "y": {"field": "PartyNm", "type": "nominal", "axis": {"title": ""}},
-    "size": {
-      "field": "Elected",
-      "type": "quantitative",
-      "title": "Number of Seats Elected",
-      "legend": {"clipHeight": 30},
-      "scale": {
-        "type": "threshold",
-        "domain": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
-        "range": [5, 10, 20, 50, 100, 150, 200, 250, 300, 400, 500]
+      "axis": {
+        "grid": false,
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14
       }
     },
-    "color": {"field": "PartyAb", "type": "nominal", "legend": null}
+    "y": {
+      "field": "Party",
+      "type": "nominal",
+      "axis": {
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "title": null,
+        "labelLimit": 250
+      },
+      "scale": {
+        "domain": [
+          "Australian Labor Party",
+
+          "Independent",
+          "Free Trade / Anti-Socialist Party",
+          "Protectionist Party",
+          "Commonwealth Liberal Party",
+          "Nationalists and Farmers",
+          "Victorian Farmer's Union",
+          "Nationalist Party",
+          "Country Party / The Nationals",
+          "United Australia Party",
+          "Lang Labor Party",
+          "Liberal Country League",
+          "Anti-Communist Labor Party",
+          "Liberal Party",
+          "Country Liberal Party",
+          "Liberal National Party of Queensland",
+
+          "The Greens",
+          "Katter's Australian Party",
+
+          "Palmer United Australia Party",
+          "Centre Alliance"
+        ]
+      }
+    },
+    "size": {
+      "field": "Seat Percentage",
+      "type": "quantitative",
+      "title": "Percentage of Seats Elected",
+      "legend": {
+        "clipHeight": 30,
+        "titleLimit": 500,
+        "columns": 5,
+        "orient": "bottom",
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14,
+        "format": ".2%"
+      },
+      "scale": {
+        "type": "threshold",
+        "domain": [0.05, 0.2, 0.5, 0.65],
+        "range": [50, 100, 150, 200, 300]
+      }
+    },
+    "color": { "value": "#faa18f" },
+    "tooltip": [
+      { "field": "Party" },
+      { "field": "Year", "type": "temporal", "format": "%Y" },
+      { "field": "Seats Elected" },
+      { "field": "Seat Percentage", "format": ".2%" }
+    ]
   }
 }

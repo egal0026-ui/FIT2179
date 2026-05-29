@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 400,
+    "config": {
+    "background": "white",
+      "axis": {
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14
+      },
+      "padding": 15
+  },
+  "data": {"url": "Data/SenateVotes.csv"},
+  "transform": [{"filter": "datum.Year == '2025' && datum.StateAb == 'VIC' "}],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "bin": {"step": 2},
+      "field": "TotalPercentage",
+      "title": "Voter Turnout (%)"
+    },
+    "y": {"aggregate": "count", "title": "Number of Electoral Divisions"},
+    "color": {"value": "#faa18f"},
+    "stroke": {"value": "#000"},
+        "tooltip": [
+      {"field": "Percent", "bin": true, "title": "Voter Turnout Percentage", "format": ".2%"},
+      {"aggregate": "count", "title": "Number of Electoral Divisions"}
+    ]
+  }
+}

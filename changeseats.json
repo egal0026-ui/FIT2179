@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+      "height": 400,
+      "width": "container",
+      "config": {
+    "background": "aliceblue"
+  },
+  "projection": {
+            "type": "equirectangular",
+            "center": [133.5, -26],
+            "scale": 600
+          },
+          "data": {
+            "url": "Data/SenateSeats.csv"
+          },
+
+
+
+      "layer": [{
+
+            "transform": [
+                {"filter": "datum.State == 'Victoria'"}
+            ],
+
+            "mark": "arc",
+            "encoding": {
+                "radius": {"value": 30},
+                "theta": {"field": "Seats", "type": "quantitative"},
+                "color": {"field": "PartyAb", "type": "nominal"}, 
+                "latitude": {"field": "Lat", "type": "quantitative"},
+                "longitude": {"field": "Long", "type": "quantitative"},
+                "tooltip": [{"field": "Seats"}, {"field": "PartyAb"}, {"field": "State"}]
+            }
+        }
+      ]
+    }
+    

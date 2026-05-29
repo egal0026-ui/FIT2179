@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "height": 0,
+  "width": "container",
+  "padding": { "left": 30, "right": 30, "top": 0, "bottom": 15 },
+  "config": {
+    "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    },
+    "axis": {
+      "labelFont": "Verdana",
+      "labelFontSize": 11,
+      "labelFontWeight": "lighter",
+      "titleFont": "Verdana",
+      "titleFontSize": 14
+    }
+  },
+  "data": {
+    "url": "Data/HouseSeats2025.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.Party == ''"
+    }
+  ],
+  "mark": "circle",
+  "encoding": {
+    "color": {
+      "type": "ordinal",
+      "field": "Party",
+      "scale": {
+     "domain": [
+          "Australian Labor Party","Centre Alliance","Liberal Party",
+           "Australian Greens","Katter's Australian Party","The Nationals",
+          "New Seat","Independent", "Liberal National Party of Queensland"
+        ],
+        "range": [
+          "#e14645","#ff6300","#1c4f9c",
+          "#10c25b","#b50204","#1c4f9c",
+          "#616161","#969696", "#1c4f9c"
+        ]
+      },
+      "legend": {
+        "orient": "bottom",
+        "title": "Political Parties",
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14,
+        "columns": 3,
+        "labelLimit": 250
+      }
+    },
+    "opacity": { "value": 0.8 }
+  }
+}

@@ -1,79 +1,164 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-
-      "title": "Percentage of Seats held by leading Party by state in 2025",
-
-      "height": 500,
-      "width": 800,
-      "config": {
-    "background": "aliceblue"
+  "height": 400,
+  "width": "container",
+  "config": {
+    "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      },
+      "axis": {
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14
+      }
+    }
+  },
+  "projection": {
+    "type": "equirectangular",
+    "center": [133.5, -26],
+    "scale": 600
+  },
+  "data": {
+    "url": "Data/STE_2021_AUST_GDA2020.json",
+    "format": { "type": "topojson", "feature": "STE_2021_AUST_GDA2020" }
   },
 
-      "layer": [
-        {
-          "params": [
-            {"name": "state_selector", 
-            "select": {"type": "point", "fields": ["State"], "on": "click"}}
-          ]
-                
-             ,
-          "projection": {
-            "type": "equirectangular",
-            "center": [135, -26],
-            "scale": 700
-          },
-          "data": {
-            "url": "Data/STE_2021_AUST_GDA2020.json",
-            "format": { "type": "topojson", "feature": "STE_2021_AUST_GDA2020" }
-          },
-
-          "transform": [
-            {
-              "lookup": "properties.STE_NAME21",
-              "from": {
-                "data": {
-                  "url": "Data/HouseSeatsByState.csv"
-                },
-                "key": "State",
-                "fields": ["State", "Lead", "Party", "Percentage", "CenterLat", "CenterLong"]
-              }
-            }
-          ],
-
-          "mark": { "type": "geoshape" },
-          "encoding": {
-            "fill": {
-              "field": "Lead",
-              "type": "quantitative",
-              "scale": {
-                "domain": [-1, 1],
-                "range": ["#0571b0", "#f7f7f7", "#ca0020"]
-              },
-              "legend": null
-            },
-            "tooltip": [
-              { "field": "Party", "type": "nominal" },
-              { "field": "State", "type": "nominal" },
-              { "field": "Percentage", "type": "ordinal" }
-            ],
-            "opacity": {
-              "condition": {
-                "param": "state_selector",
-                "value": 1
-              },
-              "value": 0.8
-            },
-            "strokeWidth": {
-              "condition": {
-                "param": "state_selector",
-                "value": 1
-              },
-              "value": 0.25
-            },
-            "stroke": { "value": "#000" }
-          }
-        }
-      ]
+  "transform": [
+    {
+      "lookup": "properties.STE_NAME21",
+      "from": {
+        "data": {
+          "url": "Data/HouseSeatsByState.csv"
+        },
+        "key": "State",
+        "fields": [
+          "State",
+          "Lead",
+          "Party",
+          "Percentage",
+          "CenterLat",
+          "CenterLong",
+          "LegendText"
+        ]
+      }
     }
-    
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "state_selector",
+          "select": { "type": "point", "fields": ["State"], "on": "click" }
+        }
+      ],
+
+      "mark": { "type": "geoshape" },
+      "encoding": {
+        "fill": {
+          "field": "Lead",
+          "type": "quantitative",
+          "scale": {
+            "domain": [1, -1],
+            "range": ["#e14645", "#f7f7f7", "#1c4f9c"]
+          },
+          "legend": {
+            "title": null,
+            "labelOpacity": 0,
+            "orient": "none",
+            "legendX": 50,
+            "legendY": 350,
+            "direction": "horizontal",
+            "gradientLength": 200,
+            "gradientStrokeColor": "#000"
+          }
+        },
+        "tooltip": [
+          { "field": "Party", "type": "nominal" },
+          { "field": "State", "type": "nominal" },
+          { "field": "Percentage", "type": "ordinal", "title": "Percentage of Seats"}
+        ],
+        "opacity": {
+          "condition": {
+            "param": "state_selector",
+            "value": 1
+          },
+          "value": 0.8
+        },
+        "strokeWidth": {
+          "value": 1
+        },
+        "stroke": { "value": "#000" }
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.State == 'Queensland'"}
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "LegendText"},
+        "latitude": { "field": "CenterLat", "type": "quantitative" },
+        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "color": {"value": "#000"},
+        "opacity": {"value": 1}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.State == 'New South Wales'"}
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "LegendText"},
+        "latitude": { "field": "CenterLat", "type": "quantitative" },
+        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "color": {"value": "#000"},
+        "opacity": {"value": 1}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.State == 'Australian Capital Territory'"}
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "LegendText"},
+        "latitude": { "field": "CenterLat", "type": "quantitative" },
+        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "color": {"value": "#000"},
+        "opacity": {"value": 1}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.State == 'Northern Territory'"}
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "LegendText"},
+        "latitude": { "field": "CenterLat", "type": "quantitative" },
+        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "color": {"value": "#000"},
+        "opacity": {"value": 1}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.State == 'South Australia'"}
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "LegendText"},
+        "latitude": { "field": "CenterLat", "type": "quantitative" },
+        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "color": {"value": "#000"},
+        "opacity": {"value": 1}
+      }
+    }
+  ]
+}

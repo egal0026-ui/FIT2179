@@ -1,0 +1,282 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "height": 400,
+  "width": "container",
+  "config": {
+    "background": "white",
+
+  "style": {
+    "cell": {
+      "stroke": "transparent"
+    }
+  
+},
+"padding": 15
+  },
+  
+  "projection": {
+    "type": "equirectangular",
+    "center": [135, -26],
+    "scale": 600
+  },
+  "data": {
+    "url": "Data/STE_2021_AUST_GDA2020.json",
+    "format": { "type": "topojson", "feature": "STE_2021_AUST_GDA2020" }
+  },
+
+  "transform": [
+    {
+      "lookup": "properties.STE_NAME21",
+      "from": {
+        "data": {
+          "url": "Data/SenateSeats.csv"
+        },
+        "key": "State",
+        "fields": ["State", "PartyAb", "PartyNm", "Seats", "Lat", "Long"]
+      }
+    }
+  ],
+
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "senate_selector",
+          "select": { "type": "point", "fields": ["State"], "on": "click" }
+        }
+      ],
+
+      "mark": { "type": "geoshape" },
+      "encoding": {
+        "fill": { "value": "#616161" },
+        "tooltip": [{ "field": "State", "type": "nominal" }],
+        "opacity": {
+          "condition": {
+            "param": "senate_selector",
+            "value": 1
+          },
+          "value": 0.8
+        },
+        "strokeWidth": {
+          "value": 1
+        },
+        "stroke": { "value": "#000" }
+      }
+    },{
+        "mark":"rect",
+        "encoding": {
+            "x": {"value": 673},
+            "x2": {"value":770},
+            "y": {"value": 300},
+            "y2": {"value": 302},
+            "color": {"value": "#000"}
+        }
+    },{
+        "mark":"rect",
+        "encoding": {
+            "x": {"value": 660},
+            "x2": {"value":750},
+            "y": {"value": 355},
+            "y2": {"value": 357},
+            "color": {"value": "#000"}
+        }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'Australian Capital Territory'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" },
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats", "title": "Number of Seats"},
+          { "field": "Percentage", "title": "Percentage of Seats", "format": ".2%"},
+          { "field": "PartyNm", "title": "Party"},
+          { "field": "State" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'Northern Territory'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" },
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats", "title": "Number of Seats"},
+          { "field": "Percentage", "title": "Percentage of Seats", "format": ".2%"},
+          { "field": "PartyNm", "title": "Party"},
+          { "field": "State" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'Victoria'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" },
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats", "title": "Number of Seats"},
+          { "field": "Percentage", "title": "Percentage of Seats", "format": ".2%"},
+          { "field": "PartyNm", "title": "Party"},
+          { "field": "State" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'New South Wales'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" },
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats", "title": "Number of Seats"},
+          { "field": "Percentage", "title": "Percentage of Seats", "format": ".2%"},
+          { "field": "PartyNm", "title": "Party"},
+          { "field": "State" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'Western Australia'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" },
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats", "title": "Number of Seats"},
+          { "field": "Percentage", "title": "Percentage of Seats", "format": ".2%"},
+          { "field": "PartyNm", "title": "Party"},
+          { "field": "State" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'South Australia'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" },
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats", "title": "Number of Seats"},
+          { "field": "Percentage", "title": "Percentage of Seats", "format": ".2%"},
+          { "field": "PartyNm", "title": "Party"},
+          { "field": "State" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'Queensland'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" },
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats", "title": "Number of Seats"},
+          { "field": "Percentage", "title": "Percentage of Seats", "format": ".2%"},
+          { "field": "PartyNm", "title": "Party"},
+          { "field": "State" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Data/SenateSeats.csv"
+      },
+      "transform": [{ "filter": "datum.State == 'Tasmania'" }],
+
+      "mark": "arc",
+      "encoding": {
+        "radius": { "value": 25 },
+        "theta": { "field": "Percentage", "type": "quantitative" },
+        "color": { "field": "PartyNm", "type": "nominal" , 
+          "legend": {
+            "orient": "bottom",
+            "title": "Political Parties",
+            "labelFont": "Verdana",
+            "labelFontSize": 11,
+            "labelFontWeight": "lighter",
+            "titleFont": "Verdana",
+            "titleFontSize": 14,
+            "columns": 5,
+            "labelLimit": 250
+          },
+        "scale": {
+        "domain": [
+          "Australian Labor Party","David Pocock","Pauline Hanson's One Nation", "Liberal Party",   "Country Liberal Party",
+          "Australian Greens","Jacqui Lambie Network","Palmer United Australia Party","The Nationals","Liberal National Party of Queensland"
+        ],
+        "range": [
+          "#e14645","#cf2c2b","#ff6900","#1c4f9c","#1c4f9c",
+          "#10c25b","#ffd520","#f8ef21","#1c4f9c","#1c4f9c"
+        ]
+      }},
+        "latitude": { "field": "Lat", "type": "quantitative" },
+        "longitude": { "field": "Long", "type": "quantitative" },
+        "stroke": {"value": "#000"},
+        "tooltip": [
+          { "field": "Seats" },
+          { "field": "PartyNm" },
+          { "field": "State" }
+        ]
+      }
+    }
+  ]
+}

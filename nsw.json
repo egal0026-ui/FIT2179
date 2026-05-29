@@ -20,10 +20,10 @@
   "params": [
     {
       "name": "zoom_level",
-      "value": 5000,
+      "value": 3000,
       "bind": {
         "input": "range",
-        "min": 5000,
+        "min": 3000,
         "max": 20000,
         "step": 100,
         "name": "Zoom into Map: "
@@ -34,7 +34,7 @@
     {
       "projection": {
         "type": "equirectangular",
-        "center": [145, -37.5],
+        "center": [151, -34],
         "scale": { "expr": "zoom_level" }
       },
       "data": {
@@ -53,7 +53,7 @@
           }
         },
         {
-          "filter": "datum.State != 'Victoria'"
+          "filter": "datum.State != 'New South Wales'"
         }
       ],
 
@@ -62,7 +62,7 @@
         "color": {
           "condition": {
             "param": "zoom_level",
-            "value": "#616161"
+            "value": "#404040"
           },
           "legend": null
         },
@@ -79,7 +79,7 @@
     {
       "projection": {
         "type": "equirectangular",
-        "center": [145, -37.5],
+        "center": [151, -34],
         "scale": { "expr": "zoom_level" }
       },
       "data": {
@@ -98,7 +98,7 @@
           }
         },
         {
-          "filter": "datum.State == 'Victoria'"
+          "filter": "datum.State == 'New South Wales'"
         }
       ],
       "mark": { "type": "geoshape" },
@@ -107,14 +107,13 @@
           "field": "Party",
           "type": "nominal",
           "scale": {
-     "domain": [
-          "Australian Labor Party","Liberal Party","The Nationals",
-          "Australian Greens","Independent"
-        ],
-        "range": [
-          "#e14645","#1c4f9c","#1c4f9c",
-          "#10c25b","#969696"
-        ]
+            "domain": [
+              "Australian Labor Party",
+              "Liberal Party",
+              "The Nationals",
+              "Independent"
+            ],
+            "range": ["#e14645", "#1c4f9c", "#1c4f9c", "#969696"]
           },
           "legend": null
         },

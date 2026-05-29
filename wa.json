@@ -1,0 +1,129 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",    
+    "height": 600,
+      "width": "container",
+      "config": {
+    "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      },
+      "axis": {
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14
+      }
+    }
+  },
+  
+  "params": [
+    {
+      "name": "zoom_level",
+      "value": 800,
+      "bind": {
+        "input": "range",
+        "min": 800,
+        "max": 15000,
+        "step": 100,
+        "name": "Zoom into Map: "
+      }
+    }
+  ],
+      "layer": [{
+      "projection": {
+        "type": "equirectangular",
+            "center": [117, -32],
+        "scale": {"expr": "zoom_level"}
+      },
+      "data": {
+        "url": "Data/AUS_ELB_region.json",
+        "format": { "type": "topojson", "feature": "AUS_ELB_region" }
+      },
+      "transform": [
+        {
+          "lookup": "properties.Elect_div",
+          "from": {
+            "data": {
+              "url": "Data/HouseSeats2025.csv"
+            },
+            "key": "Electoral Division",
+            "fields": ["State", "Electoral Division", "Party", "ElectYear"]
+          }
+        },
+        {
+          "filter": "datum.State != 'Australian Capital Territory'"
+        }
+      ],
+
+      "mark": { "type": "geoshape" },
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "zoom_level",
+            "value": "#404040"
+          },
+          "legend": null
+        },
+
+        "opacity": {
+          "value": 0.8
+        },
+        "strokeWidth": {
+          "value": 0.25
+        },
+        "stroke": { "value": "#fff" }
+      }
+    },
+        {
+          "projection": {
+            "type": "equirectangular",
+            "center": [117, -32],
+            "scale": {"expr": "zoom_level"}
+          },
+          "data": {
+            "url": "Data/AUS_ELB_region.json",
+            "format": { "type": "topojson", "feature": "AUS_ELB_region" }
+          },
+          "transform": [
+            {
+              "lookup": "properties.Elect_div",
+              "from": {
+                "data": {
+                  "url": "Data/HouseSeats2025.csv"
+                },
+                "key": "Electoral Division",
+                "fields": ["State", "Electoral Division", "Party", "ElectYear"]
+              }
+            }, {
+                "filter": "datum.State == 'Western Australia'"
+            }
+          ],
+          "mark": { "type": "geoshape" },
+          "encoding": {
+            "fill": {
+              "field": "Party",
+              "type": "nominal",
+              "scale": {
+     "domain": [
+          "Australian Labor Party","Liberal Party","Independent", "New Seat"
+        ],
+        "range": [
+          "#e14645","#1c4f9c","#969696", "#616161"
+        ]
+              },
+              "legend": null
+            },
+            "stroke": { "value": "#000" },
+            "tooltip": [
+              { "field": "Party", "type": "nominal" },
+              { "field": "Electoral Division", "type": "nominal" },
+              { "field": "State", "type": "nominal" }
+            ]
+          }
+        }
+      ]
+    }
+  
+

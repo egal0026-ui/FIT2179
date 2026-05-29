@@ -1,0 +1,348 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+
+  "height": 350,
+  "width": "container",
+  "padding": { "left": 30, "right": 30, "top": 30, "bottom": 30 },
+  "config": {
+    "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      },
+      "axis": {
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter"
+      }
+    },
+    "lineBreak": "#"
+  },
+
+  "data": {
+    "url": "Data/ElectionWinners.csv"
+  },
+
+  "encoding": {
+    "y": { "title": "Party" }
+  },
+
+  "layer": [
+    {
+      "mark": { "type": "rect" },
+      "encoding": {
+        "x": { "value": 0 },
+        "x2": { "value": 1020 },
+        "y": { "value": 149.5 },
+        "y2": { "value": 150.5 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 120 },
+        "x2": { "value": 121 },
+        "y": { "value": 150 },
+        "y2": { "value": 200 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 352 },
+        "x2": { "value": 353 },
+        "y": { "value": 150 },
+        "y2": { "value": 200 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 598 },
+        "x2": { "value": 599 },
+        "y": { "value": 150 },
+        "y2": { "value": 200 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 1007 },
+        "x2": { "value": 1008 },
+        "y": { "value": 150 },
+        "y2": { "value": 200 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 75 },
+        "x2": { "value": 76 },
+        "y": { "value": 150 },
+        "y2": { "value": 100 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 242 },
+        "x2": { "value": 243 },
+        "y": { "value": 150 },
+        "y2": { "value": 100 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 590 },
+        "x2": { "value": 591 },
+        "y": { "value": 150 },
+        "y2": { "value": 100 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "x": { "value": 870 },
+        "x2": { "value": 871 },
+        "y": { "value": 150 },
+        "y2": { "value": 100 },
+        "color": { "value": "#000" }
+      }
+    },
+    {
+      "mark": { "type": "circle", "point": true },
+      "encoding": {
+        "y": { "value": 150 },
+        "x": {
+          "field": "Election Date",
+          "type": "temporal",
+          "axis": {
+            "grid": false,
+            "labelFont": "Verdana",
+            "labelFontSize": 11,
+            "labelFontWeight": "lighter",
+            "titleFont": "Verdana",
+            "titleFontSize": 14
+          },
+          "title": "Year"
+        },
+        "color": {
+          "type": "ordinal",
+          "field": "Party",
+          "scale": {
+            "domain": [
+              "Australian Labor Party",
+              "Protectionist Party",
+              "Commonwealth Liberal Party",
+              "Nationalist Party",
+              "United Australia Party",
+              "Liberal Coalition"
+            ],
+            "range": [
+              "#e14645",
+              "#5590cc",
+              "#8db5d3",
+              "#6495ed",
+              "#2596be",
+              "#1c4f9c"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "title": "Political Parties",
+            "labelFont": "Verdana",
+            "labelFontSize": 11,
+            "labelFontWeight": "lighter",
+            "titleFont": "Verdana",
+            "titleFontSize": 14
+          }
+        },
+        "strokeWidth": { "value": 1 },
+        "stroke": { "value": "#000" },
+        "opacity": { "value": 1 },
+        "tooltip": [
+          { "field": "Party", "type": "nominal" },
+          { "field": "Election Date", "type": "temporal" }
+        ],
+        "size": { "value": 100 }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 0 },
+        "x2": { "value": 160 },
+        "y": { "value": 10 },
+        "y2": { "value": 100 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '1'" }],
+      "mark": { "type": "text", "dx": 30 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 22.5 },
+        "text": { "field": "Annotation" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 205 },
+        "x2": { "value": 505 },
+        "y": { "value": 10 },
+        "y2": { "value": 100 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '3'" }],
+      "mark": { "type": "text", "dx": 105 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 22.5 },
+        "text": { "field": "Annotation" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 550 },
+        "x2": { "value": 805 },
+        "y": { "value": 10 },
+        "y2": { "value": 100 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '5'" }],
+      "mark": { "type": "text", "dx": 85 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 22.5 },
+        "text": { "field": "Annotation" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 850 },
+        "x2": { "value": 1012 },
+        "y": { "value": 10 },
+        "y2": { "value": 100 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '7'" }],
+      "mark": { "type": "text", "dx": 70 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 22.5 },
+        "text": { "field": "Annotation" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 0 },
+        "x2": { "value": 255 },
+        "y": { "value": 200 },
+        "y2": { "value": 290 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '2'" }],
+      "mark": { "type": "text", "dx": -5 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 212.5 },
+        "text": { "field": "Annotation" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 280 },
+        "x2": { "value": 530 },
+        "y": { "value": 200 },
+        "y2": { "value": 290 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '4'" }],
+      "mark": { "type": "text", "dx": 60 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 212.5 },
+        "text": { "field": "Annotation" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 555 },
+        "x2": { "value": 750 },
+        "y": { "value": 200 },
+        "y2": { "value": 290 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '6'" }],
+      "mark": { "type": "text", "dx": 50 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 212.5 },
+        "text": { "field": "Annotation" }
+      }
+    },
+    {
+      "mark": "rect",
+      "encoding": {
+        "fill": { "value": "#fee7e3" },
+        "x": { "value": 775 },
+        "x2": { "value": 1012 },
+        "y": { "value": 200 },
+        "y2": { "value": 290 },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Annotation != '' && datum.Num == '8'" }],
+      "mark": { "type": "text", "dx": -110 },
+      "encoding": {
+        "x": { "field": "Election Date", "type": "temporal" },
+        "y": { "value": 212.5 },
+        "text": { "field": "Annotation" }
+      }
+    }
+  ]
+}

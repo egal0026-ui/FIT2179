@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "height": 0,
+  "width": "container",
+  "padding": { "left": 30, "right": 30, "top": 0, "bottom": 15 },
+  "config": {
+    "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    },
+    "axis": {
+      "labelFont": "Verdana",
+      "labelFontSize": 11,
+      "labelFontWeight": "lighter",
+      "titleFont": "Verdana",
+      "titleFontSize": 14
+    }
+  },
+  "data": {
+    "url": "Data/Parties.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.PartyNm == ''"
+    }
+  ],
+  "mark": "circle",
+  "encoding": {
+    "color": {
+      "type": "ordinal",
+      "field": "PartyColour",
+      "scale": {
+        "domain": [
+          "Australian Labor Party","Australian Motoring Enthusiasts","Jacqui Lambie Network","Pauline Hanson's One Nation", "Liberal-National Coalition",
+          "Anti Communist Labor Party","Australian Sports Party","Palmer United Australia Party","Democratic Labour Party","United Australia Party",
+          "Lang Labor Party","Family First Party","Free Trade / Anti-Socialist Party","Katter's Australian Party","Nationalist Party",
+          "David Pocock", "Derryn Hinch's Justice Party", "Centre Alliance","Liberal Democratic Party", "Protectionist Party",
+          "Australian Greens","Independent"
+        ],
+        "range": [
+          "#e14645","#0000ff","#ffd520","#ff6900","#1c4f9c",
+          "#e14645","#0000ff","#f8ef21","#f44c01","#2596be",
+          "#e14645","#1456f1","#ffd520","#b50204","#6495ed",
+          "#cf2c2b","#002f5d","#ff6300","#60183c","#5590cc",
+          "#10c25b","#969696"
+        ]
+      },
+      "legend": {
+        "orient": "bottom",
+        "title": "Political Parties",
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14,
+        "columns": 5,
+        "labelLimit": 200
+      }
+    },
+    "opacity": { "value": 0.8 }
+  }
+}

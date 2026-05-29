@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "height": 0,
+  "width": "container",
+  "padding": { "left": 30, "right": 30, "top": 0, "bottom": 15 },
+  "config": {
+    "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    },
+    "axis": {
+      "labelFont": "Verdana",
+      "labelFontSize": 11,
+      "labelFontWeight": "lighter",
+      "titleFont": "Verdana",
+      "titleFontSize": 14
+    }
+  },
+  "data": {"url": "Data/SenateSeatsByParty.csv"},
+  "mark": {
+    "type": "line",
+    "strokeDash": [3,1]
+  },
+  "encoding": {
+   "color": {"field": "PartyNm", "type": "nominal","scale": {
+        "domain": [
+          "Australian Labor Party","Australian Motoring Enthusiasts","Jacqui Lambie Network","Pauline Hanson's One Nation", "Liberal-National Coalition",
+          "Australian Greens","Australian Sports Party","Palmer United Australia Party","Democratic Labour Party","Family First Party", 
+          "David Pocock","Independent", "Centre Alliance","Liberal Democratic Party","Derryn Hinch's Justice Party"
+        ],
+        "range": [
+          "#e14645","#0000ff","#ffd520","#ff6900","#1c4f9c",
+          "#10c25b","#0000ff","#f8ef21","#f44c01","#1456f1",
+          "#cf2c2b","#969696","#ff6300","#60183c","#002f5d"
+        ]
+      },
+      "legend": {
+        "orient": "bottom",
+        "title": "Political Parties",
+        "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14,
+        "columns": 5,
+        "labelLimit": 200
+      }}
+  }
+}
