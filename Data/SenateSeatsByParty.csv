@@ -1,322 +1,77 @@
-﻿PartyAb,PartyNm,TotalVotes,TotalPercentage,Elected,Year
-ALP,Australian Labor Party,5573028,35.11,16,2025
-LP,Liberal,892188,5.62,6,2025
-LPNP,Liberal/Nationals,2756296,17.37,4,2025
-LNP,Liberal National Party of Queensland,997404,6.28,2,2025
-NP,The Nationals,63738,0.4,0,2025
-CLP,Country Liberals (NT),34954,0.22,1,2025
-GRN,The Greens,1859974,11.72,6,2025
-ON,Pauline Hanson's One Nation,899296,5.67,3,2025
-AV,Australia's Voice,119717,0.75,0,2025
-DAVI,David Pocock,114915,0.72,1,2025
-JLN,Jacqui Lambie Network,166085,1.05,1,2025
-CYA,Trumpet of Patriots,413238,2.6,0,2025
-HMP,Legalise Cannabis Australia,553163,3.49,0,2025
-LTP,Libertarian,63572,0.4,0,2025
-SPP,Sustainable Australia Party - Universal Basic Income,58090,0.37,0,2025
-AJP,Animal Justice Party,198611,1.25,0,2025
-CEC,Citizens Party,35432,0.22,0,2025
-SOPA,FUSION | Planet Rescue | Whistleblower Protection | Innovation,46007,0.29,0,2025
-FFPA,Family First Party Australia,236728,1.49,0,2025
-GRPF,Gerard Rennick People First,37505,0.24,0,2025
-AUD,Australian Democrats,37734,0.24,0,2025
-IAP,Indigenous - Aboriginal Party of Australia,101508,0.64,0,2025
-SAL,Socialist Alliance,37813,0.24,0,2025
-AUC,Australian Christians,102519,0.65,0,2025
-ASP,"Shooters, Fishers and Farmers Party",59434,0.37,0,2025
-GAP,The Great Australian Party,15249,0.1,0,2025
-GRHE,Gerard Rennick People First - Heart,44080,0.28,0,2025
-GRKA,Gerard Rennick People First|Katter's Australian Party,151310,0.95,0,2025
-GAHE,Great Australian Party & HEART Party,5927,0.04,0,2025
-HETP,HEART/LIBERTARIAN,3444,0.02,0,2025
-PFHL,Libertarian / HEART / Gerard Rennick People First,92892,0.59,0,2025
-VNS,Victorian Socialists,63093,0.4,0,2025
-UNAM,Unendorsed/Ungrouped Amalgamated,36245,0.23,0,2025
-LP,Liberal,1052571,7,7,2022
-LPNP,Liberal/Nationals,2997004,19.93,5,2022
-LNP,Liberal National Party of Queensland,1061638,7.06,2,2022
-NP,The Nationals,3969,0.03,0,2022
-CLP,Country Liberals (NT),32846,0.22,1,2022
-ALP,Australian Labor Party,4525598,30.09,15,2022
-GRN,The Greens,1903403,12.66,6,2022
-ON,Pauline Hanson's One Nation,644744,4.29,1,2022
-JLN,Jacqui Lambie Network,31203,0.21,1,2022
-LDP,Liberal Democrats,340132,2.26,0,2022
-RPT,Rex Patrick Team,23425,0.16,0,2022
-HMP,Legalise Cannabis Australia,501421,3.33,0,2022
-SPP,Sustainable Australia Party - Stop Overdevelopment / Corruption,78181,0.52,0,2022
-UAPP,United Australia Party,520520,3.46,1,2022
-AJP,Animal Justice Party,240696,1.6,0,2022
-IMO,Informed Medical Options Party,48830,0.32,0,2022
-CEC,Citizens Party,29799,0.2,0,2022
-GAP,The Great Australian Party,82237,0.55,0,2022
-AUD,Australian Democrats,65532,0.44,0,2022
-CYA,Australian Federation Party,33551,0.22,0,2022
-SOPA,"FUSION: Science, Pirate, Secular, Climate Emergency",51676,0.34,0,2022
-AUVA,Australian Values Party,41351,0.27,0,2022
-SAL,Socialist Alliance,28057,0.19,0,2022
-FIN,Federal ICAC Now,18508,0.12,0,2022
-REAS,Reason Australia,74223,0.49,0,2022
-ASP,"Shooters, Fishers and Farmers Party",147737,0.98,0,2022
-AUP,Australian Progressives,5932,0.04,0,2022
-DPDA,Drew Pavlou Democratic Alliance,5566,0.04,0,2022
-IAP,Indigenous - Aboriginal Party of Australia,71811,0.48,0,2022
-SUN,Seniors United Party of Australia,12790,0.09,0,2022
-TLOC,The Local Party of Australia,7605,0.05,0,2022
-TNL,TNL,13217,0.09,0,2022
-AUC,Australian Christians,33143,0.22,0,2022
-DAVI,David Pocock,60406,0.4,1,2022
-CLP,Country Liberals (NT),38513,0.26,1,2019
-KCBR,Kim for Canberra,12622,0.08,0,2022
-VNS,Victorian Socialists,21739,0.14,0,2022
-WAP,WESTERN AUSTRALIA PARTY,26555,0.18,0,2022
-UNAM,Unendorsed/Ungrouped Amalgamated,136054,0.9,0,2022
-LP,Liberal,1204039,8.24,9,2019
-LPNP,Liberal/Nationals,3152483,21.59,6,2019
-LNP,Liberal National Party,1128730,7.73,3,2019
-NP,The Nationals,24377,0.17,0,2019
-CLP,Country Liberals (NT),37156,0.27,1,2016
-ALP,Australian Labor Party,2804018,19.2,11,2019
-ALPC,Labor/Country Labor,1400295,9.59,2,2019
-GRN,The Greens,1488427,10.19,6,2019
-XEN,Centre Alliance,28416,0.19,0,2019
-ON,Pauline Hanson's One Nation,788203,5.4,1,2019
-ACP,Australian Conservatives,102769,0.7,0,2019
-FFP,Family First,189852,1.37,1,2016
-FACN,FRASER ANNING'S CONSERVATIVE NATIONAL PARTY,94130,0.64,0,2019
-LDP,Liberal Democrats (LDP),169735,1.16,0,2019
-UAPP,United Australia Party,345199,2.36,0,2019
-AAHP,Affordable Housing Party,17330,0.12,0,2019
-AJP,Animal Justice Party,183996,1.26,0,2019
-ABFA,Australian Better Families,19285,0.13,0,2019
-AUC,Australian Christians,23983,0.16,0,2019
-AUD,Australian Democrats,24992,0.17,0,2019
-ALA,Australian Liberty Alliance,3263,0.02,0,2019
-APEP,Australian People's Party,11931,0.08,0,2019
-AWP,Australian Workers Party,28381,0.19,0,2019
-CDP,Christian Democratic Party,94301,0.65,0,2019
-CEC,Citizens Electoral Council,10230,0.07,0,2019
-DHJP,Derryn Hinch's Justice Party,266660,1.93,1,2016
-HMP,HEMP,262426,1.8,0,2019
-NMP,Health Australia Party,39643,0.27,0,2019
-ICAN,Independents For Climate Action,53453,0.37,0,2019
-IMO,Involuntary Medication Objectors (Vaccination/Fluoride) Party,17055,0.12,0,2019
-JLN,Jacqui Lambie Network,31383,0.21,1,2019
-KAP,Katter's Australian Party (KAP),51407,0.35,0,2019
-LAOL,Love Australia or Leave,10099,0.07,0,2019
-SOL,Climate Action! Immigration Action! Accountable Politicians!,31113,0.21,0,2019
-PIR,Pirate Party,53888,0.37,0,2019
-RPA,Republican Party of Australia,7762,0.05,0,2019
-RUA,Rise Up Australia Party,64344,0.44,0,2019
-FUT,Science Party,18972,0.13,0,2019
-SPA,Secular Party of Australia,4001,0.03,0,2019
-SUN,Seniors United Party of Australia,6999,0.05,0,2019
-ASP,"Shooters, Fishers and Farmers",253267,1.73,0,2019
-SAL,Socialist Alliance,7905,0.05,0,2019
-SEP,Socialist Equality Party,14515,0.1,0,2019
-SPP,Sustainable Australia,59349,0.41,0,2019
-GAP,The Great Australian Party,34199,0.23,0,2019
-TSBP,The Small Business Party,32751,0.22,0,2019
-TTP,The Together Party,6127,0.04,0,2019
-TWP,The Women's Party,16461,0.11,0,2019
-FLUX,VOTEFLUX.ORG,8119,0.06,0,2019
-WAP,WESTERN AUSTRALIA PARTY,17213,0.12,0,2019
-UNAM,Unendorsed/Ungrouped Amalgamated,60019,0.41,0,2019
-LPNP,Liberal/Nationals,2769426,20.01,10,2016
-LNP,Liberal National Party,960467,6.94,5,2016
-LP,Liberal,1067286,7.71,14,2016
-NP,The Nationals,34633,0.25,0,2016
-CLP,Country Liberals (NT),42781,0.32,1,2013
-ALP,Australian Labor Party,4123153,29.79,26,2016
-GRN,The Greens,1197690,8.65,9,2016
-PUP,Palmer United Party,26230,0.19,0,2016
-LDP,Liberal Democrats (LDP),298930,2.16,1,2016
-XEN,Nick Xenophon Team,456556,3.3,3,2016
-FFP,Family First,149306,1.11,1,2013
-AMEP,Australian Motoring Enthusiast Party,53242,0.38,0,2016
-GLT,Glenn Lazarus Team,45149,0.33,0,2016
-JLN,Jacqui Lambie Network,69074,0.5,1,2016
-JMP,John Madigan's Manufacturing and Farming Party,5268,0.04,0,2016
-ASXP,Australian Sex Party,94262,0.68,0,2016
-ASP,"Shooters, Fishers and Farmers",192965,1.39,0,2016
-KAP,Katter's Australian Party,53123,0.38,0,2016
-DLP,DLP - Democratic Labor Party,134987,1.06,1,2010
-HMP,HEMP,29510,0.21,0,2016
-SXHM,Sex Party/HEMP,76816,0.56,0,2016
-AJP,Animal Justice Party,159407,1.15,0,2016
-CDP,Christian Democratic Party,162370,1.17,0,2016
-ON,Pauline Hanson's One Nation,592539,4.28,4,2016
-AUC,Australian Christians,66538,0.48,0,2016
-RUA,Rise Up Australia Party,36472,0.26,0,2016
-PIR,Pirate Party,35184,0.25,0,2016
-VEP,Voluntary Euthanasia Party,23255,0.17,0,2016
-SPA,Secular Party of Australia,11077,0.08,0,2016
-SPP,Sustainable Australia,26341,0.19,0,2016
-DRF,Drug Law Reform,61327,0.44,0,2016
-AFN,Australia First Party,3027,0.02,0,2016
-SEP,Socialist Equality Party,7865,0.06,0,2016
-SOL,Online Direct Democracy,11857,0.09,0,2016
-FUT,Science Party,1306,0.01,0,2016
-SAL,Socialist Alliance,9969,0.07,0,2016
-CEC,Citizens Electoral Council,9851,0.07,0,2016
-NCP,Non-Custodial Parents Party,2102,0.02,0,2016
-CYA,Australian Country Party,9316,0.07,0,2016
-CYC,Australian Cyclists Party,24283,0.18,0,2016
-ALA,Australian Liberty Alliance,103035,0.74,0,2016
-AUP,Australian Progressives,6255,0.05,0,2016
-ARF,Australian Recreational Fishers,2376,0.02,0,2016
-CM,CountryMinded,5989,0.04,0,2016
-CLP,Country Liberals,39268,0.31,1,2010
-NMP,Health Australia Party,85256,0.62,0,2016
-AEQ,Marriage Equality,45006,0.33,0,2016
-MAP,Mature Australia,18931,0.14,0,2016
-REP,Renewable Energy Party,29998,0.22,0,2016
-FTCY,Science Party/Cyclists Party,29934,0.22,0,2016
-SUN,Seniors United Party of Australia,22213,0.16,0,2016
-ARTS,The Arts Party,37708,0.27,0,2016
-FLUX,VOTEFLUX.ORG,20461,0.15,0,2016
-ADVP,Veterans Party,10391,0.08,0,2016
-UNAM,Unendorsed/Ungrouped Amalgamated,25288,0.18,0,2016
-ALP,Australian Labor Party,4038591,30.11,12,2013
-LP,Liberal,1006710,7.51,8,2013
-LPNP,Liberal/Nationals,2853905,21.28,5,2013
-LNP,Liberal National Party,1084299,8.08,3,2013
-NP,The Nationals,69523,0.52,0,2013
-CLP,CLP - The Territory Party,40253,0.32,1,2007
-GRN,The Greens,1159588,8.65,4,2013
-CLP,CLP - The Territory Party,41923,0.35,1,2004
-XEN,Nick Xenophon Group,258376,1.93,1,2013
-PUP,Palmer United Party,658976,4.91,2,2013
-AIN,Australian Independents,45441,0.34,0,2013
-ASXP,Australian Sex Party,183731,1.37,0,2013
-RUA,Rise Up Australia Party,49341,0.37,0,2013
-SPP,Stable Population Party,12671,0.09,0,2013
-FFP,Family First,210567,1.76,1,2004
-KAP,Katter's Australian Party,119920,0.89,0,2013
-ASP,Shooters and Fishers,127397,0.95,0,2013
-DEM,Democrats,33907,0.25,0,2013
-AFLP,Australian Fishing and Lifestyle Party,59907,0.45,0,2013
-AJP,Animal Justice Party,93820,0.7,0,2013
-HMP,Help End Marijuana Prohibition (HEMP) Party,95430,0.71,0,2013
-LDP,Liberal Democrats (LDP),523831,3.91,1,2013
-ODR,Stop The Greens,19013,0.14,0,2013
-SMK,Smokers Rights,25123,0.19,0,2013
-TCS,No Carbon Tax Climate Sceptics,17959,0.13,0,2013
-AMEP,Australian Motoring Enthusiast Party,67560,0.5,1,2013
-AUC,Australian Christians,54154,0.4,0,2013
-ON,One Nation,70851,0.53,0,2013
-SEP,Socialist Equality Party,9774,0.07,0,2013
-SPA,Secular Party of Australia,12704,0.09,0,2013
-SOL,Senator On-Line,9625,0.07,0,2013
-VCE,Australian Voice Party,10057,0.07,0,2013
-BAP,Building Australia Party,7890,0.06,0,2013
-DRF,Drug Law Reform,10189,0.08,0,2013
-PIR,Pirate Party,42102,0.31,0,2013
-RPA,The Australian Republicans,2997,0.02,0,2013
-UNP,Uniting Australia Party,5423,0.04,0,2013
-WKP,The Wikileaks Party,88092,0.66,0,2013
-BTA,Bullet Train For Australia,19377,0.14,0,2013
-CYA,Country Alliance,6440,0.05,0,2013
-SCSG,Stop CSG,7990,0.06,0,2013
-VEP,Voluntary Euthanasia Party,21854,0.16,0,2013
-CDP,Christian Democratic Party,72544,0.54,0,2013
-AFN,Australia First Party (NSW) Incorporated,10157,0.08,0,2013
-APP,Australian Protectionist Party,3379,0.03,0,2013
-CEC,Citizens Electoral Council,1708,0.01,0,2013
-BRP,Bank Reform Party,1828,0.01,0,2013
-CA,Carers Alliance,5498,0.04,0,2013
-FNPP,A.F.N.P.P.,1495,0.01,0,2013
-FUT,Future Party,4243,0.03,0,2013
-NCP,Non-Custodial Parents Party,1357,0.01,0,2013
-SAL,Socialist Alliance,2728,0.02,0,2013
-SPRT,Australian Sports Party,2997,0.02,1,2013
-UNAM,Unendorsed/Ungrouped Amalgamated,15911,0.12,0,2013
-ALP,Australian Labor Party,4469734,35.13,15,2010
-LNP,Liberal/Nationals,2724940,21.42,0,2010
-GRN,The Greens,1667315,13.11,6,2010
-LP,Liberal,1092601,8.59,12,2010
-DHJP,Derryn Hinch's Justice Party,54366,0.36,0,2022
-DEM,Democrats,80645,0.63,0,2010
-CDP,CDP Christian Party,127894,1.01,0,2010
-DHJP,Derryn Hinch's Justice Party,105459,0.72,0,2019
-ON,One Nation,70672,0.56,0,2010
-DLP,DLP - Democratic Labour Party,149970,1.03,0,2019
-ASP,Shooters and Fishers,214119,1.68,0,2010
-AFLP,Australian Fishing and Lifestyle Party,48547,0.38,0,2010
-CA,Carers Alliance,28578,0.22,0,2010
-NP,The Nationals,42334,0.33,2,2010
-LDP,Liberal Democrats (LDP),230191,1.81,0,2010
-SAL,Socialist Alliance,32580,0.26,0,2010
-CEC,Citizens Electoral Council,13243,0.1,0,2010
-SOL,Senator On-Line,17441,0.14,0,2010
-NCP,Non-Custodial Parents Party,3616,0.03,0,2010
-SEP,Socialist Equality Party,13945,0.11,0,2010
-FST,Australia First Party,9680,0.08,0,2010
-ASXP,Australian Sex Party,259583,2.04,0,2010
-BAP,Building Australia Party,17241,0.14,0,2010
-CAL,Communist Alliance,6999,0.06,0,2010
-LNQ,Liberal National Party,1015062,7.98,3,2010
-SPA,Secular Party of Australia,11981,0.09,0,2010
-TCS,The Climate Sceptics,25758,0.2,0,2010
-UNAM,Unendorsed/Ungrouped Amalgamated,55786,0.44,0,2010
-ALP,Australian Labor Party,5101200,40.3,18,2007
-LNP,Liberal/Nationals,3883479,30.68,0,2007
-LP,Liberal,1110366,8.77,15,2007
-GRN,The Greens,1144751,9.04,3,2007
-DEM,Democrats,162975,1.29,0,2007
-DLP,DLP - Democratic Labour Party,94525,0.68,0,2016
-ON,One Nation,52708,0.42,0,2007
-NP,The Nationals,20997,0.17,2,2007
-CDP,CDP Christian Party,118614,0.94,0,2007
-DLP,DLP - Democratic Labour Party,112549,0.84,0,2013
-FPY,The Fishing Party,47379,0.37,0,2007
-FFP,Family First,267493,2.1,0,2010
-CEC,Citizens Electoral Council,8677,0.07,0,2007
-SAL,Socialist Alliance,9525,0.08,0,2007
-NCP,Non-Custodial Parents Party,6385,0.05,0,2007
-NDP,Nuclear Disarmament Party of Australia,446,0,0,2007
-AFLP,Australian Fishing and Lifestyle Party,24902,0.2,0,2007
-ASP,Australian Shooters Party,38216,0.3,0,2007
-CA,Carers Alliance,24393,0.19,0,2007
-CCC,Climate Change Coalition,78763,0.62,0,2007
-CCE,Conservatives for Climate and Environment,9988,0.08,0,2007
-HOV,Hear Our Voice,2041,0.02,0,2007
-LDP,LDP,16942,0.13,0,2007
-PUA,Pauline,141268,1.12,0,2007
-SOL,Senator On-Line,8048,0.06,0,2007
-SEP,Socialist Equality Party,4542,0.04,0,2007
-SFP,The Australian Shooters Party/Australian Fishing and Lifestyle Party,45932,0.36,0,2007
-WWW,What Women Want (Australia),58803,0.46,0,2007
-UNAM,Unendorsed/Ungrouped Amalgamated,174458,1.38,1,2007
-ALP,Australian Labor Party,4186715,35.02,16,2004
-LNP,Liberal/Nationals,3074952,25.72,0,2004
-LP,Liberal,2109978,17.65,17,2004
-DEM,Democrats,250373,2.09,0,2004
-HAN,One Nation,206455,1.73,0,2004
-GRN,The Greens,916431,7.67,2,2004
-NP,The Nationals,163261,1.37,3,2004
-FFP,Family First,204788,1.62,0,2007
-AFI,Australians Against Further Immigration,11508,0.1,0,2004
-CDP,CDP Christian Party,140674,1.18,0,2004
-CEC,Citizens Electoral Council,24663,0.21,0,2004
-DLP,DLP - Democratic Labor Party,115966,0.92,0,2007
-VET,"Ex-Service, Service & Veterans Party",25277,0.21,0,2004
-DLP,DLP - Democratic Labor Party,58042,0.49,0,2004
-HMP,HEMP,41501,0.35,0,2004
-HPA,Hope Party,2938,0.02,0,2004
-LFF,liberals for forests,107130,0.9,0,2004
-LEF,Lower Excise Fuel and Beer Party,19156,0.16,0,2004
-NCO,New Country,11040,0.09,0,2004
-NGST,No GST,9713,0.08,0,2004
-NCP,Non-Custodial Parents Party,12207,0.1,0,2004
-NDP,Nuclear Disarmament Party of Australia,2163,0.02,0,2004
-ORP,Outdoor Recreation Party,13822,0.12,0,2004
-PLP,Progressive Labour Party,18424,0.15,0,2004
-SAS,Save the ADI Site Party,3281,0.03,0,2004
-SAL,Socialist Alliance,13305,0.11,0,2004
-ADP,The Aged and Disability Pensioners Party,17401,0.15,0,2004
-RPA,The Community Republicans,4168,0.03,0,2004
-FPY,The Fishing Party,50356,0.42,0,2004
-TGA,The Great Australians,6984,0.06,0,2004
-APA,The Progressives,18856,0.16,0,2004
-UNAM,Unendorsed/Ungrouped Amalgamated,180385,1.51,0,2004
+﻿PartyAb,Party,TotalVotes,TotalPercentage,Seats Elected,Year,TotalSeats,Percentage Elected
+ALP,Australian Labor Party,5573028,35.11,16,2025,40,0.4
+LP,Liberal-National Coalition,892188,5.62,13,2025,40,0.325
+GRN,Australian Greens,1859974,11.72,6,2025,40,0.15
+ON,Pauline Hanson's One Nation,899296,5.67,3,2025,40,0.075
+DAVI,David Pocock,114915,0.72,1,2025,40,0.025
+JLN,Jacqui Lambie Network,166085,1.05,1,2025,40,0.025
+FFP,Family First Party,236728,1.49,0,2025,40,0
+UNAM,Independent,36245,0.23,0,2025,40,0
+LP,Liberal-National Coalition,1052571,7,15,2022,40,0.375
+ALP,Australian Labor Party,4525598,30.09,15,2022,40,0.375
+DHJP,Derryn Hinch's Justice Party,54366,0.36,0,2022,40,0
+GRN,Australian Greens,1903403,12.66,6,2022,40,0.15
+ON,Pauline Hanson's One Nation,644744,4.29,1,2022,40,0.025
+JLN,Jacqui Lambie Network,31203,0.21,1,2022,40,0.025
+LDP,Liberal Democratic Party,340132,2.26,0,2022,40,0
+UAPP,Palmer United Australia Party,520520,3.46,1,2022,40,0.025
+DAVI,David Pocock,60406,0.4,1,2022,40,0.025
+UNAM,Independent,136054,0.9,0,2022,40,0
+LP,Liberal-National Coalition,1204039,8.24,19,2019,40,0.475
+ALP,Australian Labor Party,2804018,19.2,13,2019,40,0.325
+GRN,Australian Greens,1488427,10.19,6,2019,40,0.15
+XEN,Centre Alliance,28416,0.19,0,2019,40,0
+DLP,Democratic Labour Party,149970,1.03,0,2019,40,0
+ON,Pauline Hanson's One Nation,788203,5.4,1,2019,40,0.025
+DHJP,Derryn Hinch's Justice Party,105459,0.72,0,2019,40,0
+LDP,Liberal Democratic Party,169735,1.16,0,2019,40,0
+UAPP,Palmer United Australia Party,345199,2.36,0,2019,40,0
+JLN,Jacqui Lambie Network,31383,0.21,1,2019,40,0.025
+UNAM,Independent,60019,0.41,0,2019,40,0
+DHJP,Derryn Hinch's Justice Party,266660,1.93,1,2016,76,0.013157895
+FFP,Family First Party,189852,1.37,1,2016,76,0.013157895
+DLP,Democratic Labour Party,94525,0.68,0,2016,76,0
+LP,Liberal-National Coalition,1067286,7.71,30,2016,76,0.394736842
+ALP,Australian Labor Party,4123153,29.79,26,2016,76,0.342105263
+GRN,Australian Greens,1197690,8.65,9,2016,76,0.118421053
+PUP,Palmer United Australia Party,26230,0.19,0,2016,76,0
+LDP,Liberal Democratic Party,298930,2.16,1,2016,76,0.013157895
+XEN,Centre Alliance,456556,3.3,3,2016,76,0.039473684
+AMEP,Australian Motoring Enthusiast Party,53242,0.38,0,2016,76,0
+JLN,Jacqui Lambie Network,69074,0.5,1,2016,76,0.013157895
+ON,Pauline Hanson's One Nation,592539,4.28,4,2016,76,0.052631579
+UNAM,Independent,25288,0.18,0,2016,76,0
+FFP,Family First Party,149306,1.11,1,2013,40,0.025
+ALP,Australian Labor Party,4038591,30.11,12,2013,40,0.3
+LP,Liberal-National Coalition,1006710,7.51,17,2013,40,0.425
+GRN,Australian Greens,1159588,8.65,4,2013,40,0.1
+XEN,Centre Alliance,258376,1.93,1,2013,40,0.025
+PUP,Palmer United Australia Party,658976,4.91,2,2013,40,0.05
+LDP,Liberal Democrats,523831,3.91,1,2013,40,0.025
+AMEP,Australian Motoring Enthusiast Party,67560,0.5,1,2013,40,0.025
+ON,Pauline Hanson's One Nation,70851,0.53,0,2013,40,0
+SPRT,Australian Sports Party,2997,0.02,1,2013,40,0.025
+UNAM,Independent,15911,0.12,0,2013,40,0
+DLP,Democratic Labour Party,112549,0.84,0,2013,40,0
+ALP,Australian Labor Party,4469734,35.13,15,2010,40,0.375
+GRN,Australian Greens,1667315,13.11,6,2010,40,0.15
+DLP,Democratic Labour Party,134987,1.06,1,2010,40,0.025
+LP,Liberal-National Coalition,1092601,8.59,18,2010,40,0.45
+ON,Pauline Hanson's One Nation,70672,0.56,0,2010,40,0
+LDP,Liberal Democratic Party,230191,1.81,0,2010,40,0
+UNAM,Independent,55786,0.44,0,2010,40,0
+FFP,Family First Party,267493,2.1,0,2010,40,0
+ALP,Australian Labor Party,5101200,40.3,18,2007,40,0.45
+LP,Liberal-National Coalition,1110366,8.77,18,2007,40,0.45
+GRN,Australian Greens,1144751,9.04,3,2007,40,0.075
+ON,Pauline Hanson's One Nation,52708,0.42,0,2007,40,0
+UNAM,Independent,174458,1.38,1,2007,40,0.025
+DLP,Democratic Labour Party,115966,0.92,0,2007,40,0
+FFP,Family First Party,204788,1.62,0,2007,40,0
+ALP,Australian Labor Party,4186715,35.02,16,2004,40,0.4
+LP,Liberal-National Coalition,2109978,17.65,21,2004,40,0.525
+ON,Pauline Hanson's One Nation,206455,1.73,0,2004,40,0
+FFP,Family First Party,210567,1.76,1,2004,40,0.025
+GRN,Australian Greens,916431,7.67,2,2004,40,0.05
+DLP,Democratic Labour Party,58042,0.49,0,2004,40,0
+UNAM,Independent,180385,1.51,0,2004,40,0

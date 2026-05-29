@@ -1,15 +1,15 @@
-﻿DivisionID,DivisionNm,State,CandidateID,GivenNm,Surname,PartyNm,PartyAb,ElectYear
+﻿DivisionID,Electoral Division,State,CandidateID,GivenNm,Surname,Party,PartyAb,ElectYear
 179,Adelaide,South Australia,41210,Steve,GEORGANAS,Australian Labor Party,ALP,2025
 197,Aston,Victoria,40809,Mary,DOYLE,Australian Labor Party,ALP,2025
 198,Ballarat,Victoria,40839,Catherine,KING,Australian Labor Party,ALP,2025
 103,Banks,New South Wales,41350,Zhi,SOON,Australian Labor Party,ALP,2025
-180,Barker,South Australia,41016,Tony,PASIN,Liberal,LP,2025
+180,Barker,South Australia,41016,Tony,PASIN,Liberal Party,LP,2025
 104,Barton,New South Wales,41339,Ash,AMBIHAIPAHAR,Australian Labor Party,ALP,2025
 192,Bass,Tasmania,41546,Jess,TEESDALE,Australian Labor Party,ALP,2025
 318,Bean,Australian Capital Territory,40676,David,SMITH,Australian Labor Party,ALP,2025
 200,Bendigo,Victoria,40869,Lisa,CHESTERS,Australian Labor Party,ALP,2025
 105,Bennelong,New South Wales,41329,Jerome,LAXALE,Australian Labor Party,ALP,2025
-106,Berowra,New South Wales,41442,Julian,LEESER,Liberal,LP,2025
+106,Berowra,New South Wales,41442,Julian,LEESER,Liberal Party,LP,2025
 304,Blair,Queensland,40725,Shayne,NEUMANN,Australian Labor Party,ALP,2025
 107,Blaxland,New South Wales,41316,Jason,CLARE,Australian Labor Party,ALP,2025
 310,Bonner,Queensland,40727,Kara,COOK,Australian Labor Party,ALP,2025
@@ -25,13 +25,13 @@
 109,Calare,New South Wales,36348,Andrew,GEE,Independent,IND,2025
 203,Calwell,Victoria,40860,Basem,ABDO,Australian Labor Party,ALP,2025
 101,Canberra,Australian Capital Territory,40677,Alicia,PAYNE,Australian Labor Party,ALP,2025
-236,Canning,Western Australia,41236,Andrew,HASTIE,Liberal,LP,2025
+236,Canning,Western Australia,41236,Andrew,HASTIE,Liberal Party,LP,2025
 157,Capricornia,Queensland,41222,Michelle,LANDRY,Liberal National Party of Queensland,LNP,2025
-204,Casey,Victoria,40757,Aaron,VIOLI,Liberal,LP,2025
+204,Casey,Victoria,40757,Aaron,VIOLI,Liberal Party,LP,2025
 111,Chifley,New South Wales,41323,Ed,HUSIC,Australian Labor Party,ALP,2025
 205,Chisholm,Victoria,40845,Carina,GARLAND,Australian Labor Party,ALP,2025
 319,Clark,Tasmania,33553,Andrew,WILKIE,Independent,IND,2025
-112,Cook,New South Wales,41452,Simon,KENNEDY,Liberal,LP,2025
+112,Cook,New South Wales,41452,Simon,KENNEDY,Liberal Party,LP,2025
 320,Cooper,Victoria,40856,Ged,KEARNEY,Australian Labor Party,ALP,2025
 328,Corangamite,Victoria,40877,Libby,COKER,Australian Labor Party,ALP,2025
 208,Corio,Victoria,40854,Richard,MARLES,Australian Labor Party,ALP,2025
@@ -44,17 +44,17 @@
 252,Dickson,Queensland,40742,Ali,FRANCE,Australian Labor Party,ALP,2025
 115,Dobell,New South Wales,41358,Emma,McBRIDE,Australian Labor Party,ALP,2025
 210,Dunkley,Victoria,40864,Jodie,BELYEA,Australian Labor Party,ALP,2025
-312,Durack,Western Australia,41247,Melissa,PRICE,Liberal,LP,2025
+312,Durack,Western Australia,41247,Melissa,PRICE,Liberal Party,LP,2025
 117,Eden-Monaro,New South Wales,41737,Kristy,McBAIN,Australian Labor Party,ALP,2025
 159,Fadden,Queensland,41211,Cameron,CALDWELL,Liberal National Party of Queensland,LNP,2025
 160,Fairfax,Queensland,41213,Ted,O''BRIEN,Liberal National Party of Queensland,LNP,2025
-118,Farrer,New South Wales,41463,Sussan,LEY,Liberal,LP,2025
+118,Farrer,New South Wales,41463,Sussan,LEY,Liberal Party,LP,2025
 102,Fenner,Australian Capital Territory,40678,Andrew,LEIGH,Australian Labor Party,ALP,2025
 161,Fisher,Queensland,41219,Andrew,WALLACE,Liberal National Party of Queensland,LNP,2025
-211,Flinders,Victoria,40748,Zoe,McKENZIE,Liberal,LP,2025
+211,Flinders,Victoria,40748,Zoe,McKENZIE,Liberal Party,LP,2025
 311,Flynn,Queensland,41161,Colin,BOYCE,Liberal National Party of Queensland,LNP,2025
 162,Forde,Queensland,40732,Rowan,HOLZBERGER,Australian Labor Party,ALP,2025
-239,Forrest,Western Australia,41252,Ben,SMALL,Liberal,LP,2025
+239,Forrest,Western Australia,41252,Ben,SMALL,Liberal Party,LP,2025
 119,Fowler,New South Wales,36240,Dai,LE,Independent,IND,2025
 195,Franklin,Tasmania,41533,Julie,COLLINS,Australian Labor Party,ALP,2025
 321,Fraser,Victoria,40859,Daniel,MULINO,Australian Labor Party,ALP,2025
@@ -62,11 +62,11 @@
 212,Gellibrand,Victoria,40836,Tim,WATTS,Australian Labor Party,ALP,2025
 120,Gilmore,New South Wales,41365,Fiona,PHILLIPS,Australian Labor Party,ALP,2025
 213,Gippsland,Victoria,41138,Darren,CHESTER,The Nationals,NP,2025
-214,Goldstein,Victoria,40747,Tim,WILSON,Liberal,LP,2025
+214,Goldstein,Victoria,40747,Tim,WILSON,Liberal Party,LP,2025
 309,Gorton,Victoria,40823,Alice,JORDAN-BAIRD,Australian Labor Party,ALP,2025
 121,Grayndler,New South Wales,41373,Anthony,ALBANESE,Australian Labor Party,ALP,2025
 122,Greenway,New South Wales,41399,Michelle,ROWLAND,Australian Labor Party,ALP,2025
-183,Grey,South Australia,41024,Tom,VENNING,Liberal,LP,2025
+183,Grey,South Australia,41024,Tom,VENNING,Liberal Party,LP,2025
 163,Griffith,Queensland,40739,Renee,COFFEY,Australian Labor Party,ALP,2025
 164,Groom,Queensland,41173,Garth,HAMILTON,Liberal National Party of Queensland,LNP,2025
 305,Hasluck,Western Australia,41406,Tania,LAWRENCE,Australian Labor Party,ALP,2025
@@ -77,20 +77,20 @@
 216,Holt,Victoria,40850,Cassandra,FERNANDO,Australian Labor Party,ALP,2025
 217,Hotham,Victoria,40848,Clare,O''NEIL,Australian Labor Party,ALP,2025
 124,Hughes,New South Wales,41400,David,MONCRIEFF,Australian Labor Party,ALP,2025
-125,Hume,New South Wales,41471,Angus,TAYLOR,Liberal,LP,2025
+125,Hume,New South Wales,41471,Angus,TAYLOR,Liberal Party,LP,2025
 126,Hunter,New South Wales,41407,Dan,REPACHOLI,Australian Labor Party,ALP,2025
 218,Indi,Victoria,32086,Helen,HAINES,Independent,IND,2025
 219,Isaacs,Victoria,40811,Mark,DREYFUS,Australian Labor Party,ALP,2025
 220,Jagajaga,Victoria,40833,Kate,THWAITES,Australian Labor Party,ALP,2025
-167,Kennedy,Queensland,40650,Bob,KATTER,Katter''s Australian Party (KAP),KAP,2025
+167,Kennedy,Queensland,40650,Bob,KATTER,Katter's Australian Party,KAP,2025
 127,Kingsford Smith,New South Wales,41386,Matt,THISTLETHWAITE,Australian Labor Party,ALP,2025
 186,Kingston,South Australia,41201,Amanda,RISHWORTH,Australian Labor Party,ALP,2025
 221,Kooyong,Victoria,36081,Monique,RYAN,Independent,IND,2025
-223,La Trobe,Victoria,40772,Jason,WOOD,Liberal,LP,2025
+223,La Trobe,Victoria,40772,Jason,WOOD,Liberal Party,LP,2025
 222,Lalor,Victoria,40835,Joanne,RYAN,Australian Labor Party,ALP,2025
 168,Leichhardt,Queensland,40771,Matt,SMITH,Australian Labor Party,ALP,2025
 169,Lilley,Queensland,40777,Anika,WELLS,Australian Labor Party,ALP,2025
-128,Lindsay,New South Wales,41480,Melissa,McINTOSH,Liberal,LP,2025
+128,Lindsay,New South Wales,41480,Melissa,McINTOSH,Liberal Party,LP,2025
 306,Lingiari,Northern Territory,41011,Marion,SCRYMGOUR,Australian Labor Party,ALP,2025
 302,Longman,Queensland,41194,Terry,YOUNG,Liberal National Party of Queensland,LNP,2025
 130,Lyne,New South Wales,41951,Alison,PENFOLD,The Nationals,NP,2025
@@ -109,15 +109,15 @@
 171,McPherson,Queensland,41166,Leon,REBELLO,Liberal National Party of Queensland,LNP,2025
 228,Melbourne,Victoria,40817,Sarah,WITTY,Australian Labor Party,ALP,2025
 229,Menzies,Victoria,40820,Gabriel,NG,Australian Labor Party,ALP,2025
-134,Mitchell,New South Wales,41487,Alex,HAWKE,Liberal,LP,2025
-323,Monash,Victoria,40769,Mary,ALDRED,Liberal,LP,2025
+134,Mitchell,New South Wales,41487,Alex,HAWKE,Liberal Party,LP,2025
+323,Monash,Victoria,40769,Mary,ALDRED,Liberal Party,LP,2025
 172,Moncrieff,Queensland,41174,Angie,BELL,Liberal National Party of Queensland,LNP,2025
 242,Moore,Western Australia,41414,Tom,FRENCH,Australian Labor Party,ALP,2025
 173,Moreton,Queensland,40796,Julie-Ann,CAMPBELL,Australian Labor Party,ALP,2025
 135,New England,New South Wales,41945,Barnaby,JOYCE,The Nationals,NP,2025
 136,Newcastle,New South Wales,41422,Sharon,CLAYDON,Australian Labor Party,ALP,2025
 324,Nicholls,Victoria,41134,Sam,BIRRELL,The Nationals,NP,2025
-243,O'Connor,Western Australia,41267,Rick,WILSON,Liberal,LP,2025
+243,O'Connor,Western Australia,41267,Rick,WILSON,Liberal Party,LP,2025
 174,Oxley,Queensland,40800,Milton,DICK,Australian Labor Party,ALP,2025
 138,Page,New South Wales,41949,Kevin,HOGAN,The Nationals,NP,2025
 139,Parkes,New South Wales,41950,Jamie,CHAFFEY,The Nationals,NP,2025
@@ -131,7 +131,7 @@
 145,Richmond,New South Wales,41432,Justine,ELLIOT,Australian Labor Party,ALP,2025
 250,Riverina,New South Wales,41954,Michael,McCORMACK,The Nationals,NP,2025
 146,Robertson,New South Wales,41417,Gordon,REID,Australian Labor Party,ALP,2025
-177,Ryan,Queensland,41285,Elizabeth,WATSON-BROWN,The Greens,GRN,2025
+177,Ryan,Queensland,41285,Elizabeth,WATSON-BROWN,Australian Greens,GRN,2025
 232,Scullin,Victoria,40819,Andrew,GILES,Australian Labor Party,ALP,2025
 148,Shortland,New South Wales,41347,Pat,CONROY,Australian Labor Party,ALP,2025
 307,Solomon,Northern Territory,41012,Luke John,GOSLING,Australian Labor Party,ALP,2025
@@ -140,7 +140,7 @@
 247,Swan,Western Australia,41456,Zaneta,MASCARENHAS,Australian Labor Party,ALP,2025
 149,Sydney,New South Wales,41342,Tanya,PLIBERSEK,Australian Labor Party,ALP,2025
 248,Tangney,Western Australia,41470,Sam,LIM,Australian Labor Party,ALP,2025
-233,Wannon,Victoria,40770,Dan,TEHAN,Liberal,LP,2025
+233,Wannon,Victoria,40770,Dan,TEHAN,Liberal Party,LP,2025
 151,Warringah,New South Wales,32467,Zali,STEGGALL,Independent,IND,2025
 251,Watson,New South Wales,41331,Tony,BURKE,Australian Labor Party,ALP,2025
 152,Wentworth,New South Wales,37451,Allegra,SPENDER,Independent,IND,2025

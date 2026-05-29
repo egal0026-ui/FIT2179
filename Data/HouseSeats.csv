@@ -1,1203 +1,1045 @@
-﻿DivisionID,DivisionNm,StateAb,CandidateID,GivenNm,Surname,PartyNm,PartyAb,ElectYear,CenterLat,CenterLong
-179,Adelaide,SA,41210,Steve,GEORGANAS,Australian Labor Party,ALP,2025,,
-197,Aston,VIC,40809,Mary,DOYLE,Australian Labor Party,ALP,2025,145.5,-34
-198,Ballarat,VIC,40839,Catherine,KING,Australian Labor Party,ALP,2025,,
-103,Banks,NSW,41350,Zhi,SOON,Australian Labor Party,ALP,2025,,
-180,Barker,SA,41016,Tony,PASIN,Liberal,LP,2025,,
-104,Barton,NSW,41339,Ash,AMBIHAIPAHAR,Australian Labor Party,ALP,2025,,
-192,Bass,TAS,41546,Jess,TEESDALE,Australian Labor Party,ALP,2025,,
-318,Bean,ACT,40676,David,SMITH,Australian Labor Party,ALP,2025,145.5,-34
-200,Bendigo,VIC,40869,Lisa,CHESTERS,Australian Labor Party,ALP,2025,145.5,-34
-105,Bennelong,NSW,41329,Jerome,LAXALE,Australian Labor Party,ALP,2025,,
-106,Berowra,NSW,41442,Julian,LEESER,Liberal,LP,2025,,
-304,Blair,QLD,40725,Shayne,NEUMANN,Australian Labor Party,ALP,2025,,
-107,Blaxland,NSW,41316,Jason,CLARE,Australian Labor Party,ALP,2025,,
-310,Bonner,QLD,40727,Kara,COOK,Australian Labor Party,ALP,2025,,
-182,Boothby,SA,41197,Louise,MILLER-FROST,Australian Labor Party,ALP,2025,,
-155,Bowman,QLD,41212,Henry,PIKE,Liberal National Party of Queensland,LNP,2025,,
-193,Braddon,TAS,41513,Anne,URQUHART,Australian Labor Party,ALP,2025,,
-108,Bradfield,NSW,36047,Nicolette,BOELE,Independent,IND,2025,,
-235,Brand,WA,41243,Madeleine,KING,Australian Labor Party,ALP,2025,,
-156,Brisbane,QLD,40731,Madonna,JARRETT,Australian Labor Party,ALP,2025,,
-201,Bruce,VIC,40851,Julian,HILL,Australian Labor Party,ALP,2025,145.5,-34
-329,Bullwinkel,WA,41248,Trish,COOK,Australian Labor Party,ALP,2025,,
-317,Burt,WA,41253,Matt,KEOGH,Australian Labor Party,ALP,2025,,
-109,Calare,NSW,36348,Andrew,GEE,Independent,IND,2025,,
-203,Calwell,VIC,40860,Basem,ABDO,Australian Labor Party,ALP,2025,,
-101,Canberra,ACT,40677,Alicia,PAYNE,Australian Labor Party,ALP,2025,145.5,-34
-236,Canning,WA,41236,Andrew,HASTIE,Liberal,LP,2025,,
-157,Capricornia,QLD,41222,Michelle,LANDRY,Liberal National Party of Queensland,LNP,2025,,
-204,Casey,VIC,40757,Aaron,VIOLI,Liberal,LP,2025,,
-111,Chifley,NSW,41323,Ed,HUSIC,Australian Labor Party,ALP,2025,,
-205,Chisholm,VIC,40845,Carina,GARLAND,Australian Labor Party,ALP,2025,,
-319,Clark,TAS,33553,Andrew,WILKIE,Independent,IND,2025,,
-112,Cook,NSW,41452,Simon,KENNEDY,Liberal,LP,2025,,
-320,Cooper,VIC,40856,Ged,KEARNEY,Australian Labor Party,ALP,2025,,
-328,Corangamite,VIC,40877,Libby,COKER,Australian Labor Party,ALP,2025,,
-208,Corio,VIC,40854,Richard,MARLES,Australian Labor Party,ALP,2025,,
-237,Cowan,WA,41353,Anne,ALY,Australian Labor Party,ALP,2025,,
-113,Cowper,NSW,41937,Pat,CONAGHAN,The Nationals,NP,2025,,
-114,Cunningham,NSW,41343,Alison,BYRNES,Australian Labor Party,ALP,2025,,
-238,Curtin,WA,36589,Kate,CHANEY,Independent,IND,2025,,
-158,Dawson,QLD,41203,Andrew,WILLCOX,Liberal National Party of Queensland,LNP,2025,,
-209,Deakin,VIC,40861,Matt,GREGG,Australian Labor Party,ALP,2025,,
-252,Dickson,QLD,40742,Ali,FRANCE,Australian Labor Party,ALP,2025,,
-115,Dobell,NSW,41358,Emma,McBRIDE,Australian Labor Party,ALP,2025,,
-210,Dunkley,VIC,40864,Jodie,BELYEA,Australian Labor Party,ALP,2025,,
-312,Durack,WA,41247,Melissa,PRICE,Liberal,LP,2025,,
-117,Eden-Monaro,NSW,41737,Kristy,McBAIN,Australian Labor Party,ALP,2025,,
-159,Fadden,QLD,41211,Cameron,CALDWELL,Liberal National Party of Queensland,LNP,2025,,
-160,Fairfax,QLD,41213,Ted,O''BRIEN,Liberal National Party of Queensland,LNP,2025,,
-118,Farrer,NSW,41463,Sussan,LEY,Liberal,LP,2025,,
-102,Fenner,ACT,40678,Andrew,LEIGH,Australian Labor Party,ALP,2025,145.5,-34
-161,Fisher,QLD,41219,Andrew,WALLACE,Liberal National Party of Queensland,LNP,2025,,
-211,Flinders,VIC,40748,Zoe,McKENZIE,Liberal,LP,2025,,
-311,Flynn,QLD,41161,Colin,BOYCE,Liberal National Party of Queensland,LNP,2025,,
-162,Forde,QLD,40732,Rowan,HOLZBERGER,Australian Labor Party,ALP,2025,,
-239,Forrest,WA,41252,Ben,SMALL,Liberal,LP,2025,,
-119,Fowler,NSW,36240,Dai,LE,Independent,IND,2025,,
-195,Franklin,TAS,41533,Julie,COLLINS,Australian Labor Party,ALP,2025,,
-321,Fraser,VIC,40859,Daniel,MULINO,Australian Labor Party,ALP,2025,,
-240,Fremantle,WA,41377,Josh,WILSON,Australian Labor Party,ALP,2025,,
-212,Gellibrand,VIC,40836,Tim,WATTS,Australian Labor Party,ALP,2025,,
-120,Gilmore,NSW,41365,Fiona,PHILLIPS,Australian Labor Party,ALP,2025,,
-213,Gippsland,VIC,41138,Darren,CHESTER,The Nationals,NP,2025,,
-214,Goldstein,VIC,40747,Tim,WILSON,Liberal,LP,2025,,
-309,Gorton,VIC,40823,Alice,JORDAN-BAIRD,Australian Labor Party,ALP,2025,,
-121,Grayndler,NSW,41373,Anthony,ALBANESE,Australian Labor Party,ALP,2025,,
-122,Greenway,NSW,41399,Michelle,ROWLAND,Australian Labor Party,ALP,2025,,
-183,Grey,SA,41024,Tom,VENNING,Liberal,LP,2025,,
-163,Griffith,QLD,40739,Renee,COFFEY,Australian Labor Party,ALP,2025,,
-164,Groom,QLD,41173,Garth,HAMILTON,Liberal National Party of Queensland,LNP,2025,,
-305,Hasluck,WA,41406,Tania,LAWRENCE,Australian Labor Party,ALP,2025,,
-326,Hawke,VIC,40829,Sam,RAE,Australian Labor Party,ALP,2025,,
-165,Herbert,QLD,41178,Phillip,THOMPSON,Liberal National Party of Queensland,LNP,2025,,
-185,Hindmarsh,SA,41207,Mark,BUTLER,Australian Labor Party,ALP,2025,,
-166,Hinkler,QLD,41182,David,BATT,Liberal National Party of Queensland,LNP,2025,,
-216,Holt,VIC,40850,Cassandra,FERNANDO,Australian Labor Party,ALP,2025,,
-217,Hotham,VIC,40848,Clare,O''NEIL,Australian Labor Party,ALP,2025,,
-124,Hughes,NSW,41400,David,MONCRIEFF,Australian Labor Party,ALP,2025,,
-125,Hume,NSW,41471,Angus,TAYLOR,Liberal,LP,2025,,
-126,Hunter,NSW,41407,Dan,REPACHOLI,Australian Labor Party,ALP,2025,,
-218,Indi,VIC,32086,Helen,HAINES,Independent,IND,2025,,
-219,Isaacs,VIC,40811,Mark,DREYFUS,Australian Labor Party,ALP,2025,,
-220,Jagajaga,VIC,40833,Kate,THWAITES,Australian Labor Party,ALP,2025,,
-167,Kennedy,QLD,40650,Bob,KATTER,Katter''s Australian Party (KAP),KAP,2025,,
-127,Kingsford Smith,NSW,41386,Matt,THISTLETHWAITE,Australian Labor Party,ALP,2025,,
-186,Kingston,SA,41201,Amanda,RISHWORTH,Australian Labor Party,ALP,2025,,
-221,Kooyong,VIC,36081,Monique,RYAN,Independent,IND,2025,,
-223,La Trobe,VIC,40772,Jason,WOOD,Liberal,LP,2025,,
-222,Lalor,VIC,40835,Joanne,RYAN,Australian Labor Party,ALP,2025,,
-168,Leichhardt,QLD,40771,Matt,SMITH,Australian Labor Party,ALP,2025,,
-169,Lilley,QLD,40777,Anika,WELLS,Australian Labor Party,ALP,2025,,
-128,Lindsay,NSW,41480,Melissa,McINTOSH,Liberal,LP,2025,,
-306,Lingiari,NT,41011,Marion,SCRYMGOUR,Australian Labor Party,ALP,2025,,
-302,Longman,QLD,41194,Terry,YOUNG,Liberal National Party of Queensland,LNP,2025,,
-130,Lyne,NSW,41951,Alison,PENFOLD,The Nationals,NP,2025,,
-196,Lyons,TAS,41538,Rebecca,WHITE,Australian Labor Party,ALP,2025,,
-131,Macarthur,NSW,41396,Mike,FREELANDER,Australian Labor Party,ALP,2025,,
-132,Mackellar,NSW,37450,Sophie,SCAMPS,Independent,IND,2025,,
-322,Macnamara,VIC,40825,Josh,BURNS,Australian Labor Party,ALP,2025,,
-133,Macquarie,NSW,41425,Susan,TEMPLEMAN,Australian Labor Party,ALP,2025,,
-187,Makin,SA,41172,Tony,ZAPPIA,Australian Labor Party,ALP,2025,,
-224,Mallee,VIC,41140,Anne,WEBSTER,The Nationals,NP,2025,,
-170,Maranoa,QLD,41162,David,LITTLEPROUD,Liberal National Party of Queensland,LNP,2025,,
-225,Maribyrnong,VIC,40821,Jo,BRISKEY,Australian Labor Party,ALP,2025,,
-188,Mayo,SA,40653,Rebekha,SHARKIE,Centre Alliance,XEN,2025,,
-226,McEwen,VIC,40812,Rob,MITCHELL,Australian Labor Party,ALP,2025,,
-315,McMahon,NSW,41416,Chris,BOWEN,Australian Labor Party,ALP,2025,,
-171,McPherson,QLD,41166,Leon,REBELLO,Liberal National Party of Queensland,LNP,2025,,
-228,Melbourne,VIC,40817,Sarah,WITTY,Australian Labor Party,ALP,2025,,
-229,Menzies,VIC,40820,Gabriel,NG,Australian Labor Party,ALP,2025,,
-134,Mitchell,NSW,41487,Alex,HAWKE,Liberal,LP,2025,,
-323,Monash,VIC,40769,Mary,ALDRED,Liberal,LP,2025,,
-172,Moncrieff,QLD,41174,Angie,BELL,Liberal National Party of Queensland,LNP,2025,,
-242,Moore,WA,41414,Tom,FRENCH,Australian Labor Party,ALP,2025,,
-173,Moreton,QLD,40796,Julie-Ann,CAMPBELL,Australian Labor Party,ALP,2025,,
-135,New England,NSW,41945,Barnaby,JOYCE,The Nationals,NP,2025,,
-136,Newcastle,NSW,41422,Sharon,CLAYDON,Australian Labor Party,ALP,2025,,
-324,Nicholls,VIC,41134,Sam,BIRRELL,The Nationals,NP,2025,,
-243,O''Connor,WA,41267,Rick,WILSON,Liberal,LP,2025,,
-174,Oxley,QLD,40800,Milton,DICK,Australian Labor Party,ALP,2025,,
-138,Page,NSW,41949,Kevin,HOGAN,The Nationals,NP,2025,,
-139,Parkes,NSW,41950,Jamie,CHAFFEY,The Nationals,NP,2025,,
-140,Parramatta,NSW,41424,Andrew,CHARLTON,Australian Labor Party,ALP,2025,,
-249,Paterson,NSW,41427,Meryl,SWANSON,Australian Labor Party,ALP,2025,,
-244,Pearce,WA,41439,Tracey,ROBERTS,Australian Labor Party,ALP,2025,,
-245,Perth,WA,41446,Patrick,GORMAN,Australian Labor Party,ALP,2025,,
-175,Petrie,QLD,40801,Emma,COMER,Australian Labor Party,ALP,2025,,
-176,Rankin,QLD,40805,Jim,CHALMERS,Australian Labor Party,ALP,2025,,
-144,Reid,NSW,41434,Sally,SITOU,Australian Labor Party,ALP,2025,,
-145,Richmond,NSW,41432,Justine,ELLIOT,Australian Labor Party,ALP,2025,,
-250,Riverina,NSW,41954,Michael,McCORMACK,The Nationals,NP,2025,,
-146,Robertson,NSW,41417,Gordon,REID,Australian Labor Party,ALP,2025,,
-177,Ryan,QLD,41285,Elizabeth,WATSON-BROWN,The Greens,GRN,2025,,
-232,Scullin,VIC,40819,Andrew,GILES,Australian Labor Party,ALP,2025,,
-148,Shortland,NSW,41347,Pat,CONROY,Australian Labor Party,ALP,2025,,
-307,Solomon,NT,41012,Luke John,GOSLING,Australian Labor Party,ALP,2025,,
-325,Spence,SA,41198,Matt,BURNELL,Australian Labor Party,ALP,2025,,
-190,Sturt,SA,41209,Claire,CLUTTERHAM,Australian Labor Party,ALP,2025,,
-247,Swan,WA,41456,Zaneta,MASCARENHAS,Australian Labor Party,ALP,2025,,
-149,Sydney,NSW,41342,Tanya,PLIBERSEK,Australian Labor Party,ALP,2025,,
-248,Tangney,WA,41470,Sam,LIM,Australian Labor Party,ALP,2025,,
-233,Wannon,VIC,40770,Dan,TEHAN,Liberal,LP,2025,,
-151,Warringah,NSW,32467,Zali,STEGGALL,Independent,IND,2025,,
-251,Watson,NSW,41331,Tony,BURKE,Australian Labor Party,ALP,2025,,
-152,Wentworth,NSW,37451,Allegra,SPENDER,Independent,IND,2025,,
-153,Werriwa,NSW,41328,Anne Maree,STANLEY,Australian Labor Party,ALP,2025,,
-150,Whitlam,NSW,41333,Carol,BERRY,Australian Labor Party,ALP,2025,,
-178,Wide Bay,QLD,41195,Llew,O''BRIEN,Liberal National Party of Queensland,LNP,2025,,
-234,Wills,VIC,40810,Peter,KHALIL,Australian Labor Party,ALP,2025,,
-316,Wright,QLD,41199,Scott,BUCHHOLZ,Liberal National Party of Queensland,LNP,2025,,
-179,Adelaide,SA,36973,Steve,GEORGANAS,Australian Labor Party,ALP,2022,,
-197,Aston,VIC,36704,Alan,TUDGE,Liberal,LP,2022,,
-198,Ballarat,VIC,36409,Catherine,KING,Australian Labor Party,ALP,2022,,
-103,Banks,NSW,37018,David,COLEMAN,Liberal,LP,2022,,
-180,Barker,SA,37083,Tony,PASIN,Liberal,LP,2022,,
-104,Barton,NSW,36820,Linda,BURNEY,Australian Labor Party,ALP,2022,,
-192,Bass,TAS,37134,Bridget Kathleen,ARCHER,Liberal,LP,2022,,
-318,Bean,ACT,36231,David,SMITH,Australian Labor Party,ALP,2022,,
-200,Bendigo,VIC,36424,Lisa,CHESTERS,Australian Labor Party,ALP,2022,,
-105,Bennelong,NSW,36827,Jerome,LAXALE,Australian Labor Party,ALP,2022,,
-106,Berowra,NSW,37028,Julian,LEESER,Liberal,LP,2022,,
-304,Blair,QLD,37216,Shayne,NEUMANN,Australian Labor Party,ALP,2022,,
-107,Blaxland,NSW,36823,Jason,CLARE,Australian Labor Party,ALP,2022,,
-310,Bonner,QLD,37472,Ross,VASTA,Liberal National Party of Queensland,LNP,2022,,
-182,Boothby,SA,36979,Louise,MILLER-FROST,Australian Labor Party,ALP,2022,,
-155,Bowman,QLD,37477,Henry,PIKE,Liberal National Party of Queensland,LNP,2022,,
-193,Braddon,TAS,37137,Gavin,PEARCE,Liberal,LP,2022,,
-108,Bradfield,NSW,37016,Paul,FLETCHER,Liberal,LP,2022,,
-235,Brand,WA,37186,Madeleine,KING,Australian Labor Party,ALP,2022,,
-156,Brisbane,QLD,37338,Stephen,BATES,The Greens,GRN,2022,,
-201,Bruce,VIC,36413,Julian,HILL,Australian Labor Party,ALP,2022,,
-317,Burt,WA,37195,Matt,KEOGH,Australian Labor Party,ALP,2022,,
-109,Calare,NSW,36348,Andrew,GEE,The Nationals,NP,2022,,
-203,Calwell,VIC,36419,Maria,VAMVAKINOU,Australian Labor Party,ALP,2022,,
-101,Canberra,ACT,36228,Alicia,PAYNE,Australian Labor Party,ALP,2022,,
-236,Canning,WA,36571,Andrew,HASTIE,Liberal,LP,2022,,
-157,Capricornia,QLD,37479,Michelle,LANDRY,Liberal National Party of Queensland,LNP,2022,,
-204,Casey,VIC,36711,Aaron,VIOLI,Liberal,LP,2022,,
-111,Chifley,NSW,36788,Ed,HUSIC,Australian Labor Party,ALP,2022,,
-205,Chisholm,VIC,36382,Carina,GARLAND,Australian Labor Party,ALP,2022,,
-319,Clark,TAS,33553,Andrew,WILKIE,Independent,IND,2022,,
-112,Cook,NSW,37025,Scott,MORRISON,Liberal,LP,2022,,
-320,Cooper,VIC,36384,Ged,KEARNEY,Australian Labor Party,ALP,2022,,
-328,Corangamite,VIC,36391,Libby,COKER,Australian Labor Party,ALP,2022,,
-208,Corio,VIC,36381,Richard,MARLES,Australian Labor Party,ALP,2022,,
-237,Cowan,WA,37205,Anne,ALY,Australian Labor Party,ALP,2022,,
-113,Cowper,NSW,36342,Pat,CONAGHAN,The Nationals,NP,2022,,
-114,Cunningham,NSW,36778,Alison,BYRNES,Australian Labor Party,ALP,2022,,
-238,Curtin,WA,36589,Kate,CHANEY,Independent,IND,2022,,
-158,Dawson,QLD,37485,Andrew,WILLCOX,Liberal National Party of Queensland,LNP,2022,,
-209,Deakin,VIC,36712,Michael,SUKKAR,Liberal,LP,2022,,
-252,Dickson,QLD,37493,Peter,DUTTON,Liberal National Party of Queensland,LNP,2022,,
-115,Dobell,NSW,36779,Emma,McBRIDE,Australian Labor Party,ALP,2022,,
-210,Dunkley,VIC,36389,Peta,MURPHY,Australian Labor Party,ALP,2022,,
-312,Durack,WA,36582,Melissa,PRICE,Liberal,LP,2022,,
-117,Eden-Monaro,NSW,36803,Kristy,McBAIN,Australian Labor Party,ALP,2022,,
-159,Fadden,QLD,37495,Stuart,ROBERT,Liberal National Party of Queensland,LNP,2022,,
-160,Fairfax,QLD,37499,Ted,O''BRIEN,Liberal National Party of Queensland,LNP,2022,,
-118,Farrer,NSW,37032,Sussan,LEY,Liberal,LP,2022,,
-102,Fenner,ACT,36234,Andrew,LEIGH,Australian Labor Party,ALP,2022,,
-161,Fisher,QLD,37504,Andrew,WALLACE,Liberal National Party of Queensland,LNP,2022,,
-211,Flinders,VIC,36714,Zoe,McKENZIE,Liberal,LP,2022,,
-311,Flynn,QLD,37512,Colin,BOYCE,Liberal National Party of Queensland,LNP,2022,,
-162,Forde,QLD,37507,Bert,VAN MANEN,Liberal National Party of Queensland,LNP,2022,,
-239,Forrest,WA,36584,Nola,MARINO,Liberal,LP,2022,,
-119,Fowler,NSW,36240,Dai,LE,Independent,IND,2022,,
-195,Franklin,TAS,37272,Julie,COLLINS,Australian Labor Party,ALP,2022,,
-321,Fraser,VIC,36385,Daniel,MULINO,Australian Labor Party,ALP,2022,,
-240,Fremantle,WA,37314,Josh,WILSON,Australian Labor Party,ALP,2022,,
-212,Gellibrand,VIC,36388,Tim,WATTS,Australian Labor Party,ALP,2022,,
-120,Gilmore,NSW,36776,Fiona,PHILLIPS,Australian Labor Party,ALP,2022,,
-213,Gippsland,VIC,36048,Darren,CHESTER,The Nationals,NP,2022,,
-214,Goldstein,VIC,36074,Zoe,DANIEL,Independent,IND,2022,,
-309,Gorton,VIC,36421,Brendan,O''CONNOR,Australian Labor Party,ALP,2022,,
-121,Grayndler,NSW,36782,Anthony,ALBANESE,Australian Labor Party,ALP,2022,,
-122,Greenway,NSW,36787,Michelle,ROWLAND,Australian Labor Party,ALP,2022,,
-183,Grey,SA,37069,Rowan,RAMSEY,Liberal,LP,2022,,
-163,Griffith,QLD,37364,Max,CHANDLER-MATHER,The Greens,GRN,2022,,
-164,Groom,QLD,37470,Garth,HAMILTON,Liberal National Party of Queensland,LNP,2022,,
-305,Hasluck,WA,37317,Tania,LAWRENCE,Australian Labor Party,ALP,2022,,
-326,Hawke,VIC,36426,Sam,RAE,Australian Labor Party,ALP,2022,,
-165,Herbert,QLD,37471,Phillip,THOMPSON,Liberal National Party of Queensland,LNP,2022,,
-215,Higgins,VIC,36433,Michelle,ANANDA-RAJAH,Australian Labor Party,ALP,2022,,
-185,Hindmarsh,SA,36984,Mark,BUTLER,Australian Labor Party,ALP,2022,,
-166,Hinkler,QLD,37476,Keith,PITT,Liberal National Party of Queensland,LNP,2022,,
-216,Holt,VIC,36438,Cassandra,FERNANDO,Australian Labor Party,ALP,2022,,
-217,Hotham,VIC,36428,Clare,O''NEIL,Australian Labor Party,ALP,2022,,
-124,Hughes,NSW,37190,Jenny,WARE,Liberal,LP,2022,,
-125,Hume,NSW,37034,Angus,TAYLOR,Liberal,LP,2022,,
-126,Hunter,NSW,36792,Dan,REPACHOLI,Australian Labor Party,ALP,2022,,
-218,Indi,VIC,32086,Helen,HAINES,Independent,IND,2022,,
-219,Isaacs,VIC,36434,Mark,DREYFUS,Australian Labor Party,ALP,2022,,
-220,Jagajaga,VIC,36435,Kate,THWAITES,Australian Labor Party,ALP,2022,,
-167,Kennedy,QLD,37304,Bob,KATTER,Katter''s Australian Party (KAP),KAP,2022,,
-127,Kingsford Smith,NSW,36781,Matt,THISTLETHWAITE,Australian Labor Party,ALP,2022,,
-186,Kingston,SA,36983,Amanda,RISHWORTH,Australian Labor Party,ALP,2022,,
-221,Kooyong,VIC,36081,Monique,RYAN,Independent,IND,2022,,
-223,La Trobe,VIC,36734,Jason,WOOD,Liberal,LP,2022,,
-222,Lalor,VIC,36443,Joanne,RYAN,Australian Labor Party,ALP,2022,,
-168,Leichhardt,QLD,37480,Warren,ENTSCH,Liberal National Party of Queensland,LNP,2022,,
-169,Lilley,QLD,37254,Anika,WELLS,Australian Labor Party,ALP,2022,,
-128,Lindsay,NSW,37160,Melissa,McINTOSH,Liberal,LP,2022,,
-306,Lingiari,NT,37286,Marion,SCRYMGOUR,Australian Labor Party,ALP,2022,,
-302,Longman,QLD,37492,Terry,YOUNG,Liberal National Party of Queensland,LNP,2022,,
-130,Lyne,NSW,36310,David,GILLESPIE,The Nationals,NP,2022,,
-196,Lyons,TAS,37276,Brian,MITCHELL,Australian Labor Party,ALP,2022,,
-131,Macarthur,NSW,36906,Mike,FREELANDER,Australian Labor Party,ALP,2022,,
-132,Mackellar,NSW,37450,Sophie,SCAMPS,Independent,IND,2022,,
-322,Macnamara,VIC,36436,Josh,BURNS,Australian Labor Party,ALP,2022,,
-133,Macquarie,NSW,36819,Susan,TEMPLEMAN,Australian Labor Party,ALP,2022,,
-187,Makin,SA,36991,Tony,ZAPPIA,Australian Labor Party,ALP,2022,,
-224,Mallee,VIC,36060,Anne,WEBSTER,The Nationals,NP,2022,,
-170,Maranoa,QLD,37498,David,LITTLEPROUD,Liberal National Party of Queensland,LNP,2022,,
-225,Maribyrnong,VIC,36441,Bill,SHORTEN,Australian Labor Party,ALP,2022,,
-188,Mayo,SA,37710,Rebekha,SHARKIE,Centre Alliance,XEN,2022,,
-226,McEwen,VIC,36445,Rob,MITCHELL,Australian Labor Party,ALP,2022,,
-315,McMahon,NSW,36815,Chris,BOWEN,Australian Labor Party,ALP,2022,,
-171,McPherson,QLD,37494,Karen,ANDREWS,Liberal National Party of Queensland,LNP,2022,,
-228,Melbourne,VIC,36551,Adam,BANDT,The Greens,GRN,2022,,
-229,Menzies,VIC,36733,Keith,WOLAHAN,Liberal,LP,2022,,
-134,Mitchell,NSW,37174,Alex,HAWKE,Liberal,LP,2022,,
-323,Monash,VIC,36737,Russell,BROADBENT,Liberal,LP,2022,,
-172,Moncrieff,QLD,37501,Angie,BELL,Liberal National Party of Queensland,LNP,2022,,
-242,Moore,WA,36592,Ian,GOODENOUGH,Liberal,LP,2022,,
-173,Moreton,QLD,37253,Graham,PERRETT,Australian Labor Party,ALP,2022,,
-135,New England,NSW,36335,Barnaby,JOYCE,The Nationals,NP,2022,,
-136,Newcastle,NSW,36804,Sharon,CLAYDON,Australian Labor Party,ALP,2022,,
-324,Nicholls,VIC,36061,Sam,BIRRELL,The Nationals,NP,2022,,
-137,North Sydney,NSW,37452,Kylea Jane,TINK,Independent,IND,2022,,
-243,O''Connor,WA,36594,Rick,WILSON,Liberal,LP,2022,,
-174,Oxley,QLD,37259,Milton,DICK,Australian Labor Party,ALP,2022,,
-138,Page,NSW,36316,Kevin,HOGAN,The Nationals,NP,2022,,
-139,Parkes,NSW,36363,Mark,COULTON,The Nationals,NP,2022,,
-140,Parramatta,NSW,36800,Andrew,CHARLTON,Australian Labor Party,ALP,2022,,
-249,Paterson,NSW,36910,Meryl,SWANSON,Australian Labor Party,ALP,2022,,
-244,Pearce,WA,37326,Tracey,ROBERTS,Australian Labor Party,ALP,2022,,
-245,Perth,WA,37327,Patrick,GORMAN,Australian Labor Party,ALP,2022,,
-175,Petrie,QLD,37486,Luke,HOWARTH,Liberal National Party of Queensland,LNP,2022,,
-176,Rankin,QLD,37263,Jim,CHALMERS,Australian Labor Party,ALP,2022,,
-144,Reid,NSW,36917,Sally,SITOU,Australian Labor Party,ALP,2022,,
-145,Richmond,NSW,36802,Justine,ELLIOT,Australian Labor Party,ALP,2022,,
-250,Riverina,NSW,36324,Michael,McCORMACK,The Nationals,NP,2022,,
-146,Robertson,NSW,36801,Gordon,REID,Australian Labor Party,ALP,2022,,
-177,Ryan,QLD,37370,Elizabeth,WATSON-BROWN,The Greens,GRN,2022,,
-232,Scullin,VIC,36447,Andrew,GILES,Australian Labor Party,ALP,2022,,
-148,Shortland,NSW,36806,Pat,CONROY,Australian Labor Party,ALP,2022,,
-307,Solomon,NT,37280,Luke,GOSLING,Australian Labor Party,ALP,2022,,
-325,Spence,SA,36990,Matt,BURNELL,Australian Labor Party,ALP,2022,,
-190,Sturt,SA,37067,James,STEVENS,Liberal,LP,2022,,
-247,Swan,WA,37333,Zaneta,MASCARENHAS,Australian Labor Party,ALP,2022,,
-149,Sydney,NSW,36805,Tanya,PLIBERSEK,Australian Labor Party,ALP,2022,,
-248,Tangney,WA,37337,Sam,LIM,Australian Labor Party,ALP,2022,,
-233,Wannon,VIC,36735,Dan,TEHAN,Liberal,LP,2022,,
-151,Warringah,NSW,32467,Zali,STEGGALL,Independent,IND,2022,,
-251,Watson,NSW,36809,Tony,BURKE,Australian Labor Party,ALP,2022,,
-152,Wentworth,NSW,37451,Allegra,SPENDER,Independent,IND,2022,,
-153,Werriwa,NSW,36810,Anne Maree,STANLEY,Australian Labor Party,ALP,2022,,
-150,Whitlam,NSW,36811,Stephen,JONES,Australian Labor Party,ALP,2022,,
-178,Wide Bay,QLD,37506,Llew,O''BRIEN,Liberal National Party of Queensland,LNP,2022,,
-234,Wills,VIC,36452,Peter,KHALIL,Australian Labor Party,ALP,2022,,
-316,Wright,QLD,37500,Scott,BUCHHOLZ,Liberal National Party of Queensland,LNP,2022,,
-179,Adelaide,SA,33019,Steve,GEORGANAS,Australian Labor Party,ALP,2019,,
-197,Aston,VIC,33330,Alan,TUDGE,Liberal,LP,2019,,
-198,Ballarat,VIC,32326,Catherine,KING,Australian Labor Party,ALP,2019,,
-103,Banks,NSW,33334,David,COLEMAN,Liberal,LP,2019,,
-180,Barker,SA,33042,Tony,PASIN,Liberal,LP,2019,,
-104,Barton,NSW,32681,Linda,BURNEY,Australian Labor Party,ALP,2019,,
-192,Bass,TAS,32124,Bridget,ARCHER,Liberal,LP,2019,,
-318,Bean,ACT,32253,David,SMITH,Australian Labor Party,ALP,2019,,
-200,Bendigo,VIC,32333,Lisa,CHESTERS,Australian Labor Party,ALP,2019,,
-105,Bennelong,NSW,33140,John,ALEXANDER,Liberal,LP,2019,,
-106,Berowra,NSW,33171,Julian,LEESER,Liberal,LP,2019,,
-304,Blair,QLD,32769,Shayne Kenneth,NEUMANN,Australian Labor Party,ALP,2019,,
-107,Blaxland,NSW,32645,Jason,CLARE,Australian Labor Party,ALP,2019,,
-310,Bonner,QLD,33302,Ross,VASTA,Liberal National Party,LNP,2019,,
-182,Boothby,SA,33109,Nicolle,FLINT,Liberal,LP,2019,,
-155,Bowman,QLD,33256,Andrew,LAMING,Liberal National Party,LNP,2019,,
-193,Braddon,TAS,32121,Gavin,PEARCE,Liberal,LP,2019,,
-108,Bradfield,NSW,33227,Paul,FLETCHER,Liberal,LP,2019,,
-235,Brand,WA,33394,Madeleine,KING,Australian Labor Party,ALP,2019,,
-156,Brisbane,QLD,33206,Trevor,EVANS,Liberal National Party,LNP,2019,,
-201,Bruce,VIC,32342,Julian,HILL,Australian Labor Party,ALP,2019,,
-317,Burt,WA,33506,Matt,KEOGH,Australian Labor Party,ALP,2019,,
-109,Calare,NSW,32494,Andrew,GEE,The Nationals,NP,2019,,
-203,Calwell,VIC,32391,Maria,VAMVAKINOU,Australian Labor Party,ALP,2019,,
-101,Canberra,ACT,32233,Alicia,PAYNE,Australian Labor Party,ALP,2019,,
-236,Canning,WA,33386,Andrew,HASTIE,Liberal,LP,2019,,
-157,Capricornia,QLD,33201,Michelle,LANDRY,Liberal National Party,LNP,2019,,
-204,Casey,VIC,33316,Tony,SMITH,Liberal,LP,2019,,
-111,Chifley,NSW,32680,Ed,HUSIC,Australian Labor Party,ALP,2019,,
-205,Chisholm,VIC,33350,Gladys,LIU,Liberal,LP,2019,,
-319,Clark,TAS,33553,Andrew,WILKIE,Independent,IND,2019,,
-112,Cook,NSW,33135,Scott,MORRISON,Liberal,LP,2019,,
-320,Cooper,VIC,32339,Ged,KEARNEY,Australian Labor Party,ALP,2019,,
-207,Corangamite,VIC,32298,Libby,COKER,Australian Labor Party,ALP,2019,,
-208,Corio,VIC,32395,Richard,MARLES,Australian Labor Party,ALP,2019,,
-237,Cowan,WA,33348,Anne,ALY,Australian Labor Party,ALP,2019,,
-113,Cowper,NSW,32446,Pat,CONAGHAN,The Nationals,NP,2019,,
-114,Cunningham,NSW,32636,Sharon,BIRD,Australian Labor Party,ALP,2019,,
-238,Curtin,WA,33444,Celia,HAMMOND,Liberal,LP,2019,,
-158,Dawson,QLD,33299,George,CHRISTENSEN,Liberal National Party,LNP,2019,,
-209,Deakin,VIC,33317,Michael,SUKKAR,Liberal,LP,2019,,
-252,Dickson,QLD,33273,Peter,DUTTON,Liberal National Party,LNP,2019,,
-115,Dobell,NSW,32669,Emma,McBRIDE,Australian Labor Party,ALP,2019,,
-210,Dunkley,VIC,32352,Peta,MURPHY,Australian Labor Party,ALP,2019,,
-312,Durack,WA,33536,Melissa,PRICE,Liberal,LP,2019,,
-117,Eden-Monaro,NSW,32831,Mike,KELLY,Australian Labor Party,ALP,2019,,
-159,Fadden,QLD,33202,Stuart,ROBERT,Liberal National Party,LNP,2019,,
-160,Fairfax,QLD,33284,Ted,O''BRIEN,Liberal National Party,LNP,2019,,
-118,Farrer,NSW,33253,Sussan,LEY,Liberal,LP,2019,,
-102,Fenner,ACT,32258,Andrew,LEIGH,Australian Labor Party,ALP,2019,,
-161,Fisher,QLD,33228,Andrew,WALLACE,Liberal National Party,LNP,2019,,
-211,Flinders,VIC,33195,Greg,HUNT,Liberal,LP,2019,,
-311,Flynn,QLD,33242,Ken,O''DOWD,Liberal National Party,LNP,2019,,
-162,Forde,QLD,33234,Bert,VAN MANEN,Liberal National Party,LNP,2019,,
-239,Forrest,WA,33415,Nola,MARINO,Liberal,LP,2019,,
-119,Fowler,NSW,32853,Chris,HAYES,Australian Labor Party,ALP,2019,,
-195,Franklin,TAS,32284,Julie,COLLINS,Australian Labor Party,ALP,2019,,
-321,Fraser,VIC,32324,Daniel,MULINO,Australian Labor Party,ALP,2019,,
-240,Fremantle,WA,33411,Josh,WILSON,Australian Labor Party,ALP,2019,,
-212,Gellibrand,VIC,32325,Tim,WATTS,Australian Labor Party,ALP,2019,,
-120,Gilmore,NSW,32772,Fiona,PHILLIPS,Australian Labor Party,ALP,2019,,
-213,Gippsland,VIC,32371,Darren,CHESTER,The Nationals,NP,2019,,
-214,Goldstein,VIC,33265,Tim,WILSON,Liberal,LP,2019,,
-309,Gorton,VIC,32308,Brendan,O''CONNOR,Australian Labor Party,ALP,2019,,
-121,Grayndler,NSW,32691,Anthony,ALBANESE,Australian Labor Party,ALP,2019,,
-122,Greenway,NSW,32761,Michelle,ROWLAND,Australian Labor Party,ALP,2019,,
-183,Grey,SA,33099,Rowan,RAMSEY,Liberal,LP,2019,,
-163,Griffith,QLD,32753,Terri,BUTLER,Australian Labor Party,ALP,2019,,
-164,Groom,QLD,33113,John,McVEIGH,Liberal National Party,LNP,2019,,
-305,Hasluck,WA,33410,Ken,WYATT,Liberal,LP,2019,,
-165,Herbert,QLD,33285,Phillip,THOMPSON,Liberal National Party,LNP,2019,,
-215,Higgins,VIC,33232,Katie,ALLEN,Liberal,LP,2019,,
-185,Hindmarsh,SA,33108,Mark,BUTLER,Australian Labor Party,ALP,2019,,
-166,Hinkler,QLD,33166,Keith,PITT,Liberal National Party,LNP,2019,,
-216,Holt,VIC,32370,Anthony,BYRNE,Australian Labor Party,ALP,2019,,
-217,Hotham,VIC,32304,Clare,O''NEIL,Australian Labor Party,ALP,2019,,
-124,Hughes,NSW,33229,Craig,KELLY,Liberal,LP,2019,,
-125,Hume,NSW,33130,Angus,TAYLOR,Liberal,LP,2019,,
-126,Hunter,NSW,32627,Joel,FITZGIBBON,Australian Labor Party,ALP,2019,,
-218,Indi,VIC,32086,Helen,HAINES,Independent,IND,2019,,
-219,Isaacs,VIC,32312,Mark,DREYFUS,Australian Labor Party,ALP,2019,,
-220,Jagajaga,VIC,32293,Kate,THWAITES,Australian Labor Party,ALP,2019,,
-167,Kennedy,QLD,32587,Bob,KATTER,Katter''s Australian Party (KAP),KAP,2019,,
-127,Kingsford Smith,NSW,32856,Matt,THISTLETHWAITE,Australian Labor Party,ALP,2019,,
-186,Kingston,SA,33098,Amanda,RISHWORTH,Australian Labor Party,ALP,2019,,
-221,Kooyong,VIC,33123,Josh,FRYDENBERG,Liberal,LP,2019,,
-223,La Trobe,VIC,33307,Jason,WOOD,Liberal,LP,2019,,
-222,Lalor,VIC,32354,Joanne,RYAN,Australian Labor Party,ALP,2019,,
-168,Leichhardt,QLD,33177,Warren,ENTSCH,Liberal National Party,LNP,2019,,
-169,Lilley,QLD,32866,Anika,WELLS,Australian Labor Party,ALP,2019,,
-128,Lindsay,NSW,33142,Melissa,McINTOSH,Liberal,LP,2019,,
-306,Lingiari,NT,32740,Warren,SNOWDON,Australian Labor Party,ALP,2019,,
-302,Longman,QLD,33384,Terry,YOUNG,Liberal National Party,LNP,2019,,
-130,Lyne,NSW,33342,David,GILLESPIE,The Nationals,NP,2019,,
-196,Lyons,TAS,32418,Brian,MITCHELL,Australian Labor Party,ALP,2019,,
-131,Macarthur,NSW,32654,Mike,FREELANDER,Australian Labor Party,ALP,2019,,
-132,Mackellar,NSW,33346,Jason,FALINSKI,Liberal,LP,2019,,
-322,Macnamara,VIC,32360,Josh,BURNS,Australian Labor Party,ALP,2019,,
-133,Macquarie,NSW,32683,Susan,TEMPLEMAN,Australian Labor Party,ALP,2019,,
-187,Makin,SA,32838,Tony,ZAPPIA,Australian Labor Party,ALP,2019,,
-224,Mallee,VIC,32425,Anne,WEBSTER,The Nationals,NP,2019,,
-170,Maranoa,QLD,33189,David,LITTLEPROUD,Liberal National Party,LNP,2019,,
-225,Maribyrnong,VIC,32388,Bill,SHORTEN,Australian Labor Party,ALP,2019,,
-188,Mayo,SA,33085,Rebekha,SHARKIE,Centre Alliance,XEN,2019,,
-226,McEwen,VIC,32338,Rob,MITCHELL,Australian Labor Party,ALP,2019,,
-315,McMahon,NSW,32867,Chris,BOWEN,Australian Labor Party,ALP,2019,,
-171,McPherson,QLD,33194,Karen,ANDREWS,Liberal National Party,LNP,2019,,
-228,Melbourne,VIC,32423,Adam,BANDT,The Greens,GRN,2019,,
-229,Menzies,VIC,33179,Kevin,ANDREWS,Liberal,LP,2019,,
-134,Mitchell,NSW,33288,Alex,HAWKE,Liberal,LP,2019,,
-323,Monash,VIC,33175,Russell,BROADBENT,Liberal,LP,2019,,
-172,Moncrieff,QLD,33208,Angie,BELL,Liberal National Party,LNP,2019,,
-242,Moore,WA,33452,Ian,GOODENOUGH,Liberal,LP,2019,,
-173,Moreton,QLD,32765,Graham,PERRETT,Australian Labor Party,ALP,2019,,
-135,New England,NSW,32476,Barnaby,JOYCE,The Nationals,NP,2019,,
-136,Newcastle,NSW,32723,Sharon,CLAYDON,Australian Labor Party,ALP,2019,,
-324,Nicholls,VIC,32417,Damian,DRUM,The Nationals,NP,2019,,
-137,North Sydney,NSW,33165,Trent,ZIMMERMAN,Liberal,LP,2019,,
-243,O''Connor,WA,33380,Rick,WILSON,Liberal,LP,2019,,
-174,Oxley,QLD,32964,Milton,DICK,Australian Labor Party,ALP,2019,,
-138,Page,NSW,32528,Kevin,HOGAN,The Nationals,NP,2019,,
-139,Parkes,NSW,32473,Mark,COULTON,The Nationals,NP,2019,,
-140,Parramatta,NSW,32735,Julie,OWENS,Australian Labor Party,ALP,2019,,
-249,Paterson,NSW,32749,Meryl,SWANSON,Australian Labor Party,ALP,2019,,
-244,Pearce,WA,33399,Christian,PORTER,Liberal,LP,2019,,
-245,Perth,WA,33510,Patrick,GORMAN,Australian Labor Party,ALP,2019,,
-175,Petrie,QLD,33381,Luke,HOWARTH,Liberal National Party,LNP,2019,,
-176,Rankin,QLD,32795,Jim,CHALMERS,Australian Labor Party,ALP,2019,,
-144,Reid,NSW,33332,Fiona,MARTIN,Liberal,LP,2019,,
-145,Richmond,NSW,32727,Justine,ELLIOT,Australian Labor Party,ALP,2019,,
-250,Riverina,NSW,32559,Michael,McCORMACK,The Nationals,NP,2019,,
-146,Robertson,NSW,33149,Lucy,WICKS,Liberal,LP,2019,,
-177,Ryan,QLD,33286,Julian,SIMMONDS,Liberal National Party,LNP,2019,,
-232,Scullin,VIC,32323,Andrew,GILES,Australian Labor Party,ALP,2019,,
-148,Shortland,NSW,32635,Pat,CONROY,Australian Labor Party,ALP,2019,,
-307,Solomon,NT,32743,Luke John,GOSLING,Australian Labor Party,ALP,2019,,
-325,Spence,SA,33074,Nick,CHAMPION,Australian Labor Party,ALP,2019,,
-246,Stirling,WA,33591,Vince,CONNELLY,Liberal,LP,2019,,
-190,Sturt,SA,33091,James,STEVENS,Liberal,LP,2019,,
-247,Swan,WA,33425,Steve,IRONS,Liberal,LP,2019,,
-149,Sydney,NSW,32667,Tanya,PLIBERSEK,Australian Labor Party,ALP,2019,,
-248,Tangney,WA,33436,Ben,MORTON,Liberal,LP,2019,,
-233,Wannon,VIC,33180,Dan,TEHAN,Liberal,LP,2019,,
-151,Warringah,NSW,32467,Zali,STEGGALL,Independent,IND,2019,,
-251,Watson,NSW,32705,Tony,BURKE,Australian Labor Party,ALP,2019,,
-152,Wentworth,NSW,33218,Dave,SHARMA,Liberal,LP,2019,,
-153,Werriwa,NSW,32756,Anne Maree,STANLEY,Australian Labor Party,ALP,2019,,
-150,Whitlam,NSW,32632,Stephen,JONES,Australian Labor Party,ALP,2019,,
-178,Wide Bay,QLD,33200,Llew,O''BRIEN,Liberal National Party,LNP,2019,,
-234,Wills,VIC,32350,Peter,KHALIL,Australian Labor Party,ALP,2019,,
-316,Wright,QLD,33376,Scott,BUCHHOLZ,Liberal National Party,LNP,2019,,
-179,Adelaide,SA,29073,Kate,ELLIS,Australian Labor Party,ALP,2016,,
-197,Aston,VIC,28875,Alan,TUDGE,Liberal,LP,2016,,
-198,Ballarat,VIC,28317,Catherine,KING,Australian Labor Party,ALP,2016,,
-103,Banks,NSW,28660,David,COLEMAN,Liberal,LP,2016,,
-180,Barker,SA,29568,Tony,PASIN,Liberal,LP,2016,,
-104,Barton,NSW,28964,Linda,BURNEY,Australian Labor Party,ALP,2016,,
-192,Bass,TAS,28451,Ross,HART,Australian Labor Party,ALP,2016,,
-199,Batman,VIC,28241,David,FEENEY,Australian Labor Party,ALP,2016,,
-200,Bendigo,VIC,28244,Lisa,CHESTERS,Australian Labor Party,ALP,2016,,
-105,Bennelong,NSW,28568,John,ALEXANDER,Liberal,LP,2016,,
-106,Berowra,NSW,28564,Julian,LEESER,Liberal,LP,2016,,
-304,Blair,QLD,28916,Shayne,NEUMANN,Australian Labor Party,ALP,2016,,
-107,Blaxland,NSW,28931,Jason,CLARE,Australian Labor Party,ALP,2016,,
-310,Bonner,QLD,28058,Ross,VASTA,Liberal National Party,LNP,2016,,
-182,Boothby,SA,29550,Nicolle,FLINT,Liberal,LP,2016,,
-155,Bowman,QLD,28051,Andrew,LAMING,Liberal National Party,LNP,2016,,
-193,Braddon,TAS,28439,Justine,KEAY,Australian Labor Party,ALP,2016,,
-108,Bradfield,NSW,28565,Paul,FLETCHER,Liberal,LP,2016,,
-235,Brand,WA,29103,Madeleine,KING,Australian Labor Party,ALP,2016,,
-156,Brisbane,QLD,28064,Trevor,EVANS,Liberal National Party,LNP,2016,,
-201,Bruce,VIC,28275,Julian,HILL,Australian Labor Party,ALP,2016,,
-317,Burt,WA,28756,Matt,KEOGH,Australian Labor Party,ALP,2016,,
-109,Calare,NSW,29294,Andrew,GEE,The Nationals,NP,2016,,
-203,Calwell,VIC,28311,Maria,VAMVAKINOU,Australian Labor Party,ALP,2016,,
-101,Canberra,ACT,28189,Gai,BRODTMANN,Australian Labor Party,ALP,2016,,
-236,Canning,WA,29036,Andrew,HASTIE,Liberal,LP,2016,,
-157,Capricornia,QLD,28034,Michelle,LANDRY,Liberal National Party,LNP,2016,,
-204,Casey,VIC,28985,Tony,SMITH,Liberal,LP,2016,,
-111,Chifley,NSW,28890,Ed,HUSIC,Australian Labor Party,ALP,2016,,
-205,Chisholm,VIC,28936,Julia,BANKS,Liberal,LP,2016,,
-112,Cook,NSW,28570,Scott,MORRISON,Liberal,LP,2016,,
-207,Corangamite,VIC,28920,Sarah,HENDERSON,Liberal,LP,2016,,
-208,Corio,VIC,28291,Richard,MARLES,Australian Labor Party,ALP,2016,,
-237,Cowan,WA,28727,Anne,ALY,Australian Labor Party,ALP,2016,,
-113,Cowper,NSW,29276,Luke,HARTSUYKER,The Nationals,NP,2016,,
-114,Cunningham,NSW,28948,Sharon,BIRD,Australian Labor Party,ALP,2016,,
-238,Curtin,WA,28746,Julie,BISHOP,Liberal,LP,2016,,
-158,Dawson,QLD,28037,George,CHRISTENSEN,Liberal National Party,LNP,2016,,
-209,Deakin,VIC,29068,Michael,SUKKAR,Liberal,LP,2016,,
-194,Denison,TAS,20881,Andrew,WILKIE,Independent,IND,2016,,
-252,Dickson,QLD,28139,Peter,DUTTON,Liberal National Party,LNP,2016,,
-115,Dobell,NSW,28978,Emma,McBRIDE,Australian Labor Party,ALP,2016,,
-210,Dunkley,VIC,28910,Chris,CREWTHER,Liberal,LP,2016,,
-312,Durack,WA,28566,Melissa,PRICE,Liberal,LP,2016,,
-117,Eden-Monaro,NSW,28993,Mike,KELLY,Australian Labor Party,ALP,2016,,
-159,Fadden,QLD,28066,Stuart,ROBERT,Liberal National Party,LNP,2016,,
-160,Fairfax,QLD,28035,Ted,O''BRIEN,Liberal National Party,LNP,2016,,
-118,Farrer,NSW,28699,Sussan,LEY,Liberal,LP,2016,,
-102,Fenner,ACT,28190,Andrew Keith,LEIGH,Australian Labor Party,ALP,2016,,
-161,Fisher,QLD,28045,Andrew,WALLACE,Liberal National Party,LNP,2016,,
-211,Flinders,VIC,28870,Greg,HUNT,Liberal,LP,2016,,
-311,Flynn,QLD,28049,Ken,O''DOWD,Liberal National Party,LNP,2016,,
-162,Forde,QLD,28039,Bert,van MANEN,Liberal National Party,LNP,2016,,
-239,Forrest,WA,28560,Nola,MARINO,Liberal,LP,2016,,
-119,Fowler,NSW,28945,Chris,HAYES,Australian Labor Party,ALP,2016,,
-195,Franklin,TAS,28441,Julie,COLLINS,Australian Labor Party,ALP,2016,,
-240,Fremantle,WA,28752,Josh,WILSON,Australian Labor Party,ALP,2016,,
-212,Gellibrand,VIC,28240,Tim,WATTS,Australian Labor Party,ALP,2016,,
-120,Gilmore,NSW,28668,Ann,SUDMALIS,Liberal,LP,2016,,
-213,Gippsland,VIC,28404,Darren,CHESTER,The Nationals,NP,2016,,
-214,Goldstein,VIC,28949,Tim,WILSON,Liberal,LP,2016,,
-309,Gorton,VIC,28274,Brendan,O''CONNOR,Australian Labor Party,ALP,2016,,
-121,Grayndler,NSW,29343,Anthony,ALBANESE,Australian Labor Party,ALP,2016,,
-122,Greenway,NSW,28911,Michelle,ROWLAND,Australian Labor Party,ALP,2016,,
-183,Grey,SA,29569,Rowan,RAMSEY,Liberal,LP,2016,,
-163,Griffith,QLD,28921,Terri,BUTLER,Australian Labor Party,ALP,2016,,
-164,Groom,QLD,28084,John,McVEIGH,Liberal National Party,LNP,2016,,
-305,Hasluck,WA,28749,Ken,WYATT,Liberal,LP,2016,,
-165,Herbert,QLD,28997,Cathy,O''TOOLE,Australian Labor Party,ALP,2016,,
-215,Higgins,VIC,28979,Kelly,O''DWYER,Liberal,LP,2016,,
-185,Hindmarsh,SA,29071,Steve,GEORGANAS,Australian Labor Party,ALP,2016,,
-166,Hinkler,QLD,28042,Keith,PITT,Liberal National Party,LNP,2016,,
-216,Holt,VIC,28259,Anthony,BYRNE,Australian Labor Party,ALP,2016,,
-217,Hotham,VIC,28263,Clare,O''NEIL,Australian Labor Party,ALP,2016,,
-124,Hughes,NSW,28569,Craig,KELLY,Liberal,LP,2016,,
-125,Hume,NSW,28777,Angus,TAYLOR,Liberal,LP,2016,,
-126,Hunter,NSW,28884,Joel,FITZGIBBON,Australian Labor Party,ALP,2016,,
-218,Indi,VIC,23288,Cathy,McGOWAN,Independent,IND,2016,,
-219,Isaacs,VIC,28269,Mark,DREYFUS,Australian Labor Party,ALP,2016,,
-220,Jagajaga,VIC,28255,Jenny,MACKLIN,Australian Labor Party,ALP,2016,,
-167,Kennedy,QLD,29335,Bob,KATTER,Katter''s Australian Party,KAP,2016,,
-127,Kingsford Smith,NSW,29083,Matt,THISTLETHWAITE,Australian Labor Party,ALP,2016,,
-186,Kingston,SA,29576,Amanda,RISHWORTH,Australian Labor Party,ALP,2016,,
-221,Kooyong,VIC,28953,Josh,FRYDENBERG,Liberal,LP,2016,,
-223,La Trobe,VIC,28893,Jason,WOOD,Liberal,LP,2016,,
-222,Lalor,VIC,28268,Joanne,RYAN,Australian Labor Party,ALP,2016,,
-168,Leichhardt,QLD,28202,Warren,ENTSCH,Liberal National Party,LNP,2016,,
-169,Lilley,QLD,29218,Wayne,SWAN,Australian Labor Party,ALP,2016,,
-128,Lindsay,NSW,28902,Emma,HUSAR,Australian Labor Party,ALP,2016,,
-306,Lingiari,NT,28735,Warren,SNOWDON,Australian Labor Party,ALP,2016,,
-302,Longman,QLD,28990,Susan,LAMB,Australian Labor Party,ALP,2016,,
-130,Lyne,NSW,29209,David,GILLESPIE,The Nationals,NP,2016,,
-196,Lyons,TAS,28449,Brian,MITCHELL,Australian Labor Party,ALP,2016,,
-131,Macarthur,NSW,29070,Mike,FREELANDER,Australian Labor Party,ALP,2016,,
-132,Mackellar,NSW,28688,Jason,FALINSKI,Liberal,LP,2016,,
-133,Macquarie,NSW,28905,Susan,TEMPLEMAN,Australian Labor Party,ALP,2016,,
-187,Makin,SA,29058,Tony,ZAPPIA,Australian Labor Party,ALP,2016,,
-224,Mallee,VIC,28415,Andrew,BROAD,The Nationals,NP,2016,,
-170,Maranoa,QLD,28059,David,LITTLEPROUD,Liberal National Party,LNP,2016,,
-225,Maribyrnong,VIC,28262,Bill,SHORTEN,Australian Labor Party,ALP,2016,,
-188,Mayo,SA,29142,Rebekha,SHARKIE,Nick Xenophon Team,XEN,2016,,
-226,McEwen,VIC,28289,Rob,MITCHELL,Australian Labor Party,ALP,2016,,
-315,McMahon,NSW,28923,Chris,BOWEN,Australian Labor Party,ALP,2016,,
-227,McMillan,VIC,28897,Russell,BROADBENT,Liberal,LP,2016,,
-171,McPherson,QLD,28043,Karen,ANDREWS,Liberal National Party,LNP,2016,,
-228,Melbourne,VIC,28125,Adam,BANDT,The Greens,GRN,2016,,
-230,Melbourne Ports,VIC,28267,Michael,DANBY,Australian Labor Party,ALP,2016,,
-229,Menzies,VIC,29161,Kevin,ANDREWS,Liberal,LP,2016,,
-134,Mitchell,NSW,28776,Alex,HAWKE,Liberal,LP,2016,,
-172,Moncrieff,QLD,28038,Steven,CIOBO,Liberal National Party,LNP,2016,,
-242,Moore,WA,28720,Ian,GOODENOUGH,Liberal,LP,2016,,
-173,Moreton,QLD,28977,Graham,PERRETT,Australian Labor Party,ALP,2016,,
-231,Murray,VIC,28406,Damian,DRUM,The Nationals,NP,2016,,
-135,New England,NSW,29334,Barnaby,JOYCE,The Nationals,NP,2016,,
-136,Newcastle,NSW,28888,Sharon,CLAYDON,Australian Labor Party,ALP,2016,,
-137,North Sydney,NSW,28567,Trent,ZIMMERMAN,Liberal,LP,2016,,
-243,O''Connor,WA,28941,Rick,WILSON,Liberal,LP,2016,,
-174,Oxley,QLD,29025,Milton,DICK,Australian Labor Party,ALP,2016,,
-138,Page,NSW,29177,Kevin,HOGAN,The Nationals,NP,2016,,
-139,Parkes,NSW,29204,Mark,COULTON,The Nationals,NP,2016,,
-140,Parramatta,NSW,28974,Julie,OWENS,Australian Labor Party,ALP,2016,,
-249,Paterson,NSW,28887,Meryl,SWANSON,Australian Labor Party,ALP,2016,,
-244,Pearce,WA,28700,Christian,PORTER,Liberal,LP,2016,,
-245,Perth,WA,28724,Tim,HAMMOND,Australian Labor Party,ALP,2016,,
-175,Petrie,QLD,28044,Luke,HOWARTH,Liberal National Party,LNP,2016,,
-189,Port Adelaide,SA,29130,Mark,BUTLER,Australian Labor Party,ALP,2016,,
-176,Rankin,QLD,28969,Jim,CHALMERS,Australian Labor Party,ALP,2016,,
-144,Reid,NSW,28670,Craig,LAUNDY,Liberal,LP,2016,,
-145,Richmond,NSW,28987,Justine,ELLIOT,Australian Labor Party,ALP,2016,,
-250,Riverina,NSW,29304,Michael,McCORMACK,The Nationals,NP,2016,,
-146,Robertson,NSW,28686,Lucy,WICKS,Liberal,LP,2016,,
-177,Ryan,QLD,28053,Jane,PRENTICE,Liberal National Party,LNP,2016,,
-232,Scullin,VIC,28243,Andrew,GILES,Australian Labor Party,ALP,2016,,
-148,Shortland,NSW,28976,Pat,CONROY,Australian Labor Party,ALP,2016,,
-307,Solomon,NT,28737,Luke,GOSLING,Australian Labor Party,ALP,2016,,
-246,Stirling,WA,28758,Michael,KEENAN,Liberal,LP,2016,,
-190,Sturt,SA,29562,Christopher,PYNE,Liberal,LP,2016,,
-247,Swan,WA,28766,Steve,IRONS,Liberal,LP,2016,,
-149,Sydney,NSW,29079,Tanya,PLIBERSEK,Australian Labor Party,ALP,2016,,
-248,Tangney,WA,28771,Ben,MORTON,Liberal,LP,2016,,
-191,Wakefield,SA,29101,Nick,CHAMPION,Australian Labor Party,ALP,2016,,
-233,Wannon,VIC,28918,Dan,TEHAN,Liberal,LP,2016,,
-151,Warringah,NSW,28624,Tony,ABBOTT,Liberal,LP,2016,,
-251,Watson,NSW,28947,Tony,BURKE,Australian Labor Party,ALP,2016,,
-152,Wentworth,NSW,28638,Malcolm,TURNBULL,Liberal,LP,2016,,
-153,Werriwa,NSW,29065,Anne,STANLEY,Australian Labor Party,ALP,2016,,
-150,Whitlam,NSW,28970,Stephen,JONES,Australian Labor Party,ALP,2016,,
-178,Wide Bay,QLD,28046,Llew,O''BRIEN,Liberal National Party,LNP,2016,,
-234,Wills,VIC,28253,Peter,KHALIL,Australian Labor Party,ALP,2016,,
-316,Wright,QLD,28061,Scott,BUCHHOLZ,Liberal National Party,LNP,2016,,
-179,Adelaide,SA,23971,Kate,ELLIS,Australian Labor Party,ALP,2013,,
-197,Aston,VIC,23474,Alan,TUDGE,Liberal,LP,2013,,
-198,Ballarat,VIC,23305,Catherine,KING,Australian Labor Party,ALP,2013,,
-103,Banks,NSW,23182,David,COLEMAN,Liberal,LP,2013,,
-180,Barker,SA,23648,Tony,PASIN,Liberal,LP,2013,,
-104,Barton,NSW,23183,Nickolas,VARVARIS,Liberal,LP,2013,,
-192,Bass,TAS,23294,Andrew,NIKOLIC,Liberal,LP,2013,,
-199,Batman,VIC,23296,David,FEENEY,Australian Labor Party,ALP,2013,,
-200,Bendigo,VIC,23318,Lisa,CHESTERS,Australian Labor Party,ALP,2013,,
-105,Bennelong,NSW,23197,John,ALEXANDER,Liberal,LP,2013,,
-106,Berowra,NSW,23203,Philip,RUDDOCK,Liberal,LP,2013,,
-304,Blair,QLD,23727,Shayne Kenneth,NEUMANN,Australian Labor Party,ALP,2013,,
-107,Blaxland,NSW,24623,Jason,CLARE,Australian Labor Party,ALP,2013,,
-310,Bonner,QLD,23903,Ross,VASTA,Liberal National Party,LNP,2013,,
-182,Boothby,SA,23820,Andrew,SOUTHCOTT,Liberal,LP,2013,,
-155,Bowman,QLD,23915,Andrew,LAMING,Liberal National Party,LNP,2013,,
-193,Braddon,TAS,23270,Brett,WHITELEY,Liberal,LP,2013,,
-108,Bradfield,NSW,23200,Paul,FLETCHER,Liberal,LP,2013,,
-235,Brand,WA,24035,Gary,GRAY,Australian Labor Party,ALP,2013,,
-156,Brisbane,QLD,23789,Teresa,GAMBARO,Liberal National Party,LNP,2013,,
-201,Bruce,VIC,23317,Alan,GRIFFIN,Australian Labor Party,ALP,2013,,
-109,Calare,NSW,23245,John,COBB,The Nationals,NP,2013,,
-203,Calwell,VIC,23299,Maria,VAMVAKINOU,Australian Labor Party,ALP,2013,,
-101,Canberra,ACT,24122,Gai,BRODTMANN,Australian Labor Party,ALP,2013,,
-236,Canning,WA,23843,Don,RANDALL,Liberal,LP,2013,,
-157,Capricornia,QLD,23862,Michelle,LANDRY,Liberal National Party,LNP,2013,,
-204,Casey,VIC,23592,Tony,SMITH,Liberal,LP,2013,,
-110,Charlton,NSW,24657,Pat,CONROY,Australian Labor Party,ALP,2013,,
-111,Chifley,NSW,24631,Ed,HUSIC,Australian Labor Party,ALP,2013,,
-205,Chisholm,VIC,23311,Anna Elizabeth,BURKE,Australian Labor Party,ALP,2013,,
-112,Cook,NSW,23219,Scott,MORRISON,Liberal,LP,2013,,
-207,Corangamite,VIC,23526,Sarah,HENDERSON,Liberal,LP,2013,,
-208,Corio,VIC,23303,Richard,MARLES,Australian Labor Party,ALP,2013,,
-237,Cowan,WA,23846,Luke,SIMPKINS,Liberal,LP,2013,,
-113,Cowper,NSW,23249,Luke,HARTSUYKER,The Nationals,NP,2013,,
-114,Cunningham,NSW,24668,Sharon,BIRD,Australian Labor Party,ALP,2013,,
-238,Curtin,WA,23840,Julie,BISHOP,Liberal,LP,2013,,
-158,Dawson,QLD,23996,George,CHRISTENSEN,Liberal National Party,LNP,2013,,
-209,Deakin,VIC,23590,Michael,SUKKAR,Liberal,LP,2013,,
-194,Denison,TAS,20881,Andrew,WILKIE,Independent,IND,2013,,
-252,Dickson,QLD,23834,Peter,DUTTON,Liberal National Party,LNP,2013,,
-115,Dobell,NSW,23243,Karen,McNAMARA,Liberal,LP,2013,,
-210,Dunkley,VIC,23509,Bruce,BILLSON,Liberal,LP,2013,,
-312,Durack,WA,23936,Melissa,PRICE,Liberal,LP,2013,,
-117,Eden-Monaro,NSW,23189,Peter,HENDY,Liberal,LP,2013,,
-159,Fadden,QLD,23815,Stuart,ROBERT,Liberal National Party,LNP,2013,,
-160,Fairfax,QLD,23396,Clive Frederick,PALMER,Palmer United Party,PUP,2013,,
-118,Farrer,NSW,23181,Sussan,LEY,Liberal,LP,2013,,
-161,Fisher,QLD,23794,Mal,BROUGH,Liberal National Party,LNP,2013,,
-211,Flinders,VIC,23497,Greg,HUNT,Liberal,LP,2013,,
-311,Flynn,QLD,23806,Ken,O''DOWD,Liberal National Party,LNP,2013,,
-162,Forde,QLD,24479,Bert,van MANEN,Liberal National Party,LNP,2013,,
-239,Forrest,WA,23887,Nola,MARINO,Liberal,LP,2013,,
-119,Fowler,NSW,24548,Chris,HAYES,Australian Labor Party,ALP,2013,,
-195,Franklin,TAS,23455,Julie,COLLINS,Australian Labor Party,ALP,2013,,
-102,Fraser,ACT,24147,Andrew,LEIGH,Australian Labor Party,ALP,2013,,
-240,Fremantle,WA,24025,Melissa,PARKE,Australian Labor Party,ALP,2013,,
-212,Gellibrand,VIC,23422,Tim,WATTS,Australian Labor Party,ALP,2013,,
-120,Gilmore,NSW,23190,Ann,SUDMALIS,Liberal,LP,2013,,
-213,Gippsland,VIC,23758,Darren,CHESTER,The Nationals,NP,2013,,
-214,Goldstein,VIC,23487,Andrew,ROBB,Liberal,LP,2013,,
-309,Gorton,VIC,23304,Brendan,O''CONNOR,Australian Labor Party,ALP,2013,,
-121,Grayndler,NSW,24610,Anthony,ALBANESE,Australian Labor Party,ALP,2013,,
-122,Greenway,NSW,24644,Michelle,ROWLAND,Australian Labor Party,ALP,2013,,
-183,Grey,SA,23709,Rowan,RAMSEY,Liberal,LP,2013,,
-163,Griffith,QLD,23744,Kevin,RUDD,Australian Labor Party,ALP,2013,,
-164,Groom,QLD,23796,Ian,MACFARLANE,Liberal National Party,LNP,2013,,
-305,Hasluck,WA,23991,Ken,WYATT,Liberal,LP,2013,,
-165,Herbert,QLD,23811,Ewen,JONES,Liberal National Party,LNP,2013,,
-215,Higgins,VIC,23480,Kelly,O''DWYER,Liberal,LP,2013,,
-185,Hindmarsh,SA,23656,Matt,WILLIAMS,Liberal,LP,2013,,
-166,Hinkler,QLD,23837,Keith,PITT,Liberal National Party,LNP,2013,,
-216,Holt,VIC,23325,Anthony,BYRNE,Australian Labor Party,ALP,2013,,
-217,Hotham,VIC,24241,Clare,O''NEIL,Australian Labor Party,ALP,2013,,
-124,Hughes,NSW,23198,Craig,KELLY,Liberal,LP,2013,,
-125,Hume,NSW,23222,Angus,TAYLOR,Liberal,LP,2013,,
-126,Hunter,NSW,24543,Joel,FITZGIBBON,Australian Labor Party,ALP,2013,,
-218,Indi,VIC,23288,Cathy,McGOWAN,Independent,IND,2013,,
-219,Isaacs,VIC,23335,Mark,DREYFUS,Australian Labor Party,ALP,2013,,
-220,Jagajaga,VIC,23298,Jenny,MACKLIN,Australian Labor Party,ALP,2013,,
-167,Kennedy,QLD,24318,Bob,KATTER,Katter''s Australian Party,KAP,2013,,
-127,Kingsford Smith,NSW,24553,Matt,THISTLETHWAITE,Australian Labor Party,ALP,2013,,
-186,Kingston,SA,24116,Amanda,RISHWORTH,Australian Labor Party,ALP,2013,,
-221,Kooyong,VIC,23485,Josh,FRYDENBERG,Liberal,LP,2013,,
-223,La Trobe,VIC,23468,Jason,WOOD,Liberal,LP,2013,,
-222,Lalor,VIC,23358,Joanne,RYAN,Australian Labor Party,ALP,2013,,
-168,Leichhardt,QLD,23801,Warren,ENTSCH,Liberal National Party,LNP,2013,,
-169,Lilley,QLD,23721,Wayne,SWAN,Australian Labor Party,ALP,2013,,
-128,Lindsay,NSW,23201,Fiona,SCOTT,Liberal,LP,2013,,
-306,Lingiari,NT,23522,Warren,SNOWDON,Australian Labor Party,ALP,2013,,
-302,Longman,QLD,23855,Wyatt,ROY,Liberal National Party,LNP,2013,,
-130,Lyne,NSW,23252,David,GILLESPIE,The Nationals,NP,2013,,
-196,Lyons,TAS,23278,Eric,HUTCHINSON,Liberal,LP,2013,,
-131,Macarthur,NSW,23221,Russell,MATHESON,Liberal,LP,2013,,
-132,Mackellar,NSW,23184,Bronwyn,BISHOP,Liberal,LP,2013,,
-133,Macquarie,NSW,23211,Louise,MARKUS,Liberal,LP,2013,,
-187,Makin,SA,24108,Tony,ZAPPIA,Australian Labor Party,ALP,2013,,
-224,Mallee,VIC,23898,Andrew,BROAD,The Nationals,NP,2013,,
-170,Maranoa,QLD,24071,Bruce,SCOTT,Liberal National Party,LNP,2013,,
-225,Maribyrnong,VIC,23379,Bill,SHORTEN,Australian Labor Party,ALP,2013,,
-188,Mayo,SA,23672,Jamie,BRIGGS,Liberal,LP,2013,,
-226,McEwen,VIC,23312,Rob,MITCHELL,Australian Labor Party,ALP,2013,,
-315,McMahon,NSW,24583,Chris,BOWEN,Australian Labor Party,ALP,2013,,
-227,McMillan,VIC,23472,Russell,BROADBENT,Liberal,LP,2013,,
-171,McPherson,QLD,23826,Karen,ANDREWS,Liberal National Party,LNP,2013,,
-228,Melbourne,VIC,23378,Adam,BANDT,The Greens,GRN,2013,,
-230,Melbourne Ports,VIC,23314,Michael,DANBY,Australian Labor Party,ALP,2013,,
-229,Menzies,VIC,23483,Kevin,ANDREWS,Liberal,LP,2013,,
-134,Mitchell,NSW,23206,Alex,HAWKE,Liberal,LP,2013,,
-172,Moncrieff,QLD,24057,Steven,CIOBO,Liberal National Party,LNP,2013,,
-242,Moore,WA,23842,Ian,GOODENOUGH,Liberal,LP,2013,,
-173,Moreton,QLD,23718,Graham Douglas,PERRETT,Australian Labor Party,ALP,2013,,
-231,Murray,VIC,23477,Sharman,STONE,Liberal,LP,2013,,
-135,New England,NSW,23247,Barnaby,JOYCE,The Nationals,NP,2013,,
-136,Newcastle,NSW,24660,Sharon,CLAYDON,Australian Labor Party,ALP,2013,,
-137,North Sydney,NSW,23223,Joe,HOCKEY,Liberal,LP,2013,,
-243,O''Connor,WA,23944,Rick,WILSON,Liberal,LP,2013,,
-174,Oxley,QLD,23755,Bernie,RIPOLL,Australian Labor Party,ALP,2013,,
-138,Page,NSW,23363,Kevin,HOGAN,The Nationals,NP,2013,,
-139,Parkes,NSW,23248,Mark,COULTON,The Nationals,NP,2013,,
-140,Parramatta,NSW,24653,Julie,OWENS,Australian Labor Party,ALP,2013,,
-249,Paterson,NSW,23186,Bob,BALDWIN,Liberal,LP,2013,,
-244,Pearce,WA,23847,Christian,PORTER,Liberal,LP,2013,,
-245,Perth,WA,24023,Alannah,MacTIERNAN,Australian Labor Party,ALP,2013,,
-175,Petrie,QLD,23800,Luke,HOWARTH,Liberal National Party,LNP,2013,,
-189,Port Adelaide,SA,24121,Mark,BUTLER,Australian Labor Party,ALP,2013,,
-176,Rankin,QLD,23730,Jim,CHALMERS,Australian Labor Party,ALP,2013,,
-144,Reid,NSW,23205,Craig,LAUNDY,Liberal,LP,2013,,
-145,Richmond,NSW,24531,Justine,ELLIOT,Australian Labor Party,ALP,2013,,
-250,Riverina,NSW,23253,Michael,McCORMACK,The Nationals,NP,2013,,
-146,Robertson,NSW,23216,Lucy,WICKS,Liberal,LP,2013,,
-177,Ryan,QLD,23814,Jane,PRENTICE,Liberal National Party,LNP,2013,,
-232,Scullin,VIC,23324,Andrew,GILES,Australian Labor Party,ALP,2013,,
-148,Shortland,NSW,24663,Jill Griffiths,HALL,Australian Labor Party,ALP,2013,,
-307,Solomon,NT,23502,Natasha,GRIGGS,Country Liberals (NT),CLP,2013,,
-246,Stirling,WA,23848,Michael,KEENAN,Liberal,LP,2013,,
-190,Sturt,SA,23647,Christopher,PYNE,Liberal,LP,2013,,
-247,Swan,WA,23935,Steve,IRONS,Liberal,LP,2013,,
-149,Sydney,NSW,24530,Tanya,PLIBERSEK,Australian Labor Party,ALP,2013,,
-248,Tangney,WA,23853,Dennis,JENSEN,Liberal,LP,2013,,
-150,Throsby,NSW,24624,Stephen,JONES,Australian Labor Party,ALP,2013,,
-191,Wakefield,SA,24198,Nick,CHAMPION,Australian Labor Party,ALP,2013,,
-233,Wannon,VIC,23470,Dan,TEHAN,Liberal,LP,2013,,
-151,Warringah,NSW,23210,Tony,ABBOTT,Liberal,LP,2013,,
-251,Watson,NSW,24632,Tony,BURKE,Australian Labor Party,ALP,2013,,
-152,Wentworth,NSW,23199,Malcolm,TURNBULL,Liberal,LP,2013,,
-153,Werriwa,NSW,24739,Laurie,FERGUSON,Australian Labor Party,ALP,2013,,
-178,Wide Bay,QLD,23822,Warren,TRUSS,Liberal National Party,LNP,2013,,
-234,Wills,VIC,23322,Kelvin,THOMSON,Australian Labor Party,ALP,2013,,
-316,Wright,QLD,23804,Scott,BUCHHOLZ,Liberal National Party,LNP,2013,,
-179,Adelaide,SA,20987,Kate,ELLIS,Australian Labor Party,ALP,2010,,
-197,Aston,VIC,21084,Alan,TUDGE,Liberal,LP,2010,,
-198,Ballarat,VIC,21104,Catherine,KING,Australian Labor Party,ALP,2010,,
-103,Banks,NSW,21087,Daryl,MELHAM,Australian Labor Party,ALP,2010,,
-180,Barker,SA,20829,Patrick,SECKER,Liberal,LP,2010,,
-104,Barton,NSW,21158,Robert,McCLELLAND,Australian Labor Party,ALP,2010,,
-192,Bass,TAS,21013,Geoff,LYONS,Australian Labor Party,ALP,2010,,
-199,Batman,VIC,21035,Martin John,FERGUSON,Australian Labor Party,ALP,2010,,
-200,Bendigo,VIC,21029,Steve,GIBBONS,Australian Labor Party,ALP,2010,,
-105,Bennelong,NSW,21648,John,ALEXANDER,Liberal,LP,2010,,
-106,Berowra,NSW,21587,Philip,RUDDOCK,Liberal,LP,2010,,
-304,Blair,QLD,21570,Shayne Kenneth,NEUMANN,Australian Labor Party,ALP,2010,,
-107,Blaxland,NSW,21180,Jason,CLARE,Australian Labor Party,ALP,2010,,
-310,Bonner,QLD,20751,Ross Xavier,VASTA,Liberal National Party of Queensland,LNQ,2010,,
-182,Boothby,SA,20884,Andrew,SOUTHCOTT,Liberal,LP,2010,,
-155,Bowman,QLD,20782,Andrew,LAMING,Liberal National Party of Queensland,LNQ,2010,,
-193,Braddon,TAS,20935,Sid,SIDEBOTTOM,Australian Labor Party,ALP,2010,,
-108,Bradfield,NSW,21644,Paul,FLETCHER,Liberal,LP,2010,,
-235,Brand,WA,20909,Gary,GRAY,Australian Labor Party,ALP,2010,,
-156,Brisbane,QLD,20740,Teresa,GAMBARO,Liberal National Party of Queensland,LNQ,2010,,
-201,Bruce,VIC,21331,Alan,GRIFFIN,Australian Labor Party,ALP,2010,,
-109,Calare,NSW,21115,John,COBB,The Nationals,NP,2010,,
-203,Calwell,VIC,21159,Maria,VAMVAKINOU,Australian Labor Party,ALP,2010,,
-101,Canberra,ACT,21228,Gai,BRODTMANN,Australian Labor Party,ALP,2010,,
-236,Canning,WA,20865,Don,RANDALL,Liberal,LP,2010,,
-157,Capricornia,QLD,21456,Kirsten,LIVERMORE,Australian Labor Party,ALP,2010,,
-204,Casey,VIC,21201,Tony,SMITH,Liberal,LP,2010,,
-110,Charlton,NSW,21259,Greg,COMBET,Australian Labor Party,ALP,2010,,
-111,Chifley,NSW,21231,Ed,HUSIC,Australian Labor Party,ALP,2010,,
-205,Chisholm,VIC,21069,Anna Elizabeth,BURKE,Australian Labor Party,ALP,2010,,
-112,Cook,NSW,21572,Scott,MORRISON,Liberal,LP,2010,,
-207,Corangamite,VIC,21312,Darren,CHEESEMAN,Australian Labor Party,ALP,2010,,
-208,Corio,VIC,21061,Richard Donald,MARLES,Australian Labor Party,ALP,2010,,
-237,Cowan,WA,20848,Luke,SIMPKINS,Liberal,LP,2010,,
-113,Cowper,NSW,21014,Luke,HARTSUYKER,The Nationals,NP,2010,,
-114,Cunningham,NSW,21294,Sharon,BIRD,Australian Labor Party,ALP,2010,,
-238,Curtin,WA,20851,Julie,BISHOP,Liberal,LP,2010,,
-158,Dawson,QLD,20803,George Robert,CHRISTENSEN,Liberal National Party of Queensland,LNQ,2010,,
-209,Deakin,VIC,21036,Mike,SYMON,Australian Labor Party,ALP,2010,,
-194,Denison,TAS,20881,Andrew,WILKIE,Independent,IND,2010,,
-252,Dickson,QLD,21357,Peter,DUTTON,Liberal National Party of Queensland,LNQ,2010,,
-115,Dobell,NSW,21273,Craig,THOMSON,Australian Labor Party,ALP,2010,,
-210,Dunkley,VIC,21027,Bruce,BILLSON,Liberal,LP,2010,,
-312,Durack,WA,20866,Barry,HAASE,Liberal,LP,2010,,
-117,Eden-Monaro,NSW,21706,Mike,KELLY,Australian Labor Party,ALP,2010,,
-159,Fadden,QLD,21805,Stuart,ROBERT,Liberal National Party of Queensland,LNQ,2010,,
-160,Fairfax,QLD,20738,Alex,SOMLYAY,Liberal National Party of Queensland,LNQ,2010,,
-118,Farrer,NSW,21637,Sussan,LEY,Liberal,LP,2010,,
-161,Fisher,QLD,20759,Peter,SLIPPER,Liberal National Party of Queensland,LNQ,2010,,
-211,Flinders,VIC,21107,Greg,HUNT,Liberal,LP,2010,,
-311,Flynn,QLD,20809,Ken,O''DOWD,Liberal National Party of Queensland,LNQ,2010,,
-162,Forde,QLD,21769,Bert,VAN MANEN,Liberal National Party of Queensland,LNQ,2010,,
-239,Forrest,WA,20855,Nola,MARINO,Liberal,LP,2010,,
-119,Fowler,NSW,21261,Chris,HAYES,Australian Labor Party,ALP,2010,,
-195,Franklin,TAS,20944,Julie,COLLINS,Australian Labor Party,ALP,2010,,
-102,Fraser,ACT,21210,Andrew,LEIGH,Australian Labor Party,ALP,2010,,
-240,Fremantle,WA,20885,Melissa,PARKE,Australian Labor Party,ALP,2010,,
-212,Gellibrand,VIC,21236,Nicola,ROXON,Australian Labor Party,ALP,2010,,
-120,Gilmore,NSW,21727,Joanna,GASH,Liberal,LP,2010,,
-213,Gippsland,VIC,21093,Darren,CHESTER,The Nationals,NP,2010,,
-214,Goldstein,VIC,21571,Andrew,ROBB,Liberal,LP,2010,,
-309,Gorton,VIC,21226,Brendan,O''CONNOR,Australian Labor Party,ALP,2010,,
-121,Grayndler,NSW,21656,Anthony,ALBANESE,Australian Labor Party,ALP,2010,,
-122,Greenway,NSW,21246,Michelle,ROWLAND,Australian Labor Party,ALP,2010,,
-183,Grey,SA,20832,Rowan,RAMSEY,Liberal,LP,2010,,
-163,Griffith,QLD,21767,Kevin,RUDD,Australian Labor Party,ALP,2010,,
-164,Groom,QLD,20756,Ian,MACFARLANE,Liberal National Party of Queensland,LNQ,2010,,
-305,Hasluck,WA,20876,Ken,WYATT,Liberal,LP,2010,,
-165,Herbert,QLD,20757,Ewen,JONES,Liberal National Party of Queensland,LNQ,2010,,
-215,Higgins,VIC,21583,Kelly,O''DWYER,Liberal,LP,2010,,
-185,Hindmarsh,SA,21336,Steve,GEORGANAS,Australian Labor Party,ALP,2010,,
-166,Hinkler,QLD,20748,Paul,NEVILLE,Liberal National Party of Queensland,LNQ,2010,,
-216,Holt,VIC,21193,Anthony,BYRNE,Australian Labor Party,ALP,2010,,
-217,Hotham,VIC,21126,Simon,CREAN,Australian Labor Party,ALP,2010,,
-124,Hughes,NSW,21467,Craig,KELLY,Liberal,LP,2010,,
-125,Hume,NSW,21647,Alby,SCHULTZ,Liberal,LP,2010,,
-126,Hunter,NSW,21454,Joel,FITZGIBBON,Australian Labor Party,ALP,2010,,
-218,Indi,VIC,21203,Sophie,MIRABELLA,Liberal,LP,2010,,
-219,Isaacs,VIC,21257,Mark,DREYFUS,Australian Labor Party,ALP,2010,,
-220,Jagajaga,VIC,21244,Jenny,MACKLIN,Australian Labor Party,ALP,2010,,
-167,Kennedy,QLD,13270,Bob,KATTER,Independent,IND,2010,,
-127,Kingsford Smith,NSW,21368,Peter,GARRETT,Australian Labor Party,ALP,2010,,
-186,Kingston,SA,20967,Amanda,RISHWORTH,Australian Labor Party,ALP,2010,,
-221,Kooyong,VIC,21057,Josh,FRYDENBERG,Liberal,LP,2010,,
-223,La Trobe,VIC,21205,Laura,SMYTH,Australian Labor Party,ALP,2010,,
-222,Lalor,VIC,21055,Julia,GILLARD,Australian Labor Party,ALP,2010,,
-168,Leichhardt,QLD,20754,Warren,ENTSCH,Liberal National Party of Queensland,LNQ,2010,,
-169,Lilley,QLD,21552,Wayne,SWAN,Australian Labor Party,ALP,2010,,
-128,Lindsay,NSW,21283,David,BRADBURY,Australian Labor Party,ALP,2010,,
-306,Lingiari,NT,21513,Warren Edward,SNOWDON,Australian Labor Party,ALP,2010,,
-302,Longman,QLD,20752,Wyatt,ROY,Liberal National Party of Queensland,LNQ,2010,,
-130,Lyne,NSW,21912,Robert,OAKESHOTT,Independent,IND,2010,,
-196,Lyons,TAS,20926,Dick,ADAMS,Australian Labor Party,ALP,2010,,
-131,Macarthur,NSW,21649,Russell,MATHESON,Liberal,LP,2010,,
-132,Mackellar,NSW,21550,Bronwyn,BISHOP,Liberal,LP,2010,,
-133,Macquarie,NSW,21790,Louise,MARKUS,Liberal,LP,2010,,
-187,Makin,SA,20945,Tony,ZAPPIA,Australian Labor Party,ALP,2010,,
-224,Mallee,VIC,21078,John,FORREST,The Nationals,NP,2010,,
-170,Maranoa,QLD,20736,Bruce,SCOTT,Liberal National Party of Queensland,LNQ,2010,,
-225,Maribyrnong,VIC,21369,Bill,SHORTEN,Australian Labor Party,ALP,2010,,
-188,Mayo,SA,20816,Jamie,BRIGGS,Liberal,LP,2010,,
-226,McEwen,VIC,21088,Rob,MITCHELL,Australian Labor Party,ALP,2010,,
-315,McMahon,NSW,21260,Chris,BOWEN,Australian Labor Party,ALP,2010,,
-227,McMillan,VIC,21320,Russell,BROADBENT,Liberal,LP,2010,,
-171,McPherson,QLD,20749,Karen,ANDREWS,Liberal National Party of Queensland,LNQ,2010,,
-228,Melbourne,VIC,21657,Adam,BANDT,The Greens,GRN,2010,,
-230,Melbourne Ports,VIC,21599,Michael David,DANBY,Australian Labor Party,ALP,2010,,
-229,Menzies,VIC,21103,Kevin,ANDREWS,Liberal,LP,2010,,
-134,Mitchell,NSW,21595,Alex,HAWKE,Liberal,LP,2010,,
-172,Moncrieff,QLD,20758,Steven,CIOBO,Liberal National Party of Queensland,LNQ,2010,,
-242,Moore,WA,20854,Mal,WASHER,Liberal,LP,2010,,
-173,Moreton,QLD,21541,Graham,PERRETT,Australian Labor Party,ALP,2010,,
-231,Murray,VIC,21059,Sharman,STONE,Liberal,LP,2010,,
-135,New England,NSW,13274,Tony,WINDSOR,Independent,IND,2010,,
-136,Newcastle,NSW,21396,Sharon,GRIERSON,Australian Labor Party,ALP,2010,,
-137,North Sydney,NSW,21692,Joe,HOCKEY,Liberal,LP,2010,,
-243,O''Connor,WA,21139,Tony,CROOK,The Nationals,NP,2010,,
-174,Oxley,QLD,21586,Bernie,RIPOLL,Australian Labor Party,ALP,2010,,
-138,Page,NSW,21495,Janelle,SAFFIN,Australian Labor Party,ALP,2010,,
-139,Parkes,NSW,21023,Mark,COULTON,The Nationals,NP,2010,,
-140,Parramatta,NSW,21461,Julie,OWENS,Australian Labor Party,ALP,2010,,
-249,Paterson,NSW,21675,Bob,BALDWIN,Liberal,LP,2010,,
-244,Pearce,WA,20861,Judi,MOYLAN,Liberal,LP,2010,,
-245,Perth,WA,20904,Stephen Francis,SMITH,Australian Labor Party,ALP,2010,,
-175,Petrie,QLD,21505,Yvette,D''ATH,Australian Labor Party,ALP,2010,,
-189,Port Adelaide,SA,21003,Mark,BUTLER,Australian Labor Party,ALP,2010,,
-176,Rankin,QLD,21854,Craig,EMERSON,Australian Labor Party,ALP,2010,,
-144,Reid,NSW,21438,John,MURPHY,Australian Labor Party,ALP,2010,,
-145,Richmond,NSW,21416,Justine,ELLIOT,Australian Labor Party,ALP,2010,,
-250,Riverina,NSW,21095,Michael,McCORMACK,The Nationals,NP,2010,,
-146,Robertson,NSW,21435,Deborah,O''NEILL,Australian Labor Party,ALP,2010,,
-177,Ryan,QLD,20737,Jane,PRENTICE,Liberal National Party of Queensland,LNQ,2010,,
-232,Scullin,VIC,21077,Harry,JENKINS,Australian Labor Party,ALP,2010,,
-148,Shortland,NSW,21423,Jill,HALL,Australian Labor Party,ALP,2010,,
-307,Solomon,NT,21477,Natasha,GRIGGS,CLP - The Territory Party,CLP,2010,,
-246,Stirling,WA,20868,Michael,KEENAN,Liberal,LP,2010,,
-190,Sturt,SA,20834,Christopher,PYNE,Liberal,LP,2010,,
-247,Swan,WA,20883,Steve,IRONS,Liberal,LP,2010,,
-149,Sydney,NSW,21559,Tanya,PLIBERSEK,Australian Labor Party,ALP,2010,,
-248,Tangney,WA,20859,Dennis,JENSEN,Liberal,LP,2010,,
-150,Throsby,NSW,21431,Stephen,JONES,Australian Labor Party,ALP,2010,,
-191,Wakefield,SA,21047,Nick,CHAMPION,Australian Labor Party,ALP,2010,,
-233,Wannon,VIC,21063,Dan,TEHAN,Liberal,LP,2010,,
-151,Warringah,NSW,21590,Tony,ABBOTT,Liberal,LP,2010,,
-251,Watson,NSW,21582,Tony,BURKE,Australian Labor Party,ALP,2010,,
-152,Wentworth,NSW,21557,Malcolm,TURNBULL,Liberal,LP,2010,,
-153,Werriwa,NSW,21591,Laurie,FERGUSON,Australian Labor Party,ALP,2010,,
-178,Wide Bay,QLD,20745,Warren,TRUSS,Liberal National Party of Queensland,LNQ,2010,,
-234,Wills,VIC,21073,Kelvin,THOMSON,Australian Labor Party,ALP,2010,,
-316,Wright,QLD,20746,Scott,BUCHHOLZ,Liberal National Party of Queensland,LNQ,2010,,
-179,Adelaide,SA,17694,Kate,ELLIS,Australian Labor Party,ALP,2007,,
-197,Aston,VIC,17236,Chris,PEARCE,Liberal,LP,2007,,
-198,Ballarat,VIC,18094,Catherine,KING,Australian Labor Party,ALP,2007,,
-103,Banks,NSW,18021,Daryl,MELHAM,Australian Labor Party,ALP,2007,,
-180,Barker,SA,17668,Patrick,SECKER,Liberal,LP,2007,,
-104,Barton,NSW,18038,Robert,McCLELLAND,Australian Labor Party,ALP,2007,,
-192,Bass,TAS,17495,Jodie,CAMPBELL,Australian Labor Party,ALP,2007,,
-199,Batman,VIC,18024,Martin,FERGUSON,Australian Labor Party,ALP,2007,,
-200,Bendigo,VIC,18031,Steve,GIBBONS,Australian Labor Party,ALP,2007,,
-105,Bennelong,NSW,18018,Maxine,McKEW,Australian Labor Party,ALP,2007,,
-106,Berowra,NSW,17873,Philip,RUDDOCK,Liberal,LP,2007,,
-304,Blair,QLD,17504,Shayne Kenneth,NEUMANN,Australian Labor Party,ALP,2007,,
-107,Blaxland,NSW,18160,Jason,CLARE,Australian Labor Party,ALP,2007,,
-310,Bonner,QLD,17612,Kerry,REA,Australian Labor Party,ALP,2007,,
-182,Boothby,SA,17678,Andrew,SOUTHCOTT,Liberal,LP,2007,,
-155,Bowman,QLD,17714,Andrew,LAMING,Liberal,LP,2007,,
-193,Braddon,TAS,17521,Sid,SIDEBOTTOM,Australian Labor Party,ALP,2007,,
-108,Bradfield,NSW,17850,Brendan,NELSON,Liberal,LP,2007,,
-235,Brand,WA,17456,Gary,GRAY,Australian Labor Party,ALP,2007,,
-156,Brisbane,QLD,17509,Arch,BEVIS,Australian Labor Party,ALP,2007,,
-201,Bruce,VIC,18035,Alan,GRIFFIN,Australian Labor Party,ALP,2007,,
-109,Calare,NSW,17206,John,COBB,The Nationals,NP,2007,,
-203,Calwell,VIC,18045,Maria,VAMVAKINOU,Australian Labor Party,ALP,2007,,
-101,Canberra,ACT,17614,Annette,ELLIS,Australian Labor Party,ALP,2007,,
-236,Canning,WA,17223,Don,RANDALL,Liberal,LP,2007,,
-157,Capricornia,QLD,17506,Kirsten,LIVERMORE,Australian Labor Party,ALP,2007,,
-204,Casey,VIC,17276,Tony,SMITH,Liberal,LP,2007,,
-110,Charlton,NSW,18085,Greg,COMBET,Australian Labor Party,ALP,2007,,
-111,Chifley,NSW,18042,Roger,PRICE,Australian Labor Party,ALP,2007,,
-205,Chisholm,VIC,18049,Anna,BURKE,Australian Labor Party,ALP,2007,,
-112,Cook,NSW,17914,Scott,MORRISON,Liberal,LP,2007,,
-207,Corangamite,VIC,18083,Darren,CHEESEMAN,Australian Labor Party,ALP,2007,,
-208,Corio,VIC,18033,Richard,MARLES,Australian Labor Party,ALP,2007,,
-237,Cowan,WA,17211,Luke,SIMPKINS,Liberal,LP,2007,,
-113,Cowper,NSW,17201,Luke,HARTSUYKER,The Nationals,NP,2007,,
-114,Cunningham,NSW,18098,Sharon,BIRD,Australian Labor Party,ALP,2007,,
-238,Curtin,WA,17212,Julie,BISHOP,Liberal,LP,2007,,
-158,Dawson,QLD,17505,James,BIDGOOD,Australian Labor Party,ALP,2007,,
-209,Deakin,VIC,18060,Mike,SYMON,Australian Labor Party,ALP,2007,,
-194,Denison,TAS,17498,Duncan,KERR,Australian Labor Party,ALP,2007,,
-252,Dickson,QLD,17745,Peter,DUTTON,Liberal,LP,2007,,
-115,Dobell,NSW,18023,Craig,THOMSON,Australian Labor Party,ALP,2007,,
-210,Dunkley,VIC,17252,Bruce,BILLSON,Liberal,LP,2007,,
-117,Eden-Monaro,NSW,18043,Mike,KELLY,Australian Labor Party,ALP,2007,,
-159,Fadden,QLD,17709,Stuart,ROBERT,Liberal,LP,2007,,
-160,Fairfax,QLD,17743,Alex,SOMLYAY,Liberal,LP,2007,,
-118,Farrer,NSW,17852,Sussan,LEY,Liberal,LP,2007,,
-161,Fisher,QLD,17764,Peter,SLIPPER,Liberal,LP,2007,,
-211,Flinders,VIC,17291,Greg,HUNT,Liberal,LP,2007,,
-311,Flynn,QLD,17507,Chris,TREVOR,Australian Labor Party,ALP,2007,,
-162,Forde,QLD,17525,Brett Blair,RAGUSE,Australian Labor Party,ALP,2007,,
-239,Forrest,WA,17220,Nola,MARINO,Liberal,LP,2007,,
-119,Fowler,NSW,18113,Julia,IRWIN,Australian Labor Party,ALP,2007,,
-195,Franklin,TAS,17499,Julie,COLLINS,Australian Labor Party,ALP,2007,,
-102,Fraser,ACT,17613,Bob,McMULLAN,Australian Labor Party,ALP,2007,,
-240,Fremantle,WA,17470,Melissa,PARKE,Australian Labor Party,ALP,2007,,
-212,Gellibrand,VIC,18126,Nicola,ROXON,Australian Labor Party,ALP,2007,,
-120,Gilmore,NSW,17879,Joanna,GASH,Liberal,LP,2007,,
-213,Gippsland,VIC,17307,Peter,McGAURAN,The Nationals,NP,2007,,
-214,Goldstein,VIC,17263,Andrew,ROBB,Liberal,LP,2007,,
-309,Gorton,VIC,18141,Brendan,O''CONNOR,Australian Labor Party,ALP,2007,,
-121,Grayndler,NSW,18196,Anthony,ALBANESE,Australian Labor Party,ALP,2007,,
-122,Greenway,NSW,17861,Louise,MARKUS,Liberal,LP,2007,,
-183,Grey,SA,17679,Rowan,RAMSEY,Liberal,LP,2007,,
-163,Griffith,QLD,17526,Kevin,RUDD,Australian Labor Party,ALP,2007,,
-164,Groom,QLD,17792,Ian,MACFARLANE,Liberal,LP,2007,,
-305,Hasluck,WA,17471,Sharryn,JACKSON,Australian Labor Party,ALP,2007,,
-165,Herbert,QLD,17726,Peter,LINDSAY,Liberal,LP,2007,,
-215,Higgins,VIC,17294,Peter,COSTELLO,Liberal,LP,2007,,
-185,Hindmarsh,SA,17787,Steve,GEORGANAS,Australian Labor Party,ALP,2007,,
-166,Hinkler,QLD,17161,Paul,NEVILLE,The Nationals,NP,2007,,
-216,Holt,VIC,18358,Anthony,BYRNE,Australian Labor Party,ALP,2007,,
-217,Hotham,VIC,18189,Simon,CREAN,Australian Labor Party,ALP,2007,,
-124,Hughes,NSW,17863,Danna,VALE,Liberal,LP,2007,,
-125,Hume,NSW,17952,Alby,SCHULTZ,Liberal,LP,2007,,
-126,Hunter,NSW,18040,Joel,FITZGIBBON,Australian Labor Party,ALP,2007,,
-218,Indi,VIC,17274,Sophie,MIRABELLA,Liberal,LP,2007,,
-219,Isaacs,VIC,18048,Mark,DREYFUS,Australian Labor Party,ALP,2007,,
-220,Jagajaga,VIC,18074,Jenny,MACKLIN,Australian Labor Party,ALP,2007,,
-241,Kalgoorlie,WA,17224,Barry,HAASE,Liberal,LP,2007,,
-167,Kennedy,QLD,13270,Bob,KATTER,Independent,IND,2007,,
-127,Kingsford Smith,NSW,18120,Peter,GARRETT,Australian Labor Party,ALP,2007,,
-186,Kingston,SA,17707,Amanda,RISHWORTH,Australian Labor Party,ALP,2007,,
-221,Kooyong,VIC,17267,Petro,GEORGIOU,Liberal,LP,2007,,
-223,La Trobe,VIC,17259,Jason,WOOD,Liberal,LP,2007,,
-222,Lalor,VIC,18108,Julia,GILLARD,Australian Labor Party,ALP,2007,,
-168,Leichhardt,QLD,17515,Jim,TURNOUR,Australian Labor Party,ALP,2007,,
-169,Lilley,QLD,17516,Wayne,SWAN,Australian Labor Party,ALP,2007,,
-128,Lindsay,NSW,18125,David,BRADBURY,Australian Labor Party,ALP,2007,,
-306,Lingiari,NT,17531,Warren,SNOWDON,Australian Labor Party,ALP,2007,,
-302,Longman,QLD,17534,Jon,SULLIVAN,Australian Labor Party,ALP,2007,,
-129,Lowe,NSW,18073,John,MURPHY,Australian Labor Party,ALP,2007,,
-130,Lyne,NSW,17198,Mark,VAILE,The Nationals,NP,2007,,
-196,Lyons,TAS,17500,Dick,ADAMS,Australian Labor Party,ALP,2007,,
-131,Macarthur,NSW,18075,Pat,FARMER,Liberal,LP,2007,,
-132,Mackellar,NSW,17868,Bronwyn,BISHOP,Liberal,LP,2007,,
-133,Macquarie,NSW,18087,Bob,DEBUS,Australian Labor Party,ALP,2007,,
-187,Makin,SA,17939,Tony,ZAPPIA,Australian Labor Party,ALP,2007,,
-224,Mallee,VIC,17297,John,FORREST,The Nationals,NP,2007,,
-170,Maranoa,QLD,17173,Bruce,SCOTT,The Nationals,NP,2007,,
-225,Maribyrnong,VIC,18059,Bill,SHORTEN,Australian Labor Party,ALP,2007,,
-188,Mayo,SA,17653,Alexander,DOWNER,Liberal,LP,2007,,
-226,McEwen,VIC,17265,Fran,BAILEY,Liberal,LP,2007,,
-227,McMillan,VIC,17251,Russell,BROADBENT,Liberal,LP,2007,,
-171,McPherson,QLD,17753,Margaret,MAY,Liberal,LP,2007,,
-228,Melbourne,VIC,18091,Lindsay,TANNER,Australian Labor Party,ALP,2007,,
-230,Melbourne Ports,VIC,18093,Michael,DANBY,Australian Labor Party,ALP,2007,,
-229,Menzies,VIC,17256,Kevin,ANDREWS,Liberal,LP,2007,,
-134,Mitchell,NSW,17899,Alex,HAWKE,Liberal,LP,2007,,
-172,Moncrieff,QLD,17746,Steven,CIOBO,Liberal,LP,2007,,
-242,Moore,WA,17216,Mal,WASHER,Liberal,LP,2007,,
-173,Moreton,QLD,17532,Graham,PERRETT,Australian Labor Party,ALP,2007,,
-231,Murray,VIC,17258,Sharman,STONE,Liberal,LP,2007,,
-135,New England,NSW,13274,Tony,WINDSOR,Independent,IND,2007,,
-136,Newcastle,NSW,18084,Sharon,GRIERSON,Australian Labor Party,ALP,2007,,
-137,North Sydney,NSW,17876,Joe,HOCKEY,Liberal,LP,2007,,
-243,O''Connor,WA,17208,Wilson,TUCKEY,Liberal,LP,2007,,
-174,Oxley,QLD,17517,Bernie,RIPOLL,Australian Labor Party,ALP,2007,,
-138,Page,NSW,18214,Janelle,SAFFIN,Australian Labor Party,ALP,2007,,
-139,Parkes,NSW,17204,Mark,COULTON,The Nationals,NP,2007,,
-140,Parramatta,NSW,18069,Julie,OWENS,Australian Labor Party,ALP,2007,,
-249,Paterson,NSW,17859,Bob,BALDWIN,Liberal,LP,2007,,
-244,Pearce,WA,17219,Judi,MOYLAN,Liberal,LP,2007,,
-245,Perth,WA,17480,Stephen,SMITH,Australian Labor Party,ALP,2007,,
-175,Petrie,QLD,17595,Yvette,D''ATH,Australian Labor Party,ALP,2007,,
-189,Port Adelaide,SA,17750,Mark,BUTLER,Australian Labor Party,ALP,2007,,
-142,Prospect,NSW,18156,Chris,BOWEN,Australian Labor Party,ALP,2007,,
-176,Rankin,QLD,17535,Craig,EMERSON,Australian Labor Party,ALP,2007,,
-144,Reid,NSW,18202,Laurie,FERGUSON,Australian Labor Party,ALP,2007,,
-145,Richmond,NSW,18050,Justine,ELLIOT,Australian Labor Party,ALP,2007,,
-250,Riverina,NSW,17205,Kay,HULL,The Nationals,NP,2007,,
-146,Robertson,NSW,18082,Belinda,NEAL,Australian Labor Party,ALP,2007,,
-177,Ryan,QLD,17736,Michael,JOHNSON,Liberal,LP,2007,,
-232,Scullin,VIC,18116,Harry,JENKINS,Australian Labor Party,ALP,2007,,
-148,Shortland,NSW,18061,Jill,HALL,Australian Labor Party,ALP,2007,,
-307,Solomon,NT,17529,Damian,HALE,Australian Labor Party,ALP,2007,,
-246,Stirling,WA,17210,Michael,KEENAN,Liberal,LP,2007,,
-190,Sturt,SA,17723,Christopher,PYNE,Liberal,LP,2007,,
-247,Swan,WA,17214,Steve,IRONS,Liberal,LP,2007,,
-149,Sydney,NSW,18088,Tanya,PLIBERSEK,Australian Labor Party,ALP,2007,,
-248,Tangney,WA,17213,Dennis,JENSEN,Liberal,LP,2007,,
-150,Throsby,NSW,18068,Jennie,GEORGE,Australian Labor Party,ALP,2007,,
-191,Wakefield,SA,17731,Nick,CHAMPION,Australian Labor Party,ALP,2007,,
-233,Wannon,VIC,17271,David,HAWKER,Liberal,LP,2007,,
-151,Warringah,NSW,18029,Tony,ABBOTT,Liberal,LP,2007,,
-251,Watson,NSW,18199,Tony,BURKE,Australian Labor Party,ALP,2007,,
-152,Wentworth,NSW,17882,Malcolm,TURNBULL,Liberal,LP,2007,,
-153,Werriwa,NSW,18244,Chris,HAYES,Australian Labor Party,ALP,2007,,
-178,Wide Bay,QLD,17160,Warren,TRUSS,The Nationals,NP,2007,,
-234,Wills,VIC,18065,Kelvin,THOMSON,Australian Labor Party,ALP,2007,,
-179,Adelaide,SA,14409,Kate,ELLIS,Australian Labor Party,ALP,2004,,
-197,Aston,VIC,14255,Chris,PEARCE,Liberal,LP,2004,,
-198,Ballarat,VIC,14638,Catherine,KING,Australian Labor Party,ALP,2004,,
-103,Banks,NSW,14330,Daryl,MELHAM,Australian Labor Party,ALP,2004,,
-180,Barker,SA,14595,Patrick,SECKER,Liberal,LP,2004,,
-104,Barton,NSW,14360,Robert,McCLELLAND,Australian Labor Party,ALP,2004,,
-192,Bass,TAS,14644,Michael,FERGUSON,Liberal,LP,2004,,
-199,Batman,VIC,14657,Martin,FERGUSON,Australian Labor Party,ALP,2004,,
-200,Bendigo,VIC,14653,Steve,GIBBONS,Australian Labor Party,ALP,2004,,
-105,Bennelong,NSW,14818,John Winston,HOWARD,Liberal,LP,2004,,
-106,Berowra,NSW,14745,Philip,RUDDOCK,Liberal,LP,2004,,
-304,Blair,QLD,14926,Cameron,THOMPSON,Liberal,LP,2004,,
-107,Blaxland,NSW,14319,Michael John,HATTON,Australian Labor Party,ALP,2004,,
-310,Bonner,QLD,15033,Ross,VASTA,Liberal,LP,2004,,
-182,Boothby,SA,14596,Andrew,SOUTHCOTT,Liberal,LP,2004,,
-155,Bowman,QLD,14913,Andrew,LAMING,Liberal,LP,2004,,
-193,Braddon,TAS,14633,Mark,BAKER,Liberal,LP,2004,,
-108,Bradfield,NSW,14739,Brendan,NELSON,Liberal,LP,2004,,
-235,Brand,WA,14546,Kim,BEAZLEY,Australian Labor Party,ALP,2004,,
-156,Brisbane,QLD,14995,Arch,BEVIS,Australian Labor Party,ALP,2004,,
-201,Bruce,VIC,14658,Alan,GRIFFIN,Australian Labor Party,ALP,2004,,
-109,Calare,NSW,6975,Peter,ANDREN,Independent,IND,2004,,
-203,Calwell,VIC,14640,Maria,VAMVAKINOU,Australian Labor Party,ALP,2004,,
-101,Canberra,ACT,15360,Annette,ELLIS,Australian Labor Party,ALP,2004,,
-236,Canning,WA,14963,Don,RANDALL,Liberal,LP,2004,,
-157,Capricornia,QLD,15107,Kirsten,LIVERMORE,Australian Labor Party,ALP,2004,,
-204,Casey,VIC,14226,Tony,SMITH,Liberal,LP,2004,,
-110,Charlton,NSW,14323,Kelly,HOARE,Australian Labor Party,ALP,2004,,
-111,Chifley,NSW,14315,Roger,PRICE,Australian Labor Party,ALP,2004,,
-205,Chisholm,VIC,14690,Anna Elizabeth,BURKE,Australian Labor Party,ALP,2004,,
-112,Cook,NSW,14794,Bruce,BAIRD,Liberal,LP,2004,,
-207,Corangamite,VIC,14243,Stewart,McARTHUR,Liberal,LP,2004,,
-208,Corio,VIC,14635,Gavan,O''CONNOR,Australian Labor Party,ALP,2004,,
-237,Cowan,WA,14558,Graham,EDWARDS,Australian Labor Party,ALP,2004,,
-113,Cowper,NSW,14591,Luke,HARTSUYKER,The Nationals,NP,2004,,
-114,Cunningham,NSW,14380,Sharon,BIRD,Australian Labor Party,ALP,2004,,
-238,Curtin,WA,14950,Julie,BISHOP,Liberal,LP,2004,,
-158,Dawson,QLD,14273,De-Anne,KELLY,The Nationals,NP,2004,,
-209,Deakin,VIC,14238,Phil,BARRESI,Liberal,LP,2004,,
-194,Denison,TAS,14297,Duncan,KERR,Australian Labor Party,ALP,2004,,
-252,Dickson,QLD,14993,Peter,DUTTON,Liberal,LP,2004,,
-115,Dobell,NSW,14740,Ken,TICEHURST,Liberal,LP,2004,,
-210,Dunkley,VIC,14225,Bruce,BILLSON,Liberal,LP,2004,,
-117,Eden-Monaro,NSW,14764,Gary,NAIRN,Liberal,LP,2004,,
-159,Fadden,QLD,14929,David,JULL,Liberal,LP,2004,,
-160,Fairfax,QLD,14915,Alex,SOMLYAY,Liberal,LP,2004,,
-118,Farrer,NSW,14749,Sussan,LEY,Liberal,LP,2004,,
-161,Fisher,QLD,14911,Peter,SLIPPER,Liberal,LP,2004,,
-211,Flinders,VIC,14248,Greg,HUNT,Liberal,LP,2004,,
-162,Forde,QLD,14956,Kay,ELSON,Liberal,LP,2004,,
-239,Forrest,WA,14959,Geoff,PROSSER,Liberal,LP,2004,,
-119,Fowler,NSW,14341,Julia,IRWIN,Australian Labor Party,ALP,2004,,
-195,Franklin,TAS,14307,Harry,QUICK,Australian Labor Party,ALP,2004,,
-102,Fraser,ACT,15359,Bob,McMULLAN,Australian Labor Party,ALP,2004,,
-240,Fremantle,WA,14544,Carmen,LAWRENCE,Australian Labor Party,ALP,2004,,
-212,Gellibrand,VIC,14697,Nicola,ROXON,Australian Labor Party,ALP,2004,,
-120,Gilmore,NSW,14837,Joanna,GASH,Liberal,LP,2004,,
-213,Gippsland,VIC,14856,Peter,McGAURAN,The Nationals,NP,2004,,
-214,Goldstein,VIC,14223,Andrew,ROBB,Liberal,LP,2004,,
-309,Gorton,VIC,14650,Brendan,O''CONNOR,Australian Labor Party,ALP,2004,,
-121,Grayndler,NSW,14384,Anthony,ALBANESE,Australian Labor Party,ALP,2004,,
-122,Greenway,NSW,14779,Louise,MARKUS,Liberal,LP,2004,,
-183,Grey,SA,14597,Barry,WAKELIN,Liberal,LP,2004,,
-163,Griffith,QLD,14907,Kevin,RUDD,Australian Labor Party,ALP,2004,,
-164,Groom,QLD,15003,Ian Elgin,MACFARLANE,Liberal,LP,2004,,
-123,Gwydir,NSW,14573,John,ANDERSON,The Nationals,NP,2004,,
-305,Hasluck,WA,14952,Stuart,HENRY,Liberal,LP,2004,,
-165,Herbert,QLD,15015,Peter,LINDSAY,Liberal,LP,2004,,
-215,Higgins,VIC,14231,Peter,COSTELLO,Liberal,LP,2004,,
-185,Hindmarsh,SA,14424,Steve,GEORGANAS,Australian Labor Party,ALP,2004,,
-166,Hinkler,QLD,14278,Paul,NEVILLE,The Nationals,NP,2004,,
-216,Holt,VIC,14652,Anthony,BYRNE,Australian Labor Party,ALP,2004,,
-217,Hotham,VIC,14695,Simon,CREAN,Australian Labor Party,ALP,2004,,
-124,Hughes,NSW,14781,Danna,VALE,Liberal,LP,2004,,
-125,Hume,NSW,14766,Alby,SCHULTZ,Liberal,LP,2004,,
-126,Hunter,NSW,14365,Joel,FITZGIBBON,Australian Labor Party,ALP,2004,,
-218,Indi,VIC,14240,Sophie,PANOPOULOS,Liberal,LP,2004,,
-219,Isaacs,VIC,14689,Ann K,CORCORAN,Australian Labor Party,ALP,2004,,
-220,Jagajaga,VIC,14632,Jenny,MACKLIN,Australian Labor Party,ALP,2004,,
-241,Kalgoorlie,WA,14985,Barry,HAASE,Liberal,LP,2004,,
-167,Kennedy,QLD,13270,Bob,KATTER,Independent,IND,2004,,
-127,Kingsford Smith,NSW,14336,Peter,GARRETT,Australian Labor Party,ALP,2004,,
-186,Kingston,SA,14628,Kym,RICHARDSON,Liberal,LP,2004,,
-221,Kooyong,VIC,14282,Petro,GEORGIOU,Liberal,LP,2004,,
-223,La Trobe,VIC,14224,Jason,WOOD,Liberal,LP,2004,,
-222,Lalor,VIC,14646,Julia,GILLARD,Australian Labor Party,ALP,2004,,
-168,Leichhardt,QLD,14924,Warren,ENTSCH,Liberal,LP,2004,,
-169,Lilley,QLD,14899,Wayne,SWAN,Australian Labor Party,ALP,2004,,
-128,Lindsay,NSW,14910,Jackie,KELLY,Liberal,LP,2004,,
-306,Lingiari,NT,14577,Warren,SNOWDON,Australian Labor Party,ALP,2004,,
-302,Longman,QLD,14914,Mal,BROUGH,Liberal,LP,2004,,
-129,Lowe,NSW,14362,John,MURPHY,Australian Labor Party,ALP,2004,,
-130,Lyne,NSW,14570,Mark,VAILE,The Nationals,NP,2004,,
-196,Lyons,TAS,14299,Dick,ADAMS,Australian Labor Party,ALP,2004,,
-131,Macarthur,NSW,14879,Pat,FARMER,Liberal,LP,2004,,
-132,Mackellar,NSW,14827,Bronwyn,BISHOP,Liberal,LP,2004,,
-133,Macquarie,NSW,14782,Kerry,BARTLETT,Liberal,LP,2004,,
-187,Makin,SA,14594,Trish,DRAPER,Liberal,LP,2004,,
-224,Mallee,VIC,14875,John,FORREST,The Nationals,NP,2004,,
-170,Maranoa,QLD,14303,Bruce,SCOTT,The Nationals,NP,2004,,
-225,Maribyrnong,VIC,14641,Bob,SERCOMBE,Australian Labor Party,ALP,2004,,
-188,Mayo,SA,14617,Alexander,DOWNER,Liberal,LP,2004,,
-226,McEwen,VIC,14236,Fran,BAILEY,Liberal,LP,2004,,
-227,McMillan,VIC,14253,Russell,BROADBENT,Liberal,LP,2004,,
-171,McPherson,QLD,15031,Margaret,MAY,Liberal,LP,2004,,
-228,Melbourne,VIC,14636,Lindsay James,TANNER,Australian Labor Party,ALP,2004,,
-230,Melbourne Ports,VIC,14660,Michael,DANBY,Australian Labor Party,ALP,2004,,
-229,Menzies,VIC,14235,Kevin,ANDREWS,Liberal,LP,2004,,
-134,Mitchell,NSW,14908,Alan,CADMAN,Liberal,LP,2004,,
-172,Moncrieff,QLD,15028,Steven,CIOBO,Liberal,LP,2004,,
-242,Moore,WA,14981,Mal,WASHER,Liberal,LP,2004,,
-173,Moreton,QLD,14931,Gary,HARDGRAVE,Liberal,LP,2004,,
-231,Murray,VIC,14232,Sharman,STONE,Liberal,LP,2004,,
-135,New England,NSW,13274,Tony,WINDSOR,Independent,IND,2004,,
-136,Newcastle,NSW,14333,Sharon,GRIERSON,Australian Labor Party,ALP,2004,,
-137,North Sydney,NSW,14777,Joe,HOCKEY,Liberal,LP,2004,,
-243,O''Connor,WA,14986,Wilson,TUCKEY,Liberal,LP,2004,,
-174,Oxley,QLD,14898,Bernie,RIPOLL,Australian Labor Party,ALP,2004,,
-138,Page,NSW,14582,Ian,CAUSLEY,The Nationals,NP,2004,,
-139,Parkes,NSW,14626,John,COBB,The Nationals,NP,2004,,
-140,Parramatta,NSW,14328,Julie,OWENS,Australian Labor Party,ALP,2004,,
-249,Paterson,NSW,14876,Bob,BALDWIN,Liberal,LP,2004,,
-244,Pearce,WA,14955,Judi,MOYLAN,Liberal,LP,2004,,
-245,Perth,WA,14543,Stephen,SMITH,Australian Labor Party,ALP,2004,,
-175,Petrie,QLD,15048,Teresa,GAMBARO,Liberal,LP,2004,,
-189,Port Adelaide,SA,14390,Rod,SAWFORD,Australian Labor Party,ALP,2004,,
-142,Prospect,NSW,14431,Chris,BOWEN,Australian Labor Party,ALP,2004,,
-176,Rankin,QLD,14977,Craig,EMERSON,Australian Labor Party,ALP,2004,,
-144,Reid,NSW,14396,Laurie,FERGUSON,Australian Labor Party,ALP,2004,,
-145,Richmond,NSW,14308,Justine,ELLIOT,Australian Labor Party,ALP,2004,,
-250,Riverina,NSW,14589,Kay,HULL,The Nationals,NP,2004,,
-146,Robertson,NSW,14802,Jim,LLOYD,Liberal,LP,2004,,
-177,Ryan,QLD,14945,Michael,JOHNSON,Liberal,LP,2004,,
-232,Scullin,VIC,14637,Harry,JENKINS,Australian Labor Party,ALP,2004,,
-148,Shortland,NSW,14348,Jill,HALL,Australian Labor Party,ALP,2004,,
-307,Solomon,NT,14681,David,TOLLNER,CLP - The Territory Party,CLP,2004,,
-246,Stirling,WA,15066,Michael,KEENAN,Liberal,LP,2004,,
-190,Sturt,SA,14600,Christopher,PYNE,Liberal,LP,2004,,
-247,Swan,WA,14547,Kim,WILKIE,Australian Labor Party,ALP,2004,,
-149,Sydney,NSW,14305,Tanya,PLIBERSEK,Australian Labor Party,ALP,2004,,
-248,Tangney,WA,14951,Dennis,JENSEN,Liberal,LP,2004,,
-150,Throsby,NSW,14326,Jennie,GEORGE,Australian Labor Party,ALP,2004,,
-191,Wakefield,SA,14618,David,FAWCETT,Liberal,LP,2004,,
-233,Wannon,VIC,14244,David,HAWKER,Liberal,LP,2004,,
-151,Warringah,NSW,14833,Tony,ABBOTT,Liberal,LP,2004,,
-251,Watson,NSW,14342,Tony,BURKE,Australian Labor Party,ALP,2004,,
-152,Wentworth,NSW,14923,Malcolm,TURNBULL,Liberal,LP,2004,,
-153,Werriwa,NSW,14340,Mark,LATHAM,Australian Labor Party,ALP,2004,,
-178,Wide Bay,QLD,14288,Warren,TRUSS,The Nationals,NP,2004,,
-234,Wills,VIC,14631,Kelvin,THOMSON,Australian Labor Party,ALP,2004,,
+﻿Row,State,DivisionNm,Year1,Party1,Year2,Party2
+1,SA,Adelaide,2004,ALP,2007,ALP
+2,VIC,Aston,2004,LP,2007,LP
+3,VIC,Ballarat,2004,ALP,2007,ALP
+4,NSW,Banks,2004,ALP,2007,ALP
+5,SA,Barker,2004,LP,2007,LP
+6,NSW,Barton,2004,ALP,2007,ALP
+7,TAS,Bass,2004,LP,2007,ALP
+8,ACT,Bean,2004,,2007,
+9,VIC,Bendigo,2004,ALP,2007,ALP
+10,NSW,Bennelong,2004,LP,2007,ALP
+11,NSW,Berowra,2004,LP,2007,LP
+12,QLD,Blair,2004,LP,2007,ALP
+13,NSW,Blaxland,2004,ALP,2007,ALP
+14,QLD,Bonner,2004,LP,2007,ALP
+15,SA,Boothby,2004,LP,2007,LP
+16,QLD,Bowman,2004,LP,2007,LP
+17,TAS,Braddon,2004,LP,2007,ALP
+18,NSW,Bradfield,2004,LP,2007,LP
+19,WA,Brand,2004,ALP,2007,ALP
+20,QLD,Brisbane,2004,ALP,2007,ALP
+21,VIC,Bruce,2004,ALP,2007,ALP
+22,WA,Bullwinkel,2004,,2007,
+23,WA,Burt,2004,,2007,
+24,NSW,Calare,2004,IND,2007,NP
+25,VIC,Calwell,2004,ALP,2007,ALP
+26,ACT,Canberra,2004,ALP,2007,ALP
+27,WA,Canning,2004,LP,2007,LP
+28,QLD,Capricornia,2004,ALP,2007,ALP
+29,VIC,Casey,2004,LP,2007,LP
+30,NSW,Chifley,2004,ALP,2007,ALP
+31,VIC,Chisholm,2004,ALP,2007,ALP
+32,TAS,Clark,2004,ALP,2007,ALP
+33,NSW,Cook,2004,LP,2007,LP
+34,VIC,Cooper,2004,ALP,2007,ALP
+35,VIC,Corangamite,2004,LP,2007,ALP
+36,VIC,Corio,2004,ALP,2007,ALP
+37,WA,Cowan,2004,ALP,2007,LP
+38,NSW,Cowper,2004,NP,2007,NP
+39,NSW,Cunningham,2004,ALP,2007,ALP
+40,WA,Curtin,2004,LP,2007,LP
+41,QLD,Dawson,2004,NP,2007,ALP
+42,VIC,Deakin,2004,LP,2007,ALP
+43,QLD,Dickson,2004,LP,2007,LP
+44,NSW,Dobell,2004,LP,2007,ALP
+45,VIC,Dunkley,2004,LP,2007,LP
+46,WA,Durack,2004,LP,2007,LP
+47,NSW,Eden-Monaro,2004,LP,2007,ALP
+48,QLD,Fadden,2004,LP,2007,LP
+49,QLD,Fairfax,2004,LP,2007,LP
+50,NSW,Farrer,2004,LP,2007,LP
+51,ACT,Fenner,2004,ALP,2007,ALP
+52,QLD,Fisher,2004,LP,2007,LP
+53,VIC,Flinders,2004,LP,2007,LP
+54,QLD,Flynn,2004,,2007,ALP
+55,QLD,Forde,2004,LP,2007,ALP
+56,WA,Forrest,2004,LP,2007,LP
+57,NSW,Fowler,2004,ALP,2007,ALP
+58,TAS,Franklin,2004,ALP,2007,ALP
+59,WA,Fremantle,2004,ALP,2007,ALP
+60,VIC,Gellibrand,2004,ALP,2007,ALP
+61,NSW,Gilmore,2004,LP,2007,LP
+62,VIC,Gippsland,2004,NP,2007,NP
+63,VIC,Goldstein,2004,LP,2007,LP
+64,VIC,Gorton,2004,ALP,2007,ALP
+65,NSW,Grayndler,2004,ALP,2007,ALP
+66,NSW,Greenway,2004,LP,2007,LP
+67,SA,Grey,2004,LP,2007,LP
+68,QLD,Griffith,2004,ALP,2007,ALP
+69,QLD,Groom,2004,LP,2007,LP
+70,WA,Hasluck,2004,LP,2007,ALP
+71,VIC,Hawke,2004,,2007,
+72,QLD,Herbert,2004,LP,2007,LP
+73,SA,Hindmarsh,2004,ALP,2007,ALP
+74,QLD,Hinkler,2004,NP,2007,NP
+75,VIC,Holt,2004,ALP,2007,ALP
+76,VIC,Hotham,2004,ALP,2007,ALP
+77,NSW,Hughes,2004,LP,2007,LP
+78,NSW,Hume,2004,LP,2007,LP
+79,NSW,Hunter,2004,ALP,2007,ALP
+80,VIC,Indi,2004,LP,2007,LP
+81,VIC,Isaacs,2004,ALP,2007,ALP
+82,VIC,Jagajaga,2004,ALP,2007,ALP
+83,QLD,Kennedy,2004,IND,2007,IND
+84,NSW,Kingsford Smith,2004,ALP,2007,ALP
+85,SA,Kingston,2004,LP,2007,ALP
+86,VIC,Kooyong,2004,LP,2007,LP
+87,VIC,La Trobe,2004,LP,2007,LP
+88,VIC,Lalor,2004,ALP,2007,ALP
+89,QLD,Leichhardt,2004,LP,2007,ALP
+90,QLD,Lilley,2004,ALP,2007,ALP
+91,NSW,Lindsay,2004,LP,2007,ALP
+92,NT,Lingiari,2004,ALP,2007,ALP
+93,QLD,Longman,2004,LP,2007,ALP
+94,NSW,Lyne,2004,NP,2007,NP
+95,TAS,Lyons,2004,ALP,2007,ALP
+96,NSW,Macarthur,2004,LP,2007,LP
+97,NSW,Mackellar,2004,LP,2007,LP
+98,VIC,Macnamara,2004,ALP,2007,ALP
+99,NSW,Macquarie,2004,LP,2007,ALP
+100,SA,Makin,2004,LP,2007,ALP
+101,VIC,Mallee,2004,NP,2007,NP
+102,QLD,Maranoa,2004,NP,2007,NP
+103,VIC,Maribyrnong,2004,ALP,2007,ALP
+104,SA,Mayo,2004,LP,2007,LP
+105,VIC,McEwen,2004,LP,2007,LP
+106,NSW,McMahon,2004,ALP,2007,ALP
+107,QLD,McPherson,2004,LP,2007,LP
+108,VIC,Melbourne,2004,ALP,2007,ALP
+109,VIC,Menzies,2004,LP,2007,LP
+110,NSW,Mitchell,2004,LP,2007,LP
+111,VIC,Monash,2004,LP,2007,LP
+112,QLD,Moncrieff,2004,LP,2007,LP
+113,WA,Moore,2004,LP,2007,LP
+114,QLD,Moreton,2004,LP,2007,ALP
+115,NSW,New England,2004,IND,2007,IND
+116,NSW,Newcastle,2004,ALP,2007,ALP
+117,VIC,Nicholls,2004,LP,2007,LP
+118,WA,O'Connor,2004,LP,2007,LP
+119,QLD,Oxley,2004,ALP,2007,ALP
+120,NSW,Page,2004,NP,2007,ALP
+121,NSW,Parkes,2004,NP,2007,NP
+122,NSW,Parramatta,2004,ALP,2007,ALP
+123,NSW,Paterson,2004,LP,2007,LP
+124,WA,Pearce,2004,LP,2007,LP
+125,WA,Perth,2004,ALP,2007,ALP
+126,QLD,Petrie,2004,LP,2007,ALP
+127,QLD,Rankin,2004,ALP,2007,ALP
+128,NSW,Reid,2004,ALP,2007,ALP
+129,NSW,Richmond,2004,ALP,2007,ALP
+130,NSW,Riverina,2004,NP,2007,NP
+131,NSW,Robertson,2004,LP,2007,ALP
+132,QLD,Ryan,2004,LP,2007,LP
+133,VIC,Scullin,2004,ALP,2007,ALP
+134,NSW,Shortland,2004,ALP,2007,ALP
+135,NT,Solomon,2004,CLP,2007,ALP
+136,SA,Spence,2004,LP,2007,ALP
+137,SA,Sturt,2004,LP,2007,LP
+138,WA,Swan,2004,ALP,2007,LP
+139,NSW,Sydney,2004,ALP,2007,ALP
+140,WA,Tangney,2004,LP,2007,LP
+141,VIC,Wannon,2004,LP,2007,LP
+142,NSW,Warringah,2004,LP,2007,LP
+143,NSW,Watson,2004,ALP,2007,ALP
+144,NSW,Wentworth,2004,LP,2007,LP
+145,NSW,Werriwa,2004,ALP,2007,ALP
+146,NSW,Whitlam,2004,ALP,2007,ALP
+147,QLD,Wide Bay,2004,NP,2007,NP
+148,VIC,Wills,2004,ALP,2007,ALP
+149,QLD,Wright,2004,,2007,
+1,SA,Adelaide,2007,ALP,2010,ALP
+2,VIC,Aston,2007,LP,2010,LP
+3,VIC,Ballarat,2007,ALP,2010,ALP
+4,NSW,Banks,2007,ALP,2010,ALP
+5,SA,Barker,2007,LP,2010,LP
+6,NSW,Barton,2007,ALP,2010,ALP
+7,TAS,Bass,2007,ALP,2010,ALP
+8,ACT,Bean,2007,,2010,
+9,VIC,Bendigo,2007,ALP,2010,ALP
+10,NSW,Bennelong,2007,ALP,2010,LP
+11,NSW,Berowra,2007,LP,2010,LP
+12,QLD,Blair,2007,ALP,2010,ALP
+13,NSW,Blaxland,2007,ALP,2010,ALP
+14,QLD,Bonner,2007,ALP,2010,LNQ
+15,SA,Boothby,2007,LP,2010,LP
+16,QLD,Bowman,2007,LP,2010,LNQ
+17,TAS,Braddon,2007,ALP,2010,ALP
+18,NSW,Bradfield,2007,LP,2010,LP
+19,WA,Brand,2007,ALP,2010,ALP
+20,QLD,Brisbane,2007,ALP,2010,LNQ
+21,VIC,Bruce,2007,ALP,2010,ALP
+22,WA,Bullwinkel,2007,,2010,
+23,WA,Burt,2007,,2010,
+24,NSW,Calare,2007,NP,2010,NP
+25,VIC,Calwell,2007,ALP,2010,ALP
+26,ACT,Canberra,2007,ALP,2010,ALP
+27,WA,Canning,2007,LP,2010,LP
+28,QLD,Capricornia,2007,ALP,2010,ALP
+29,VIC,Casey,2007,LP,2010,LP
+30,NSW,Chifley,2007,ALP,2010,ALP
+31,VIC,Chisholm,2007,ALP,2010,ALP
+32,TAS,Clark,2007,ALP,2010,IND
+33,NSW,Cook,2007,LP,2010,LP
+34,VIC,Cooper,2007,ALP,2010,ALP
+35,VIC,Corangamite,2007,ALP,2010,ALP
+36,VIC,Corio,2007,ALP,2010,ALP
+37,WA,Cowan,2007,LP,2010,LP
+38,NSW,Cowper,2007,NP,2010,NP
+39,NSW,Cunningham,2007,ALP,2010,ALP
+40,WA,Curtin,2007,LP,2010,LP
+41,QLD,Dawson,2007,ALP,2010,LNQ
+42,VIC,Deakin,2007,ALP,2010,ALP
+43,QLD,Dickson,2007,LP,2010,LNQ
+44,NSW,Dobell,2007,ALP,2010,ALP
+45,VIC,Dunkley,2007,LP,2010,LP
+46,WA,Durack,2007,LP,2010,LP
+47,NSW,Eden-Monaro,2007,ALP,2010,ALP
+48,QLD,Fadden,2007,LP,2010,LNQ
+49,QLD,Fairfax,2007,LP,2010,LNQ
+50,NSW,Farrer,2007,LP,2010,LP
+51,ACT,Fenner,2007,ALP,2010,ALP
+52,QLD,Fisher,2007,LP,2010,LNQ
+53,VIC,Flinders,2007,LP,2010,LP
+54,QLD,Flynn,2007,ALP,2010,LNQ
+55,QLD,Forde,2007,ALP,2010,LNQ
+56,WA,Forrest,2007,LP,2010,LP
+57,NSW,Fowler,2007,ALP,2010,ALP
+58,TAS,Franklin,2007,ALP,2010,ALP
+59,WA,Fremantle,2007,ALP,2010,ALP
+60,VIC,Gellibrand,2007,ALP,2010,ALP
+61,NSW,Gilmore,2007,LP,2010,LP
+62,VIC,Gippsland,2007,NP,2010,NP
+63,VIC,Goldstein,2007,LP,2010,LP
+64,VIC,Gorton,2007,ALP,2010,ALP
+65,NSW,Grayndler,2007,ALP,2010,ALP
+66,NSW,Greenway,2007,LP,2010,ALP
+67,SA,Grey,2007,LP,2010,LP
+68,QLD,Griffith,2007,ALP,2010,ALP
+69,QLD,Groom,2007,LP,2010,LNQ
+70,WA,Hasluck,2007,ALP,2010,LP
+71,VIC,Hawke,2007,,2010,
+72,QLD,Herbert,2007,LP,2010,LNQ
+73,SA,Hindmarsh,2007,ALP,2010,ALP
+74,QLD,Hinkler,2007,NP,2010,LNQ
+75,VIC,Holt,2007,ALP,2010,ALP
+76,VIC,Hotham,2007,ALP,2010,ALP
+77,NSW,Hughes,2007,LP,2010,LP
+78,NSW,Hume,2007,LP,2010,LP
+79,NSW,Hunter,2007,ALP,2010,ALP
+80,VIC,Indi,2007,LP,2010,LP
+81,VIC,Isaacs,2007,ALP,2010,ALP
+82,VIC,Jagajaga,2007,ALP,2010,ALP
+83,QLD,Kennedy,2007,IND,2010,IND
+84,NSW,Kingsford Smith,2007,ALP,2010,ALP
+85,SA,Kingston,2007,ALP,2010,ALP
+86,VIC,Kooyong,2007,LP,2010,LP
+87,VIC,La Trobe,2007,LP,2010,ALP
+88,VIC,Lalor,2007,ALP,2010,ALP
+89,QLD,Leichhardt,2007,ALP,2010,LNQ
+90,QLD,Lilley,2007,ALP,2010,ALP
+91,NSW,Lindsay,2007,ALP,2010,ALP
+92,NT,Lingiari,2007,ALP,2010,ALP
+93,QLD,Longman,2007,ALP,2010,LNQ
+94,NSW,Lyne,2007,NP,2010,IND
+95,TAS,Lyons,2007,ALP,2010,ALP
+96,NSW,Macarthur,2007,LP,2010,LP
+97,NSW,Mackellar,2007,LP,2010,LP
+98,VIC,Macnamara,2007,ALP,2010,ALP
+99,NSW,Macquarie,2007,ALP,2010,LP
+100,SA,Makin,2007,ALP,2010,ALP
+101,VIC,Mallee,2007,NP,2010,NP
+102,QLD,Maranoa,2007,NP,2010,LNQ
+103,VIC,Maribyrnong,2007,ALP,2010,ALP
+104,SA,Mayo,2007,LP,2010,LP
+105,VIC,McEwen,2007,LP,2010,ALP
+106,NSW,McMahon,2007,ALP,2010,ALP
+107,QLD,McPherson,2007,LP,2010,LNQ
+108,VIC,Melbourne,2007,ALP,2010,GRN
+109,VIC,Menzies,2007,LP,2010,LP
+110,NSW,Mitchell,2007,LP,2010,LP
+111,VIC,Monash,2007,LP,2010,LP
+112,QLD,Moncrieff,2007,LP,2010,LNQ
+113,WA,Moore,2007,LP,2010,LP
+114,QLD,Moreton,2007,ALP,2010,ALP
+115,NSW,New England,2007,IND,2010,IND
+116,NSW,Newcastle,2007,ALP,2010,ALP
+117,VIC,Nicholls,2007,LP,2010,LP
+118,WA,O'Connor,2007,LP,2010,NP
+119,QLD,Oxley,2007,ALP,2010,ALP
+120,NSW,Page,2007,ALP,2010,ALP
+121,NSW,Parkes,2007,NP,2010,NP
+122,NSW,Parramatta,2007,ALP,2010,ALP
+123,NSW,Paterson,2007,LP,2010,LP
+124,WA,Pearce,2007,LP,2010,LP
+125,WA,Perth,2007,ALP,2010,ALP
+126,QLD,Petrie,2007,ALP,2010,ALP
+127,QLD,Rankin,2007,ALP,2010,ALP
+128,NSW,Reid,2007,ALP,2010,ALP
+129,NSW,Richmond,2007,ALP,2010,ALP
+130,NSW,Riverina,2007,NP,2010,NP
+131,NSW,Robertson,2007,ALP,2010,ALP
+132,QLD,Ryan,2007,LP,2010,LNQ
+133,VIC,Scullin,2007,ALP,2010,ALP
+134,NSW,Shortland,2007,ALP,2010,ALP
+135,NT,Solomon,2007,ALP,2010,CLP
+136,SA,Spence,2007,ALP,2010,ALP
+137,SA,Sturt,2007,LP,2010,LP
+138,WA,Swan,2007,LP,2010,LP
+139,NSW,Sydney,2007,ALP,2010,ALP
+140,WA,Tangney,2007,LP,2010,LP
+141,VIC,Wannon,2007,LP,2010,LP
+142,NSW,Warringah,2007,LP,2010,LP
+143,NSW,Watson,2007,ALP,2010,ALP
+144,NSW,Wentworth,2007,LP,2010,LP
+145,NSW,Werriwa,2007,ALP,2010,ALP
+146,NSW,Whitlam,2007,ALP,2010,ALP
+147,QLD,Wide Bay,2007,NP,2010,LNQ
+148,VIC,Wills,2007,ALP,2010,ALP
+149,QLD,Wright,2007,,2010,LNQ
+1,SA,Adelaide,2010,ALP,2013,ALP
+2,VIC,Aston,2010,LP,2013,LP
+3,VIC,Ballarat,2010,ALP,2013,ALP
+4,NSW,Banks,2010,ALP,2013,LP
+5,SA,Barker,2010,LP,2013,LP
+6,NSW,Barton,2010,ALP,2013,LP
+7,TAS,Bass,2010,ALP,2013,LP
+8,ACT,Bean,2010,,2013,
+9,VIC,Bendigo,2010,ALP,2013,ALP
+10,NSW,Bennelong,2010,LP,2013,LP
+11,NSW,Berowra,2010,LP,2013,LP
+12,QLD,Blair,2010,ALP,2013,ALP
+13,NSW,Blaxland,2010,ALP,2013,ALP
+14,QLD,Bonner,2010,LNQ,2013,LNP
+15,SA,Boothby,2010,LP,2013,LP
+16,QLD,Bowman,2010,LNQ,2013,LNP
+17,TAS,Braddon,2010,ALP,2013,LP
+18,NSW,Bradfield,2010,LP,2013,LP
+19,WA,Brand,2010,ALP,2013,ALP
+20,QLD,Brisbane,2010,LNQ,2013,LNP
+21,VIC,Bruce,2010,ALP,2013,ALP
+22,WA,Bullwinkel,2010,,2013,
+23,WA,Burt,2010,,2013,
+24,NSW,Calare,2010,NP,2013,NP
+25,VIC,Calwell,2010,ALP,2013,ALP
+26,ACT,Canberra,2010,ALP,2013,ALP
+27,WA,Canning,2010,LP,2013,LP
+28,QLD,Capricornia,2010,ALP,2013,LNP
+29,VIC,Casey,2010,LP,2013,LP
+30,NSW,Chifley,2010,ALP,2013,ALP
+31,VIC,Chisholm,2010,ALP,2013,ALP
+32,TAS,Clark,2010,IND,2013,IND
+33,NSW,Cook,2010,LP,2013,LP
+34,VIC,Cooper,2010,ALP,2013,ALP
+35,VIC,Corangamite,2010,ALP,2013,LP
+36,VIC,Corio,2010,ALP,2013,ALP
+37,WA,Cowan,2010,LP,2013,LP
+38,NSW,Cowper,2010,NP,2013,NP
+39,NSW,Cunningham,2010,ALP,2013,ALP
+40,WA,Curtin,2010,LP,2013,LP
+41,QLD,Dawson,2010,LNQ,2013,LNP
+42,VIC,Deakin,2010,ALP,2013,LP
+43,QLD,Dickson,2010,LNQ,2013,LNP
+44,NSW,Dobell,2010,ALP,2013,LP
+45,VIC,Dunkley,2010,LP,2013,LP
+46,WA,Durack,2010,LP,2013,LP
+47,NSW,Eden-Monaro,2010,ALP,2013,LP
+48,QLD,Fadden,2010,LNQ,2013,LNP
+49,QLD,Fairfax,2010,LNQ,2013,PUP
+50,NSW,Farrer,2010,LP,2013,LP
+51,ACT,Fenner,2010,ALP,2013,ALP
+52,QLD,Fisher,2010,LNQ,2013,LNP
+53,VIC,Flinders,2010,LP,2013,LP
+54,QLD,Flynn,2010,LNQ,2013,LNP
+55,QLD,Forde,2010,LNQ,2013,LNP
+56,WA,Forrest,2010,LP,2013,LP
+57,NSW,Fowler,2010,ALP,2013,ALP
+58,TAS,Franklin,2010,ALP,2013,ALP
+59,WA,Fremantle,2010,ALP,2013,ALP
+60,VIC,Gellibrand,2010,ALP,2013,ALP
+61,NSW,Gilmore,2010,LP,2013,LP
+62,VIC,Gippsland,2010,NP,2013,NP
+63,VIC,Goldstein,2010,LP,2013,LP
+64,VIC,Gorton,2010,ALP,2013,ALP
+65,NSW,Grayndler,2010,ALP,2013,ALP
+66,NSW,Greenway,2010,ALP,2013,ALP
+67,SA,Grey,2010,LP,2013,LP
+68,QLD,Griffith,2010,ALP,2013,ALP
+69,QLD,Groom,2010,LNQ,2013,LNP
+70,WA,Hasluck,2010,LP,2013,LP
+71,VIC,Hawke,2010,,2013,
+72,QLD,Herbert,2010,LNQ,2013,LNP
+73,SA,Hindmarsh,2010,ALP,2013,LP
+74,QLD,Hinkler,2010,LNQ,2013,LNP
+75,VIC,Holt,2010,ALP,2013,ALP
+76,VIC,Hotham,2010,ALP,2013,ALP
+77,NSW,Hughes,2010,LP,2013,LP
+78,NSW,Hume,2010,LP,2013,LP
+79,NSW,Hunter,2010,ALP,2013,ALP
+80,VIC,Indi,2010,LP,2013,IND
+81,VIC,Isaacs,2010,ALP,2013,ALP
+82,VIC,Jagajaga,2010,ALP,2013,ALP
+83,QLD,Kennedy,2010,IND,2013,KAP
+84,NSW,Kingsford Smith,2010,ALP,2013,ALP
+85,SA,Kingston,2010,ALP,2013,ALP
+86,VIC,Kooyong,2010,LP,2013,LP
+87,VIC,La Trobe,2010,ALP,2013,LP
+88,VIC,Lalor,2010,ALP,2013,ALP
+89,QLD,Leichhardt,2010,LNQ,2013,LP
+90,QLD,Lilley,2010,ALP,2013,ALP
+91,NSW,Lindsay,2010,ALP,2013,LP
+92,NT,Lingiari,2010,ALP,2013,ALP
+93,QLD,Longman,2010,LNQ,2013,LNP
+94,NSW,Lyne,2010,IND,2013,NP
+95,TAS,Lyons,2010,ALP,2013,LP
+96,NSW,Macarthur,2010,LP,2013,LP
+97,NSW,Mackellar,2010,LP,2013,LP
+98,VIC,Macnamara,2010,ALP,2013,ALP
+99,NSW,Macquarie,2010,LP,2013,LP
+100,SA,Makin,2010,ALP,2013,ALP
+101,VIC,Mallee,2010,NP,2013,NP
+102,QLD,Maranoa,2010,LNQ,2013,LNP
+103,VIC,Maribyrnong,2010,ALP,2013,ALP
+104,SA,Mayo,2010,LP,2013,LP
+105,VIC,McEwen,2010,ALP,2013,ALP
+106,NSW,McMahon,2010,ALP,2013,ALP
+107,QLD,McPherson,2010,LNQ,2013,LNP
+108,VIC,Melbourne,2010,GRN,2013,GRN
+109,VIC,Menzies,2010,LP,2013,LP
+110,NSW,Mitchell,2010,LP,2013,LP
+111,VIC,Monash,2010,LP,2013,LP
+112,QLD,Moncrieff,2010,LNQ,2013,LNP
+113,WA,Moore,2010,LP,2013,LP
+114,QLD,Moreton,2010,ALP,2013,ALP
+115,NSW,New England,2010,IND,2013,NP
+116,NSW,Newcastle,2010,ALP,2013,ALP
+117,VIC,Nicholls,2010,LP,2013,LP
+118,WA,O'Connor,2010,NP,2013,LP
+119,QLD,Oxley,2010,ALP,2013,ALP
+120,NSW,Page,2010,ALP,2013,NP
+121,NSW,Parkes,2010,NP,2013,NP
+122,NSW,Parramatta,2010,ALP,2013,ALP
+123,NSW,Paterson,2010,LP,2013,LP
+124,WA,Pearce,2010,LP,2013,LP
+125,WA,Perth,2010,ALP,2013,ALP
+126,QLD,Petrie,2010,ALP,2013,LNP
+127,QLD,Rankin,2010,ALP,2013,ALP
+128,NSW,Reid,2010,ALP,2013,LP
+129,NSW,Richmond,2010,ALP,2013,ALP
+130,NSW,Riverina,2010,NP,2013,NP
+131,NSW,Robertson,2010,ALP,2013,LP
+132,QLD,Ryan,2010,LNQ,2013,LNP
+133,VIC,Scullin,2010,ALP,2013,ALP
+134,NSW,Shortland,2010,ALP,2013,ALP
+135,NT,Solomon,2010,CLP,2013,CLP
+136,SA,Spence,2010,ALP,2013,ALP
+137,SA,Sturt,2010,LP,2013,LP
+138,WA,Swan,2010,LP,2013,LP
+139,NSW,Sydney,2010,ALP,2013,ALP
+140,WA,Tangney,2010,LP,2013,LP
+141,VIC,Wannon,2010,LP,2013,LP
+142,NSW,Warringah,2010,LP,2013,LP
+143,NSW,Watson,2010,ALP,2013,ALP
+144,NSW,Wentworth,2010,LP,2013,LP
+145,NSW,Werriwa,2010,ALP,2013,ALP
+146,NSW,Whitlam,2010,ALP,2013,ALP
+147,QLD,Wide Bay,2010,LNQ,2013,LNP
+148,VIC,Wills,2010,ALP,2013,ALP
+149,QLD,Wright,2010,LNQ,2013,LNP
+1,SA,Adelaide,2013,ALP,2016,ALP
+2,VIC,Aston,2013,LP,2016,LP
+3,VIC,Ballarat,2013,ALP,2016,ALP
+4,NSW,Banks,2013,LP,2016,LP
+5,SA,Barker,2013,LP,2016,LP
+6,NSW,Barton,2013,LP,2016,ALP
+7,TAS,Bass,2013,LP,2016,ALP
+8,ACT,Bean,2013,,2016,
+9,VIC,Bendigo,2013,ALP,2016,ALP
+10,NSW,Bennelong,2013,LP,2016,LP
+11,NSW,Berowra,2013,LP,2016,LP
+12,QLD,Blair,2013,ALP,2016,ALP
+13,NSW,Blaxland,2013,ALP,2016,ALP
+14,QLD,Bonner,2013,LNP,2016,LNP
+15,SA,Boothby,2013,LP,2016,LP
+16,QLD,Bowman,2013,LNP,2016,LNP
+17,TAS,Braddon,2013,LP,2016,ALP
+18,NSW,Bradfield,2013,LP,2016,LP
+19,WA,Brand,2013,ALP,2016,ALP
+20,QLD,Brisbane,2013,LNP,2016,LNP
+21,VIC,Bruce,2013,ALP,2016,ALP
+22,WA,Bullwinkel,2013,,2016,
+23,WA,Burt,2013,,2016,ALP
+24,NSW,Calare,2013,NP,2016,NP
+25,VIC,Calwell,2013,ALP,2016,ALP
+26,ACT,Canberra,2013,ALP,2016,ALP
+27,WA,Canning,2013,LP,2016,LP
+28,QLD,Capricornia,2013,LNP,2016,LNP
+29,VIC,Casey,2013,LP,2016,LP
+30,NSW,Chifley,2013,ALP,2016,ALP
+31,VIC,Chisholm,2013,ALP,2016,LP
+32,TAS,Clark,2013,IND,2016,IND
+33,NSW,Cook,2013,LP,2016,LP
+34,VIC,Cooper,2013,ALP,2016,ALP
+35,VIC,Corangamite,2013,LP,2016,LP
+36,VIC,Corio,2013,ALP,2016,ALP
+37,WA,Cowan,2013,LP,2016,ALP
+38,NSW,Cowper,2013,NP,2016,NP
+39,NSW,Cunningham,2013,ALP,2016,ALP
+40,WA,Curtin,2013,LP,2016,LP
+41,QLD,Dawson,2013,LNP,2016,LNP
+42,VIC,Deakin,2013,LP,2016,LP
+43,QLD,Dickson,2013,LNP,2016,LNP
+44,NSW,Dobell,2013,LP,2016,ALP
+45,VIC,Dunkley,2013,LP,2016,LP
+46,WA,Durack,2013,LP,2016,LP
+47,NSW,Eden-Monaro,2013,LP,2016,ALP
+48,QLD,Fadden,2013,LNP,2016,LNP
+49,QLD,Fairfax,2013,PUP,2016,LNP
+50,NSW,Farrer,2013,LP,2016,LP
+51,ACT,Fenner,2013,ALP,2016,ALP
+52,QLD,Fisher,2013,LNP,2016,LNP
+53,VIC,Flinders,2013,LP,2016,LP
+54,QLD,Flynn,2013,LNP,2016,LNP
+55,QLD,Forde,2013,LNP,2016,LNP
+56,WA,Forrest,2013,LP,2016,LP
+57,NSW,Fowler,2013,ALP,2016,ALP
+58,TAS,Franklin,2013,ALP,2016,ALP
+59,WA,Fremantle,2013,ALP,2016,ALP
+60,VIC,Gellibrand,2013,ALP,2016,ALP
+61,NSW,Gilmore,2013,LP,2016,LP
+62,VIC,Gippsland,2013,NP,2016,NP
+63,VIC,Goldstein,2013,LP,2016,LP
+64,VIC,Gorton,2013,ALP,2016,ALP
+65,NSW,Grayndler,2013,ALP,2016,ALP
+66,NSW,Greenway,2013,ALP,2016,ALP
+67,SA,Grey,2013,LP,2016,LP
+68,QLD,Griffith,2013,ALP,2016,ALP
+69,QLD,Groom,2013,LNP,2016,LNP
+70,WA,Hasluck,2013,LP,2016,LP
+71,VIC,Hawke,2013,,2016,
+72,QLD,Herbert,2013,LNP,2016,ALP
+73,SA,Hindmarsh,2013,LP,2016,ALP
+74,QLD,Hinkler,2013,LNP,2016,LNP
+75,VIC,Holt,2013,ALP,2016,ALP
+76,VIC,Hotham,2013,ALP,2016,ALP
+77,NSW,Hughes,2013,LP,2016,LP
+78,NSW,Hume,2013,LP,2016,LP
+79,NSW,Hunter,2013,ALP,2016,ALP
+80,VIC,Indi,2013,IND,2016,IND
+81,VIC,Isaacs,2013,ALP,2016,ALP
+82,VIC,Jagajaga,2013,ALP,2016,ALP
+83,QLD,Kennedy,2013,KAP,2016,KAP
+84,NSW,Kingsford Smith,2013,ALP,2016,ALP
+85,SA,Kingston,2013,ALP,2016,ALP
+86,VIC,Kooyong,2013,LP,2016,LP
+87,VIC,La Trobe,2013,LP,2016,LP
+88,VIC,Lalor,2013,ALP,2016,ALP
+89,QLD,Leichhardt,2013,LP,2016,LP
+90,QLD,Lilley,2013,ALP,2016,ALP
+91,NSW,Lindsay,2013,LP,2016,ALP
+92,NT,Lingiari,2013,ALP,2016,ALP
+93,QLD,Longman,2013,LNP,2016,ALP
+94,NSW,Lyne,2013,NP,2016,NP
+95,TAS,Lyons,2013,LP,2016,ALP
+96,NSW,Macarthur,2013,LP,2016,ALP
+97,NSW,Mackellar,2013,LP,2016,LP
+98,VIC,Macnamara,2013,ALP,2016,ALP
+99,NSW,Macquarie,2013,LP,2016,ALP
+100,SA,Makin,2013,ALP,2016,ALP
+101,VIC,Mallee,2013,NP,2016,NP
+102,QLD,Maranoa,2013,LNP,2016,LNP
+103,VIC,Maribyrnong,2013,ALP,2016,ALP
+104,SA,Mayo,2013,LP,2016,XEN
+105,VIC,McEwen,2013,ALP,2016,ALP
+106,NSW,McMahon,2013,ALP,2016,ALP
+107,QLD,McPherson,2013,LNP,2016,LNP
+108,VIC,Melbourne,2013,GRN,2016,GRN
+109,VIC,Menzies,2013,LP,2016,LP
+110,NSW,Mitchell,2013,LP,2016,LP
+111,VIC,Monash,2013,LP,2016,LP
+112,QLD,Moncrieff,2013,LNP,2016,LNP
+113,WA,Moore,2013,LP,2016,LP
+114,QLD,Moreton,2013,ALP,2016,ALP
+115,NSW,New England,2013,NP,2016,NP
+116,NSW,Newcastle,2013,ALP,2016,ALP
+117,VIC,Nicholls,2013,LP,2016,NP
+118,WA,O'Connor,2013,LP,2016,LP
+119,QLD,Oxley,2013,ALP,2016,ALP
+120,NSW,Page,2013,NP,2016,NP
+121,NSW,Parkes,2013,NP,2016,NP
+122,NSW,Parramatta,2013,ALP,2016,ALP
+123,NSW,Paterson,2013,LP,2016,ALP
+124,WA,Pearce,2013,LP,2016,LP
+125,WA,Perth,2013,ALP,2016,ALP
+126,QLD,Petrie,2013,LNP,2016,LNP
+127,QLD,Rankin,2013,ALP,2016,ALP
+128,NSW,Reid,2013,LP,2016,LP
+129,NSW,Richmond,2013,ALP,2016,ALP
+130,NSW,Riverina,2013,NP,2016,NP
+131,NSW,Robertson,2013,LP,2016,LP
+132,QLD,Ryan,2013,LNP,2016,LNP
+133,VIC,Scullin,2013,ALP,2016,ALP
+134,NSW,Shortland,2013,ALP,2016,ALP
+135,NT,Solomon,2013,CLP,2016,ALP
+136,SA,Spence,2013,ALP,2016,ALP
+137,SA,Sturt,2013,LP,2016,LP
+138,WA,Swan,2013,LP,2016,LP
+139,NSW,Sydney,2013,ALP,2016,ALP
+140,WA,Tangney,2013,LP,2016,LP
+141,VIC,Wannon,2013,LP,2016,LP
+142,NSW,Warringah,2013,LP,2016,LP
+143,NSW,Watson,2013,ALP,2016,ALP
+144,NSW,Wentworth,2013,LP,2016,LP
+145,NSW,Werriwa,2013,ALP,2016,ALP
+146,NSW,Whitlam,2013,ALP,2016,ALP
+147,QLD,Wide Bay,2013,LNP,2016,LNP
+148,VIC,Wills,2013,ALP,2016,ALP
+149,QLD,Wright,2013,LNP,2016,LNP
+1,SA,Adelaide,2016,ALP,2019,ALP
+2,VIC,Aston,2016,LP,2019,LP
+3,VIC,Ballarat,2016,ALP,2019,ALP
+4,NSW,Banks,2016,LP,2019,LP
+5,SA,Barker,2016,LP,2019,LP
+6,NSW,Barton,2016,ALP,2019,ALP
+7,TAS,Bass,2016,ALP,2019,LP
+8,ACT,Bean,2016,,2019,ALP
+9,VIC,Bendigo,2016,ALP,2019,ALP
+10,NSW,Bennelong,2016,LP,2019,LP
+11,NSW,Berowra,2016,LP,2019,LP
+12,QLD,Blair,2016,ALP,2019,ALP
+13,NSW,Blaxland,2016,ALP,2019,ALP
+14,QLD,Bonner,2016,LNP,2019,LNP
+15,SA,Boothby,2016,LP,2019,LP
+16,QLD,Bowman,2016,LNP,2019,LNP
+17,TAS,Braddon,2016,ALP,2019,LP
+18,NSW,Bradfield,2016,LP,2019,LP
+19,WA,Brand,2016,ALP,2019,ALP
+20,QLD,Brisbane,2016,LNP,2019,LNP
+21,VIC,Bruce,2016,ALP,2019,ALP
+22,WA,Bullwinkel,2016,,2019,
+23,WA,Burt,2016,ALP,2019,ALP
+24,NSW,Calare,2016,NP,2019,NP
+25,VIC,Calwell,2016,ALP,2019,ALP
+26,ACT,Canberra,2016,ALP,2019,ALP
+27,WA,Canning,2016,LP,2019,LP
+28,QLD,Capricornia,2016,LNP,2019,LNP
+29,VIC,Casey,2016,LP,2019,LP
+30,NSW,Chifley,2016,ALP,2019,ALP
+31,VIC,Chisholm,2016,LP,2019,LP
+32,TAS,Clark,2016,IND,2019,IND
+33,NSW,Cook,2016,LP,2019,LP
+34,VIC,Cooper,2016,ALP,2019,ALP
+35,VIC,Corangamite,2016,LP,2019,ALP
+36,VIC,Corio,2016,ALP,2019,ALP
+37,WA,Cowan,2016,ALP,2019,ALP
+38,NSW,Cowper,2016,NP,2019,NP
+39,NSW,Cunningham,2016,ALP,2019,ALP
+40,WA,Curtin,2016,LP,2019,LP
+41,QLD,Dawson,2016,LNP,2019,LNP
+42,VIC,Deakin,2016,LP,2019,LP
+43,QLD,Dickson,2016,LNP,2019,LNP
+44,NSW,Dobell,2016,ALP,2019,ALP
+45,VIC,Dunkley,2016,LP,2019,ALP
+46,WA,Durack,2016,LP,2019,LP
+47,NSW,Eden-Monaro,2016,ALP,2019,ALP
+48,QLD,Fadden,2016,LNP,2019,LNP
+49,QLD,Fairfax,2016,LNP,2019,LNP
+50,NSW,Farrer,2016,LP,2019,LP
+51,ACT,Fenner,2016,ALP,2019,ALP
+52,QLD,Fisher,2016,LNP,2019,LNP
+53,VIC,Flinders,2016,LP,2019,LP
+54,QLD,Flynn,2016,LNP,2019,LNP
+55,QLD,Forde,2016,LNP,2019,LNP
+56,WA,Forrest,2016,LP,2019,LP
+57,NSW,Fowler,2016,ALP,2019,ALP
+58,TAS,Franklin,2016,ALP,2019,ALP
+59,WA,Fremantle,2016,ALP,2019,ALP
+60,VIC,Gellibrand,2016,ALP,2019,ALP
+61,NSW,Gilmore,2016,LP,2019,ALP
+62,VIC,Gippsland,2016,NP,2019,NP
+63,VIC,Goldstein,2016,LP,2019,LP
+64,VIC,Gorton,2016,ALP,2019,ALP
+65,NSW,Grayndler,2016,ALP,2019,ALP
+66,NSW,Greenway,2016,ALP,2019,ALP
+67,SA,Grey,2016,LP,2019,LP
+68,QLD,Griffith,2016,ALP,2019,ALP
+69,QLD,Groom,2016,LNP,2019,LNP
+70,WA,Hasluck,2016,LP,2019,LP
+71,VIC,Hawke,2016,,2019,
+72,QLD,Herbert,2016,ALP,2019,LNP
+73,SA,Hindmarsh,2016,ALP,2019,ALP
+74,QLD,Hinkler,2016,LNP,2019,LNP
+75,VIC,Holt,2016,ALP,2019,ALP
+76,VIC,Hotham,2016,ALP,2019,ALP
+77,NSW,Hughes,2016,LP,2019,LP
+78,NSW,Hume,2016,LP,2019,LP
+79,NSW,Hunter,2016,ALP,2019,ALP
+80,VIC,Indi,2016,IND,2019,IND
+81,VIC,Isaacs,2016,ALP,2019,ALP
+82,VIC,Jagajaga,2016,ALP,2019,ALP
+83,QLD,Kennedy,2016,KAP,2019,KAP
+84,NSW,Kingsford Smith,2016,ALP,2019,ALP
+85,SA,Kingston,2016,ALP,2019,ALP
+86,VIC,Kooyong,2016,LP,2019,LP
+87,VIC,La Trobe,2016,LP,2019,LP
+88,VIC,Lalor,2016,ALP,2019,ALP
+89,QLD,Leichhardt,2016,LP,2019,LP
+90,QLD,Lilley,2016,ALP,2019,ALP
+91,NSW,Lindsay,2016,ALP,2019,LP
+92,NT,Lingiari,2016,ALP,2019,ALP
+93,QLD,Longman,2016,ALP,2019,LNP
+94,NSW,Lyne,2016,NP,2019,NP
+95,TAS,Lyons,2016,ALP,2019,ALP
+96,NSW,Macarthur,2016,ALP,2019,ALP
+97,NSW,Mackellar,2016,LP,2019,LP
+98,VIC,Macnamara,2016,ALP,2019,ALP
+99,NSW,Macquarie,2016,ALP,2019,ALP
+100,SA,Makin,2016,ALP,2019,ALP
+101,VIC,Mallee,2016,NP,2019,NP
+102,QLD,Maranoa,2016,LNP,2019,LNP
+103,VIC,Maribyrnong,2016,ALP,2019,ALP
+104,SA,Mayo,2016,XEN,2019,XEN
+105,VIC,McEwen,2016,ALP,2019,ALP
+106,NSW,McMahon,2016,ALP,2019,ALP
+107,QLD,McPherson,2016,LNP,2019,LNP
+108,VIC,Melbourne,2016,GRN,2019,GRN
+109,VIC,Menzies,2016,LP,2019,LP
+110,NSW,Mitchell,2016,LP,2019,LP
+111,VIC,Monash,2016,LP,2019,LP
+112,QLD,Moncrieff,2016,LNP,2019,LNP
+113,WA,Moore,2016,LP,2019,LP
+114,QLD,Moreton,2016,ALP,2019,ALP
+115,NSW,New England,2016,NP,2019,NP
+116,NSW,Newcastle,2016,ALP,2019,ALP
+117,VIC,Nicholls,2016,NP,2019,NP
+118,WA,O'Connor,2016,LP,2019,LP
+119,QLD,Oxley,2016,ALP,2019,ALP
+120,NSW,Page,2016,NP,2019,NP
+121,NSW,Parkes,2016,NP,2019,NP
+122,NSW,Parramatta,2016,ALP,2019,ALP
+123,NSW,Paterson,2016,ALP,2019,ALP
+124,WA,Pearce,2016,LP,2019,LP
+125,WA,Perth,2016,ALP,2019,ALP
+126,QLD,Petrie,2016,LNP,2019,LNP
+127,QLD,Rankin,2016,ALP,2019,ALP
+128,NSW,Reid,2016,LP,2019,LP
+129,NSW,Richmond,2016,ALP,2019,ALP
+130,NSW,Riverina,2016,NP,2019,NP
+131,NSW,Robertson,2016,LP,2019,LP
+132,QLD,Ryan,2016,LNP,2019,LNP
+133,VIC,Scullin,2016,ALP,2019,ALP
+134,NSW,Shortland,2016,ALP,2019,ALP
+135,NT,Solomon,2016,ALP,2019,ALP
+136,SA,Spence,2016,ALP,2019,ALP
+137,SA,Sturt,2016,LP,2019,LP
+138,WA,Swan,2016,LP,2019,LP
+139,NSW,Sydney,2016,ALP,2019,ALP
+140,WA,Tangney,2016,LP,2019,LP
+141,VIC,Wannon,2016,LP,2019,LP
+142,NSW,Warringah,2016,LP,2019,IND
+143,NSW,Watson,2016,ALP,2019,ALP
+144,NSW,Wentworth,2016,LP,2019,LP
+145,NSW,Werriwa,2016,ALP,2019,ALP
+146,NSW,Whitlam,2016,ALP,2019,ALP
+147,QLD,Wide Bay,2016,LNP,2019,LNP
+148,VIC,Wills,2016,ALP,2019,ALP
+149,QLD,Wright,2016,LNP,2019,LNP
+1,SA,Adelaide,2019,ALP,2022,ALP
+2,VIC,Aston,2019,LP,2022,LP
+3,VIC,Ballarat,2019,ALP,2022,ALP
+4,NSW,Banks,2019,LP,2022,LP
+5,SA,Barker,2019,LP,2022,LP
+6,NSW,Barton,2019,ALP,2022,ALP
+7,TAS,Bass,2019,LP,2022,LP
+8,ACT,Bean,2019,ALP,2022,ALP
+9,VIC,Bendigo,2019,ALP,2022,ALP
+10,NSW,Bennelong,2019,LP,2022,ALP
+11,NSW,Berowra,2019,LP,2022,LP
+12,QLD,Blair,2019,ALP,2022,ALP
+13,NSW,Blaxland,2019,ALP,2022,ALP
+14,QLD,Bonner,2019,LNP,2022,LNP
+15,SA,Boothby,2019,LP,2022,ALP
+16,QLD,Bowman,2019,LNP,2022,LNP
+17,TAS,Braddon,2019,LP,2022,LP
+18,NSW,Bradfield,2019,LP,2022,LP
+19,WA,Brand,2019,ALP,2022,ALP
+20,QLD,Brisbane,2019,LNP,2022,GRN
+21,VIC,Bruce,2019,ALP,2022,ALP
+22,WA,Bullwinkel,2019,,2022,
+23,WA,Burt,2019,ALP,2022,ALP
+24,NSW,Calare,2019,NP,2022,NP
+25,VIC,Calwell,2019,ALP,2022,ALP
+26,ACT,Canberra,2019,ALP,2022,ALP
+27,WA,Canning,2019,LP,2022,LP
+28,QLD,Capricornia,2019,LNP,2022,LNP
+29,VIC,Casey,2019,LP,2022,LP
+30,NSW,Chifley,2019,ALP,2022,ALP
+31,VIC,Chisholm,2019,LP,2022,ALP
+32,TAS,Clark,2019,IND,2022,IND
+33,NSW,Cook,2019,LP,2022,LP
+34,VIC,Cooper,2019,ALP,2022,ALP
+35,VIC,Corangamite,2019,ALP,2022,ALP
+36,VIC,Corio,2019,ALP,2022,ALP
+37,WA,Cowan,2019,ALP,2022,ALP
+38,NSW,Cowper,2019,NP,2022,NP
+39,NSW,Cunningham,2019,ALP,2022,ALP
+40,WA,Curtin,2019,LP,2022,IND
+41,QLD,Dawson,2019,LNP,2022,LNP
+42,VIC,Deakin,2019,LP,2022,LP
+43,QLD,Dickson,2019,LNP,2022,LNP
+44,NSW,Dobell,2019,ALP,2022,ALP
+45,VIC,Dunkley,2019,ALP,2022,ALP
+46,WA,Durack,2019,LP,2022,LP
+47,NSW,Eden-Monaro,2019,ALP,2022,ALP
+48,QLD,Fadden,2019,LNP,2022,LNP
+49,QLD,Fairfax,2019,LNP,2022,LNP
+50,NSW,Farrer,2019,LP,2022,LP
+51,ACT,Fenner,2019,ALP,2022,ALP
+52,QLD,Fisher,2019,LNP,2022,LNP
+53,VIC,Flinders,2019,LP,2022,LP
+54,QLD,Flynn,2019,LNP,2022,LNP
+55,QLD,Forde,2019,LNP,2022,LNP
+56,WA,Forrest,2019,LP,2022,LP
+57,NSW,Fowler,2019,ALP,2022,IND
+58,TAS,Franklin,2019,ALP,2022,ALP
+59,WA,Fremantle,2019,ALP,2022,ALP
+60,VIC,Gellibrand,2019,ALP,2022,ALP
+61,NSW,Gilmore,2019,ALP,2022,ALP
+62,VIC,Gippsland,2019,NP,2022,NP
+63,VIC,Goldstein,2019,LP,2022,IND
+64,VIC,Gorton,2019,ALP,2022,ALP
+65,NSW,Grayndler,2019,ALP,2022,ALP
+66,NSW,Greenway,2019,ALP,2022,ALP
+67,SA,Grey,2019,LP,2022,LP
+68,QLD,Griffith,2019,ALP,2022,GRN
+69,QLD,Groom,2019,LNP,2022,LNP
+70,WA,Hasluck,2019,LP,2022,ALP
+71,VIC,Hawke,2019,,2022,ALP
+72,QLD,Herbert,2019,LNP,2022,LNP
+73,SA,Hindmarsh,2019,ALP,2022,ALP
+74,QLD,Hinkler,2019,LNP,2022,LNP
+75,VIC,Holt,2019,ALP,2022,ALP
+76,VIC,Hotham,2019,ALP,2022,ALP
+77,NSW,Hughes,2019,LP,2022,LP
+78,NSW,Hume,2019,LP,2022,LP
+79,NSW,Hunter,2019,ALP,2022,ALP
+80,VIC,Indi,2019,IND,2022,IND
+81,VIC,Isaacs,2019,ALP,2022,ALP
+82,VIC,Jagajaga,2019,ALP,2022,ALP
+83,QLD,Kennedy,2019,KAP,2022,KAP
+84,NSW,Kingsford Smith,2019,ALP,2022,ALP
+85,SA,Kingston,2019,ALP,2022,ALP
+86,VIC,Kooyong,2019,LP,2022,IND
+87,VIC,La Trobe,2019,LP,2022,LP
+88,VIC,Lalor,2019,ALP,2022,ALP
+89,QLD,Leichhardt,2019,LP,2022,LP
+90,QLD,Lilley,2019,ALP,2022,ALP
+91,NSW,Lindsay,2019,LP,2022,LP
+92,NT,Lingiari,2019,ALP,2022,ALP
+93,QLD,Longman,2019,LNP,2022,LNP
+94,NSW,Lyne,2019,NP,2022,NP
+95,TAS,Lyons,2019,ALP,2022,ALP
+96,NSW,Macarthur,2019,ALP,2022,ALP
+97,NSW,Mackellar,2019,LP,2022,IND
+98,VIC,Macnamara,2019,ALP,2022,ALP
+99,NSW,Macquarie,2019,ALP,2022,ALP
+100,SA,Makin,2019,ALP,2022,ALP
+101,VIC,Mallee,2019,NP,2022,NP
+102,QLD,Maranoa,2019,LNP,2022,LNP
+103,VIC,Maribyrnong,2019,ALP,2022,ALP
+104,SA,Mayo,2019,XEN,2022,XEN
+105,VIC,McEwen,2019,ALP,2022,ALP
+106,NSW,McMahon,2019,ALP,2022,ALP
+107,QLD,McPherson,2019,LNP,2022,LNP
+108,VIC,Melbourne,2019,GRN,2022,GRN
+109,VIC,Menzies,2019,LP,2022,LP
+110,NSW,Mitchell,2019,LP,2022,LP
+111,VIC,Monash,2019,LP,2022,LP
+112,QLD,Moncrieff,2019,LNP,2022,LNP
+113,WA,Moore,2019,LP,2022,LP
+114,QLD,Moreton,2019,ALP,2022,ALP
+115,NSW,New England,2019,NP,2022,NP
+116,NSW,Newcastle,2019,ALP,2022,ALP
+117,VIC,Nicholls,2019,NP,2022,NP
+118,WA,O'Connor,2019,LP,2022,LP
+119,QLD,Oxley,2019,ALP,2022,ALP
+120,NSW,Page,2019,NP,2022,NP
+121,NSW,Parkes,2019,NP,2022,NP
+122,NSW,Parramatta,2019,ALP,2022,ALP
+123,NSW,Paterson,2019,ALP,2022,ALP
+124,WA,Pearce,2019,LP,2022,ALP
+125,WA,Perth,2019,ALP,2022,ALP
+126,QLD,Petrie,2019,LNP,2022,LNP
+127,QLD,Rankin,2019,ALP,2022,ALP
+128,NSW,Reid,2019,LP,2022,ALP
+129,NSW,Richmond,2019,ALP,2022,ALP
+130,NSW,Riverina,2019,NP,2022,NP
+131,NSW,Robertson,2019,LP,2022,ALP
+132,QLD,Ryan,2019,LNP,2022,GRN
+133,VIC,Scullin,2019,ALP,2022,ALP
+134,NSW,Shortland,2019,ALP,2022,ALP
+135,NT,Solomon,2019,ALP,2022,ALP
+136,SA,Spence,2019,ALP,2022,ALP
+137,SA,Sturt,2019,LP,2022,LP
+138,WA,Swan,2019,LP,2022,ALP
+139,NSW,Sydney,2019,ALP,2022,ALP
+140,WA,Tangney,2019,LP,2022,ALP
+141,VIC,Wannon,2019,LP,2022,LP
+142,NSW,Warringah,2019,IND,2022,IND
+143,NSW,Watson,2019,ALP,2022,ALP
+144,NSW,Wentworth,2019,LP,2022,IND
+145,NSW,Werriwa,2019,ALP,2022,ALP
+146,NSW,Whitlam,2019,ALP,2022,ALP
+147,QLD,Wide Bay,2019,LNP,2022,LNP
+148,VIC,Wills,2019,ALP,2022,ALP
+149,QLD,Wright,2019,LNP,2022,LNP
+1,SA,Adelaide,2022,ALP,2025,ALP
+2,VIC,Aston,2022,LP,2025,ALP
+3,VIC,Ballarat,2022,ALP,2025,ALP
+4,NSW,Banks,2022,LP,2025,ALP
+5,SA,Barker,2022,LP,2025,LP
+6,NSW,Barton,2022,ALP,2025,ALP
+7,TAS,Bass,2022,LP,2025,ALP
+8,ACT,Bean,2022,ALP,2025,ALP
+9,VIC,Bendigo,2022,ALP,2025,ALP
+10,NSW,Bennelong,2022,ALP,2025,ALP
+11,NSW,Berowra,2022,LP,2025,LP
+12,QLD,Blair,2022,ALP,2025,ALP
+13,NSW,Blaxland,2022,ALP,2025,ALP
+14,QLD,Bonner,2022,LNP,2025,ALP
+15,SA,Boothby,2022,ALP,2025,ALP
+16,QLD,Bowman,2022,LNP,2025,LNP
+17,TAS,Braddon,2022,LP,2025,ALP
+18,NSW,Bradfield,2022,LP,2025,IND
+19,WA,Brand,2022,ALP,2025,ALP
+20,QLD,Brisbane,2022,GRN,2025,ALP
+21,VIC,Bruce,2022,ALP,2025,ALP
+22,WA,Bullwinkel,2022,,2025,ALP
+23,WA,Burt,2022,ALP,2025,ALP
+24,NSW,Calare,2022,NP,2025,IND
+25,VIC,Calwell,2022,ALP,2025,ALP
+26,ACT,Canberra,2022,ALP,2025,ALP
+27,WA,Canning,2022,LP,2025,LP
+28,QLD,Capricornia,2022,LNP,2025,LNP
+29,VIC,Casey,2022,LP,2025,LP
+30,NSW,Chifley,2022,ALP,2025,ALP
+31,VIC,Chisholm,2022,ALP,2025,ALP
+32,TAS,Clark,2022,IND,2025,IND
+33,NSW,Cook,2022,LP,2025,LP
+34,VIC,Cooper,2022,ALP,2025,ALP
+35,VIC,Corangamite,2022,ALP,2025,ALP
+36,VIC,Corio,2022,ALP,2025,ALP
+37,WA,Cowan,2022,ALP,2025,ALP
+38,NSW,Cowper,2022,NP,2025,NP
+39,NSW,Cunningham,2022,ALP,2025,ALP
+40,WA,Curtin,2022,IND,2025,IND
+41,QLD,Dawson,2022,LNP,2025,LNP
+42,VIC,Deakin,2022,LP,2025,ALP
+43,QLD,Dickson,2022,LNP,2025,ALP
+44,NSW,Dobell,2022,ALP,2025,ALP
+45,VIC,Dunkley,2022,ALP,2025,ALP
+46,WA,Durack,2022,LP,2025,LP
+47,NSW,Eden-Monaro,2022,ALP,2025,ALP
+48,QLD,Fadden,2022,LNP,2025,LNP
+49,QLD,Fairfax,2022,LNP,2025,LNP
+50,NSW,Farrer,2022,LP,2025,LP
+51,ACT,Fenner,2022,ALP,2025,ALP
+52,QLD,Fisher,2022,LNP,2025,LNP
+53,VIC,Flinders,2022,LP,2025,LP
+54,QLD,Flynn,2022,LNP,2025,LNP
+55,QLD,Forde,2022,LNP,2025,ALP
+56,WA,Forrest,2022,LP,2025,LP
+57,NSW,Fowler,2022,IND,2025,IND
+200,VIC,Fraser,2022,ALP,2022,ALP
+58,TAS,Franklin,2022,ALP,2025,ALP
+59,WA,Fremantle,2022,ALP,2025,ALP
+60,VIC,Gellibrand,2022,ALP,2025,ALP
+61,NSW,Gilmore,2022,ALP,2025,ALP
+62,VIC,Gippsland,2022,NP,2025,NP
+63,VIC,Goldstein,2022,IND,2025,LP
+64,VIC,Gorton,2022,ALP,2025,ALP
+65,NSW,Grayndler,2022,ALP,2025,ALP
+66,NSW,Greenway,2022,ALP,2025,ALP
+67,SA,Grey,2022,LP,2025,LP
+68,QLD,Griffith,2022,GRN,2025,ALP
+69,QLD,Groom,2022,LNP,2025,LNP
+70,WA,Hasluck,2022,ALP,2025,ALP
+71,VIC,Hawke,2022,ALP,2025,ALP
+72,QLD,Herbert,2022,LNP,2025,LNP
+73,SA,Hindmarsh,2022,ALP,2025,ALP
+74,QLD,Hinkler,2022,LNP,2025,LNP
+75,VIC,Holt,2022,ALP,2025,ALP
+76,VIC,Hotham,2022,ALP,2025,ALP
+77,NSW,Hughes,2022,LP,2025,ALP
+78,NSW,Hume,2022,LP,2025,LP
+79,NSW,Hunter,2022,ALP,2025,ALP
+80,VIC,Indi,2022,IND,2025,IND
+81,VIC,Isaacs,2022,ALP,2025,ALP
+82,VIC,Jagajaga,2022,ALP,2025,ALP
+83,QLD,Kennedy,2022,KAP,2025,KAP
+84,NSW,Kingsford Smith,2022,ALP,2025,ALP
+85,SA,Kingston,2022,ALP,2025,ALP
+86,VIC,Kooyong,2022,IND,2025,IND
+87,VIC,La Trobe,2022,LP,2025,LP
+88,VIC,Lalor,2022,ALP,2025,ALP
+89,QLD,Leichhardt,2022,LP,2025,ALP
+90,QLD,Lilley,2022,ALP,2025,ALP
+91,NSW,Lindsay,2022,LP,2025,LP
+92,NT,Lingiari,2022,ALP,2025,ALP
+93,QLD,Longman,2022,LNP,2025,LNP
+94,NSW,Lyne,2022,NP,2025,NP
+95,TAS,Lyons,2022,ALP,2025,ALP
+96,NSW,Macarthur,2022,ALP,2025,ALP
+97,NSW,Mackellar,2022,IND,2025,IND
+98,VIC,Macnamara,2022,ALP,2025,ALP
+99,NSW,Macquarie,2022,ALP,2025,ALP
+100,SA,Makin,2022,ALP,2025,ALP
+101,VIC,Mallee,2022,NP,2025,NP
+102,QLD,Maranoa,2022,LNP,2025,LNP
+103,VIC,Maribyrnong,2022,ALP,2025,ALP
+104,SA,Mayo,2022,XEN,2025,XEN
+105,VIC,McEwen,2022,ALP,2025,ALP
+106,NSW,McMahon,2022,ALP,2025,ALP
+107,QLD,McPherson,2022,LNP,2025,LNP
+108,VIC,Melbourne,2022,GRN,2025,ALP
+109,VIC,Menzies,2022,LP,2025,ALP
+110,NSW,Mitchell,2022,LP,2025,LP
+111,VIC,Monash,2022,LP,2025,LP
+112,QLD,Moncrieff,2022,LNP,2025,LNP
+113,WA,Moore,2022,LP,2025,ALP
+114,QLD,Moreton,2022,ALP,2025,ALP
+115,NSW,New England,2022,NP,2025,NP
+116,NSW,Newcastle,2022,ALP,2025,ALP
+117,VIC,Nicholls,2022,NP,2025,NP
+118,WA,O'Connor,2022,LP,2025,LP
+119,QLD,Oxley,2022,ALP,2025,ALP
+120,NSW,Page,2022,NP,2025,NP
+121,NSW,Parkes,2022,NP,2025,NP
+122,NSW,Parramatta,2022,ALP,2025,ALP
+123,NSW,Paterson,2022,ALP,2025,ALP
+124,WA,Pearce,2022,ALP,2025,ALP
+125,WA,Perth,2022,ALP,2025,ALP
+126,QLD,Petrie,2022,LNP,2025,ALP
+127,QLD,Rankin,2022,ALP,2025,ALP
+128,NSW,Reid,2022,ALP,2025,ALP
+129,NSW,Richmond,2022,ALP,2025,ALP
+130,NSW,Riverina,2022,NP,2025,NP
+131,NSW,Robertson,2022,ALP,2025,ALP
+132,QLD,Ryan,2022,GRN,2025,GRN
+133,VIC,Scullin,2022,ALP,2025,ALP
+134,NSW,Shortland,2022,ALP,2025,ALP
+135,NT,Solomon,2022,ALP,2025,ALP
+136,SA,Spence,2022,ALP,2025,ALP
+137,SA,Sturt,2022,LP,2025,ALP
+138,WA,Swan,2022,ALP,2025,ALP
+139,NSW,Sydney,2022,ALP,2025,ALP
+140,WA,Tangney,2022,ALP,2025,ALP
+141,VIC,Wannon,2022,LP,2025,LP
+142,NSW,Warringah,2022,IND,2025,IND
+143,NSW,Watson,2022,ALP,2025,ALP
+144,NSW,Wentworth,2022,IND,2025,IND
+145,NSW,Werriwa,2022,ALP,2025,ALP
+146,NSW,Whitlam,2022,ALP,2025,ALP
+147,QLD,Wide Bay,2022,LNP,2025,LNP
+148,VIC,Wills,2022,ALP,2025,ALP
+149,QLD,Wright,2022,LNP,2025,LNP
