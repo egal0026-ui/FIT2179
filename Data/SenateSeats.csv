@@ -1,0 +1,30 @@
+﻿Row,State,PartyNm,PartyAb,Seats,Lat,Long,Percentage
+1,Australian Capital Territory,David Pocock,DAVI,1,-35,157,0.5
+2,Australian Capital Territory,Australian Labor Party,ALP,1,-35,157,0.5
+3,New South Wales,Australian Labor Party,ALP,4,-31,147,0.333333
+4,New South Wales,Liberal Party,LP,4,-31,147,0.333333
+7,New South Wales,Australian Greens,GRN,2,-31,147,0.166667
+8,New South Wales,Pauline Hanson's One Nation,ON,1,-31,147,0.083333
+9,Northern Territory,Australian Labor Party,ALP,1,-20,133,0.5
+10,Northern Territory,Country Liberal Party,CLP,1,-20,133,0.5
+11,Queensland,Liberal National Party of Queensland,LNP,4,-23,143,0.333333
+12,Queensland,Australian Labor Party,ALP,4,-23,143,0.333333
+15,Queensland,Australian Greens,GRN,2,-23,143,0.166667
+16,Queensland,Pauline Hanson's One Nation,ON,2,-23,143,0.166667
+17,South Australia,Australian Labor Party,ALP,5,-30,135,0.416667
+18,South Australia,Liberal Party,LP,5,-30,135,0.416667
+21,South Australia,Australian Greens,GRN,2,-30,135,0.166667
+23,Tasmania,Australian Labor Party,ALP,4,-42,155,0.333333
+24,Tasmania,Liberal Party,LP,4,-42,155,0.333333
+25,Tasmania,Australian Greens,GRN,2,-42,155,0.166667
+27,Tasmania,Jacqui Lambie Network,JLN,2,-42,155,0.166667
+29,Victoria,Australian Labor Party,ALP,5,-37,145,0.416667
+32,Victoria,Liberal Party,LP,3,-37,145,0.25
+33,Victoria,Australian Greens,GRN,2,-37,145,0.166667
+35,Western Australia,Australian Labor Party,ALP,5,-26,121,0.416667
+36,Western Australia,Liberal Party,LP,4,-26,121,0.333333
+38,Western Australia,Australian Greens,GRN,2,-26,121,0.166667
+40,Western Australia,Pauline Hanson's One Nation,ON,1,-26,121,0.083333
+45,New South Wales,The Nationals,NP,1,-31,147,0.083333
+71,Victoria,The Nationals,NP,1,-37,145,0.083333
+74,Victoria,Palmer United Australia Party,UAPP,1,-37,145,0.083333

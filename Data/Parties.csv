@@ -1,0 +1,27 @@
+﻿PartyAb,PartyNm,HouseSeats,HouseTotal,HousePercent,HouseYear,SenSeats,SenTotal,SenPercent,SenYear,PartyColour,SenAnnotation,HouseAnnotation,Annotation
+ALP,Australian Labor Party,94,150,0.626666667,2025,34,76,0.447368421,1984,Australian Labor Party,,,"In 2025, Labor won 94 seats, the highest #number of seats for a single party."
+UAP,United Australia Party ,34,76,0.447368421,1931,26,36,0.722222222,1934,United Australia Party,"The Great Depression caused a lot of #political unrest, leading voters to support #the newly formed United Australia Party.",,
+ANTI-COM LAB,Australian Labor Party (Anti-Communist),4,75,0.053333333,1940,0,,,,Australian Labor Party (Anti-Communist),,,
+LANG LAB,Lang Labor Party,9,75,0.12,1934,0,,,,Lang Labor Party,,,
+GRN,Australian Greens,4,151,0.026490066,2022,12,76,0.157894737,2022,Australian Greens,,,
+DAVI,David Pocock,0,,,,1,76,0.013157895,2025,David Pocock,,,
+AMEP,Australian Motoring Enthusiast Party,0,,,,1,76,0.013157895,2013.2,Australian Motoring Enthusiast Party,,,
+SPRT,Australian Sports Party,0,,,,1,76,0.013157895,2013.4,Australian Sports Party,,,
+IND,Independent,10,150,0.066666667,2025,2,76,0.026315789,2001,Independent,,,
+ANTI-SOC,Free Trade / Anti-Socialist Party,28,75,0.373333333,1901,17,36,0.472222222,1901,Free Trade / Anti-Socialist Party,The Free Trade Party and #Protectionist Party performed #best in the very first election.,,
+DHJP,Derryn Hinch's Justice Party,0,,,,1,76,0.013157895,2016,Derryn Hinch's Justice Party,,,
+DLP,Democratic Labour Party ,0,,,,5,60,0.083333333,1970,Democratic Labour Party ,,,
+JLN,Jacqui Lambie Network,0,,,,1,76,0.013157895,2025,Jacqui Lambie Network,,,
+XEN,Centre Alliance ,1,150,0.006666667,2016,3,76,0.039473684,2016,Centre Alliance ,,,
+KAP,Katter's Australian Party,1,150,0.006666667,2013.4,0,,,,Katter's Australian Party,,,
+PROT,Protectionist Party,31,75,0.413333333,1901,11,36,0.305555556,1901,Protectionist Party,,,
+NAT,Nationalist Party,53,75,0.706666667,1917,35,36,0.972222222,1919,Nationalist Party,"In the 1917 and 1919 elections, #the Nationalists won all but one seat.","Many of Labor's members left to join the Nationalists due to #
+disagreements over conscription, allowing the Nationalists #to win over 70% of seats.",
+CLP,Country Liberal Party,1,150,0.006666667,2004,1,76,0.013157895,2004.4,Liberal-National Coalition,,,
+LNP,Liberal National Party of Queensland,23,151,0.152317881,2019,6,76,0.078947368,2019,Liberal-National Coalition,,,
+LP,Liberal Party of Australia,75,148,0.506756757,1996,33,76,0.434210526,2004,Liberal-National Coalition,,,"In 1996, the Liberal-National Coalition #won 94 seats between its 4 parties. "
+NP,National Party of Australia,21,148,0.141891892,1984,6,76,0.078947368,1987,Liberal-National Coalition,,,
+ON,Pauline Hanson's One Nation,0,,,,4,76,0.052631579,2016,Pauline Hanson's One Nation,,,
+PUP,Palmer United Australia Party,1,150,0.006666667,2013,2,76,0.026315789,2013,Palmer United Australia Party,,,
+FFP,Family First Party,0,,,,1,76,0.013157895,2004,Family First Party,,,
+LDP,Liberal Democratic Party,0,,,,1,76,0.013157895,2013,Liberal Democratic Party,,,
