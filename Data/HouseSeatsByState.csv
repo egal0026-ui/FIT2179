@@ -1,9 +1,9 @@
-﻿Filler,State,ALP,GRN,IND,KAP,LNP,LP,NP,XEN,Grand Total,Lead,Percentage,Party,CenterLong,CenterLat,LegendText
-1,Australian Capital Territory,3,0,0,0,0,0,0,0,3,1,100%,Australian Labor Party,114,-43,100%
-2,New South Wales,28,0,6,0,0,6,6,0,46,0.608695652,61%,Australian Labor Party,123.5,-43,0%
-3,Northern Territory,2,0,0,0,0,0,0,0,2,1,100%,Australian Labor Party,115,-39,Australian Labor Party
-4,Queensland,12,1,0,1,16,0,0,0,30,-0.533333333,53%,Liberal-National Coalition,132.5,-39,Liberal-National Coalition
-5,South Australia,7,0,0,0,0,2,0,1,10,0.7,70%,Australian Labor Party,132.5,-43,100%
-6,Tasmania,4,0,1,0,0,0,0,0,5,0.8,80%,Australian Labor Party,146.5,-42,b 
-7,Victoria,27,0,2,0,0,6,3,0,38,0.710526316,71%,Australian Labor Party,145,-37.5,c
-8,Western Australia,11,0,1,0,0,4,0,0,16,0.6875,69%,Australian Labor Party,117,-32,d
+﻿Filler,State,ALP,GRN,IND,KAP,LNP,LP,NP,XEN,Grand Total,Lead,Percentage,Party,LegendLong,LegendLat,LegendText,Long,Lat
+1,Australian Capital Territory,3,0,0,0,0,0,0,0,3,1,100%,Australian Labor Party,114,-43,100%,153,-35
+2,New South Wales,28,0,6,0,0,6,6,0,46,0.608695652,61%,Australian Labor Party,123.5,-43,0%,147,-33
+3,Northern Territory,2,0,0,0,0,0,0,0,2,1,100%,Australian Labor Party,115,-39,Australian Labor Party,133,-20
+4,Queensland,12,1,0,1,16,0,0,0,30,-0.533333333,53%,Liberal-National Coalition,132.5,-39,Liberal-National Coalition,145,-25
+5,South Australia,7,0,0,0,0,2,0,1,10,0.7,70%,Australian Labor Party,132.5,-43,100%,135,-30
+6,Tasmania,4,0,1,0,0,0,0,0,5,0.8,80%,Australian Labor Party,146.5,-42,b ,146.5,-42
+7,Victoria,27,0,2,0,0,6,3,0,38,0.710526316,71%,Australian Labor Party,145,-37.5,c,145,-37
+8,Western Australia,11,0,1,0,0,4,0,0,16,0.6875,69%,Australian Labor Party,117,-32,d,123,-27
