@@ -1,33 +1,272 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 600,
   "width": "container",
-  "height": 400,
-    "config": {
+      "config": {
     "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      },
       "axis": {
         "labelFont": "Verdana",
         "labelFontSize": 11,
         "labelFontWeight": "lighter",
         "titleFont": "Verdana",
         "titleFontSize": 14
-      },
-      "padding": 15
-  },
-  "data": {"url": "Data/SenateVotes.csv"},
-  "transform": [{"filter": "datum.Year == '2025' && datum.StateAb == 'TAS' "}],
-  "mark": "bar",
-  "encoding": {
-    "x": {
-      "bin": {"step": 2},
-      "field": "TotalPercentage",
-      "title": "Voter Turnout (%)"
+      }
     },
-    "y": {"aggregate": "count", "title": "Number of Electoral Divisions"},
-    "color": {"value": "#faa18f"},
-    "stroke": {"value": "#000"},
+    "lineBreak": "#"
+  },
+  "params": [
+    {
+      "name": "zoom_level",
+      "value": 6000,
+      "bind": {
+        "input": "range",
+        "min": 6000,
+        "max": 13000,
+        "step": 100,
+        "name": "Zoom into Map: "
+      }
+    }
+  ],
+  "layer": [{
+      "projection": {
+        "type": "equirectangular",
+        "center": [146.5, -42],
+        "scale": {"expr": "zoom_level"}
+      },
+      "data": {
+        "url": "Data/AUS_ELB_region.json",
+        "format": { "type": "topojson", "feature": "AUS_ELB_region" }
+      },
+      "transform": [
+        {
+          "lookup": "properties.Elect_div",
+          "from": {
+            "data": {
+              "url": "Data/HouseSeats2025.csv"
+            },
+            "key": "DivisionNm",
+            "fields": ["State", "DivisionNm", "Party", "ElectYear"]
+          }
+        },
+        {
+          "filter": "datum.State != 'Tasmania'"
+        }
+      ],
+
+      "mark": { "type": "geoshape" },
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "zoom_level",
+            "value": "#404040"
+          },
+          "legend": null
+        },
+
+        "opacity": {
+          "value": 0.8
+        },
+        "strokeWidth": {
+          "value": 0.25
+        },
+        "stroke": { "value": "#fff" }
+      }
+    },
+    {
+      "projection": {
+        "type": "equirectangular",
+        "center": [146.5, -42],
+        "scale": {"expr": "zoom_level"}
+      },
+      "data": {
+        "url": "Data/AUS_ELB_region.json",
+        "format": { "type": "topojson", "feature": "AUS_ELB_region" }
+      },
+      "transform": [
+        {
+          "lookup": "properties.Elect_div",
+          "from": {
+            "data": {
+              "url": "Data/SenateVotes.csv"
+            },
+            "key": "DivisionNm",
+            "fields": ["State", "DivisionNm", "Percent"]
+          }
+        },
+        {
+          "filter": "datum.State == 'Tasmania'"
+        }
+      ],
+      "mark": { "type": "geoshape" },
+       "encoding": {
+        "fill": {
+          "field": "Percent",
+          "type": "quantitative",
+          "scale": {
+            "domain":[0.9,0.95],
+            "range": ["#a3ffce", "#0c753d"]
+          },
+          "legend": {
+            "format": ".2%",
+            "orient": "right",
+            "title": "Voter Turnout",
+            "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14
+          }
+        },
+        "stroke": { "value": "#000" },
         "tooltip": [
-      {"field": "Percent", "bin": true, "title": "Voter Turnout Percentage", "format": ".2%"},
-      {"aggregate": "count", "title": "Number of Electoral Divisions"}
-    ]
-  }
+          { "field": "DivisionNm", "type": "nominal", "title": "DivisionNm"},
+          { "field": "State", "type": "nominal" },
+          {"field": "Percent", "type": "quantitative", "title": "Voter Turnout Percentage", "format": ".2%"}
+        ]
+      }
+        },{
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Bass'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 25 },
+        "x2": { "value": 275 },
+        "y": { "value": 25 },
+        "y2": { "value": 175 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Bass'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationTAS" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 50 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Bass'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%"},
+        "size": { "value": 36 },
+        "color": { "value": "#000" },
+        "stroke": {"value": "#000"},
+        "x": { "value": 150 },
+        "y": { "value": 125 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Lyons'" }
+
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 25 },
+        "x2": { "value": 275 },
+        "y": { "value": 225 },
+        "y2": { "value": 375 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Lyons'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationTAS" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 250 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Lyons'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%"},
+        "size": { "value": 36 },
+        "color": { "value": "#000" },
+        "stroke": {"value": "#000"},
+        "x": { "value": 150 },
+        "y": { "value": 325 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Franklin'" }
+
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 25 },
+        "x2": { "value": 275 },
+        "y": { "value": 425 },
+        "y2": { "value": 575 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Franklin'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationTAS" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 450 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Franklin'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%"},
+        "size": { "value": 36 },
+        "color": { "value": "#000" },
+        "stroke": {"value": "#000"},
+        "x": { "value": 150 },
+        "y": { "value": 525 }
+      }
+    }
+  ]
 }

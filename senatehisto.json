@@ -5,34 +5,150 @@
 
   "config": {
     "background": "white",
-      "axis": {
-        "labelFont": "Verdana",
-        "labelFontSize": 11,
-        "labelFontWeight": "lighter",
-        "titleFont": "Verdana",
-        "titleFontSize": 14
-      },
-      "padding": 15
+    "axis": {
+      "labelFont": "Verdana",
+      "labelFontSize": 11,
+      "labelFontWeight": "lighter",
+      "titleFont": "Verdana",
+      "titleFontSize": 14
+    },
+    "padding": {"left": 15, "right": 15, "bottom": 15, "top": 25},
+    "lineBreak": "#"
   },
 
-  "data": {"url": "Data/SenateVotes.csv"},
-  "transform": [
-    {"filter": "datum.Year == '2025'"}
-  ],
-  "mark": "bar",
-  "encoding": {
-    "x": {
-      "bin": {"step": 2},
-      "field": "TotalPercentage",
-      "title": "Voter Turnout (%)"
+  "layer": [
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.Year == '2025'" }],
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "bin": { "step": 2 },
+          "field": "TotalPercentage",
+          "title": "Voter Turnout (%)"
+        },
+        "y": { "aggregate": "count", "title": "Number of Electoral Divisions" },
+        "color": { "value": "#faa18f" },
+        "stroke": { "value": "#000" },
+        "strokeWidth": { "value": 1 },
+        "tooltip": [
+          { "aggregate": "count", "title": "Number of Electoral Divisions" }
+        ]
+      }
     },
-    "y": {"aggregate": "count", "title": "Number of Electoral Divisions"},
-    "color": {"value": "#faa18f"},
-    "stroke": {"value": "#000"},
-    "strokeWidth": {"value": 1},
-    "tooltip": [
-      {"field": "Percent", "bin": true, "title": "Voter Turnout Percentage", "format": ".2%"},
-      {"aggregate": "count", "title": "Number of Electoral Divisions"}
-    ]
-  }
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Lingiari'" }],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 25 },
+        "x2": { "value": 275 },
+        "y": { "value": 0 },
+        "y2": { "value": 100 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Lingiari'" }],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationAUS" },
+        "size": { "value": 11 },
+        "color": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 30 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Lingiari'" }],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%" },
+        "size": { "value": 24 },
+        "color": { "value": "#000" },
+        "stroke": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 70 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Barton'" }],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 25 },
+        "x2": { "value": 275 },
+        "y": { "value": 125 },
+        "y2": { "value": 225 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Barton'" }],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationAUS" },
+        "size": { "value": 11 },
+        "color": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 155 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Barton'" }],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%" },
+        "size": { "value": 24 },
+        "color": { "value": "#000" },
+        "stroke": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 195 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Hotham'" }],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 25 },
+        "x2": { "value": 275 },
+        "y": { "value": 250 },
+        "y2": { "value": 350 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Hotham'" }],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationAUS" },
+        "size": { "value": 11 },
+        "color": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 280 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [{ "filter": "datum.DivisionNm == 'Hotham'" }],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%" },
+        "size": { "value": 24 },
+        "color": { "value": "#000" },
+        "stroke": { "value": "#000" },
+        "x": { "value": 150 },
+        "y": { "value": 320 }
+      }
+    }
+  ]
 }

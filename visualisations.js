@@ -48,10 +48,14 @@ vegaEmbed("#vis6", vicmap, { "actions": false });
 
 vegaEmbed("#vis9", senatechange, { "actions": false });
 
+vegaEmbed("#vis10", vicvotes, { "actions": false });
+
 vegaEmbed("#vis11", mostlegend, { "actions": false });
 
 vegaEmbed("#vis12", senlegend, { "actions": false });
 vegaEmbed("#vis13", houselegend, { "actions": false });
+
+vegaEmbed("#vis15", senatevotes, { "actions": false });
 
 vegaEmbed("#vis5", housestate, { "actions": false }).then(function (result) {
   var view = result.view;
@@ -159,47 +163,35 @@ vegaEmbed("#vis8", senate, { "actions": false }).then(function (result) {
       vegaEmbed("#vis10", vicvotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in Victoria";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     } else if (stateName == "New South Wales") {
       vegaEmbed("#vis10", nswvotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in New South Wales";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     } else if (stateName == "Queensland") {
       vegaEmbed("#vis10", qldvotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in Queensland";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     } else if (stateName == "Tasmania") {
       vegaEmbed("#vis10", tasvotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in Tasmania";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     } else if (stateName == "Australian Capital Territory") {
       vegaEmbed("#vis10", actvotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in Australian Capital Territory";
-      document.getElementById("VoteSenate").style.fontSize = "14px";
     } else if (stateName == "Northern Territory") {
       vegaEmbed("#vis10", ntvotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in Northern Territory";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     } else if (stateName == "South Australia") {
       vegaEmbed("#vis10", savotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in South Australia";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     } else if (stateName == "Western Australia") {
       vegaEmbed("#vis10", wavotes, { "actions": false });
       document.getElementById("VoteSenate").innerText =
         "2025 Senate Voter Turnout Distribution in Western Australia";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     } else {
-      vegaEmbed("#vis10", senatevotes, { "actions": false });
-      document.getElementById("VoteSenate").innerText =
-        "2025 Senate Voter Turnout Distribution in Australia";
-      document.getElementById("VoteSenate").style.fontSize = "15px";
     }
   }
 

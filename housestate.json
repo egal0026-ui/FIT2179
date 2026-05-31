@@ -41,9 +41,11 @@
           "Lead",
           "Party",
           "Percentage",
-          "CenterLat",
-          "CenterLong",
-          "LegendText"
+          "LegendLat",
+          "LegendLong",
+          "LegendText",
+          "Lat",
+          "Long"
         ]
       }
     }
@@ -94,6 +96,24 @@
         },
         "stroke": { "value": "#000" }
       }
+    },{
+      "mark": {"type": "text"},
+      "encoding": {
+        "text": {"field": "Percentage"},
+        "size": {"value": 11},
+        "color": {"value": "#000"},
+        "latitude": {"field": "Lat"},
+        "longitude": {"field": "Long"}
+      }
+    },{
+        "mark":"rect",
+        "encoding": {
+            "x": {"value": 422},
+            "x2": {"value":450},
+            "y": {"value": 296},
+            "y2": {"value": 298},
+            "color": {"value": "#000"}
+        }
     },
     {
       "transform": [
@@ -102,8 +122,8 @@
       "mark": { "type": "text" },
       "encoding": {
         "text": { "field": "LegendText"},
-        "latitude": { "field": "CenterLat", "type": "quantitative" },
-        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "latitude": { "field": "LegendLat", "type": "quantitative" },
+        "longitude": { "field": "LegendLong", "type": "quantitative" },
         "color": {"value": "#000"},
         "opacity": {"value": 1}
       }
@@ -115,8 +135,8 @@
       "mark": { "type": "text" },
       "encoding": {
         "text": { "field": "LegendText"},
-        "latitude": { "field": "CenterLat", "type": "quantitative" },
-        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "latitude": { "field": "LegendLat", "type": "quantitative" },
+        "longitude": { "field": "LegendLong", "type": "quantitative" },
         "color": {"value": "#000"},
         "opacity": {"value": 1}
       }
@@ -128,8 +148,8 @@
       "mark": { "type": "text" },
       "encoding": {
         "text": { "field": "LegendText"},
-        "latitude": { "field": "CenterLat", "type": "quantitative" },
-        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "latitude": { "field": "LegendLat", "type": "quantitative" },
+        "longitude": { "field": "LegendLong", "type": "quantitative" },
         "color": {"value": "#000"},
         "opacity": {"value": 1}
       }
@@ -141,8 +161,8 @@
       "mark": { "type": "text" },
       "encoding": {
         "text": { "field": "LegendText"},
-        "latitude": { "field": "CenterLat", "type": "quantitative" },
-        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "latitude": { "field": "LegendLat", "type": "quantitative" },
+        "longitude": { "field": "LegendLong", "type": "quantitative" },
         "color": {"value": "#000"},
         "opacity": {"value": 1}
       }
@@ -154,8 +174,8 @@
       "mark": { "type": "text" },
       "encoding": {
         "text": { "field": "LegendText"},
-        "latitude": { "field": "CenterLat", "type": "quantitative" },
-        "longitude": { "field": "CenterLong", "type": "quantitative" },
+        "latitude": { "field": "LegendLat", "type": "quantitative" },
+        "longitude": { "field": "LegendLong", "type": "quantitative" },
         "color": {"value": "#000"},
         "opacity": {"value": 1}
       }

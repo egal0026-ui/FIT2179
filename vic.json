@@ -15,7 +15,8 @@
         "titleFont": "Verdana",
         "titleFontSize": 14
       }
-    }
+    },
+    "lineBreak": "#"
   },
   "params": [
     {
@@ -107,14 +108,14 @@
           "field": "Party",
           "type": "nominal",
           "scale": {
-     "domain": [
-          "Australian Labor Party","Liberal Party","The Nationals",
-          "Australian Greens","Independent"
-        ],
-        "range": [
-          "#e14645","#1c4f9c","#1c4f9c",
-          "#10c25b","#969696"
-        ]
+            "domain": [
+              "Australian Labor Party",
+              "Liberal Party",
+              "The Nationals",
+              "Australian Greens",
+              "Independent"
+            ],
+            "range": ["#e14645", "#1c4f9c", "#1c4f9c", "#10c25b", "#969696"]
           },
           "legend": null
         },
@@ -124,6 +125,147 @@
           { "field": "Electoral Division", "type": "nominal" },
           { "field": "State", "type": "nominal" }
         ]
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 75 },
+        "x2": { "value": 325 },
+        "y": { "value": 450 },
+        "y2": { "value": 600 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 200 },
+        "y": { "value": 537.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#e14645" },
+        "stroke": {"value": "#e14645"},
+        "x": { "value": 200 },
+        "y": { "value": 500 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '2'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 375 },
+        "x2": { "value": 625 },
+        "y": { "value": 450 },
+        "y2": { "value": 600 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '2'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 500 },
+        "y": { "value": 537.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '2'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#1c4f9c" },
+        "stroke": {"value": "#1c4f9c"},
+        "x": { "value": 500 },
+        "y": { "value": 500 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '3'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 675 },
+        "x2": { "value": 925 },
+        "y": { "value": 450 },
+        "y2": { "value": 600 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '3'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 800 },
+        "y": { "value": 537.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Victoria'" },
+        { "filter": "datum.Display == '3'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#969696" },
+        "stroke": {"value": "#969696"},
+        "x": { "value": 800 },
+        "y": { "value": 500 }
       }
     }
   ]

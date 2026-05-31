@@ -15,7 +15,8 @@
         "titleFont": "Verdana",
         "titleFontSize": 14
       }
-    }
+    },
+    "lineBreak": "#"
   },
   "params": [
     {
@@ -119,6 +120,53 @@
           { "field": "Electoral Division", "type": "nominal" },
           { "field": "State", "type": "nominal" }
         ]
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Australian Capital Territory'" },
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 750 },
+        "x2": { "value": 1000 },
+        "y": { "value": 400 },
+        "y2": { "value": 550 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Australian Capital Territory'" },
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 875 },
+        "y": { "value": 487.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/HouseSeats2025.csv" },
+      "transform": [
+        { "filter": "datum.State == 'Australian Capital Territory'" },
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#e14645" },
+        "stroke": {"value": "#e14645"},
+        "x": { "value": 875 },
+        "y": { "value": 450 }
       }
     }
   ]

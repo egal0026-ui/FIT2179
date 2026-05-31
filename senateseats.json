@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "height": 400,
+  "height": 500,
   "width": "container",
   "config": {
     "background": "white",
@@ -12,7 +12,8 @@
     }
   
 },
-"padding": 15
+"padding": 15,
+"lineBreak": "#"
   },
   
   "projection": {
@@ -68,8 +69,8 @@
         "encoding": {
             "x": {"value": 673},
             "x2": {"value":770},
-            "y": {"value": 300},
-            "y2": {"value": 302},
+            "y": {"value": 350},
+            "y2": {"value": 352},
             "color": {"value": "#000"}
         }
     },{
@@ -77,8 +78,8 @@
         "encoding": {
             "x": {"value": 660},
             "x2": {"value":750},
-            "y": {"value": 355},
-            "y2": {"value": 357},
+            "y": {"value": 405},
+            "y2": {"value": 407},
             "color": {"value": "#000"}
         }
     },
@@ -255,17 +256,17 @@
             "labelFontWeight": "lighter",
             "titleFont": "Verdana",
             "titleFontSize": 14,
-            "columns": 5,
+            "columns": 6,
             "labelLimit": 250
           },
         "scale": {
         "domain": [
-          "Australian Labor Party","David Pocock","Pauline Hanson's One Nation", "Liberal Party",   "Country Liberal Party",
-          "Australian Greens","Jacqui Lambie Network","Palmer United Australia Party","The Nationals","Liberal National Party of Queensland"
+          "Australian Labor Party","David Pocock","Pauline Hanson's One Nation", "Australia's Voice","Liberal Party",   "Country Liberal Party",
+          "Australian Greens","Jacqui Lambie Network","Palmer United Australia Party", "Independent", "The Nationals","Liberal National Party of Queensland"
         ],
         "range": [
-          "#e14645","#cf2c2b","#ff6900","#1c4f9c","#1c4f9c",
-          "#10c25b","#ffd520","#f8ef21","#1c4f9c","#1c4f9c"
+          "#e14645","#cf2c2b","#ff6900","#a50744","#1c4f9c","#1c4f9c",
+          "#10c25b","#ffd520","#f8ef21", "#969696", "#1c4f9c","#1c4f9c"
         ]
       }},
         "latitude": { "field": "Lat", "type": "quantitative" },
@@ -276,6 +277,268 @@
           { "field": "PartyNm" },
           { "field": "State" }
         ]
+      }
+    },{
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 0 },
+        "x2": { "value": 250 },
+        "y": { "value": 0 },
+        "y2": { "value": 150 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 125 },
+        "y": { "value": 87.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '1'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#e14645" },
+        "stroke": {"value": "#e14645"},
+        "x": { "value": 125 },
+        "y": { "value": 50 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '2'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 0 },
+        "x2": { "value": 250 },
+        "y": { "value": 175 },
+        "y2": { "value": 325 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '2'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 125 },
+        "y": { "value": 262.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '2'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#1c4f9c" },
+        "stroke": {"value": "#1c4f9c"},
+        "x": { "value": 125 },
+        "y": { "value": 225 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '3'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 0 },
+        "x2": { "value": 250 },
+        "y": { "value": 350 },
+        "y2": { "value": 500 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '3'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 125 },
+        "y": { "value": 437.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '3'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#10c25b" },
+        "stroke": {"value": "#10c25b"},
+        "x": { "value": 125 },
+        "y": { "value": 400 }
+      }
+    },{
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '4'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 800 },
+        "x2": { "value": 1050 },
+        "y": { "value": 0 },
+        "y2": { "value": 150 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '4'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 925 },
+        "y": { "value": 87.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '4'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#ff6900" },
+        "stroke": {"value": "#ff6900"},
+        "x": { "value": 925 },
+        "y": { "value": 50 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '5'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 800 },
+        "x2": { "value": 1050 },
+        "y": { "value": 175 },
+        "y2": { "value": 325 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '5'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 925 },
+        "y": { "value": 262.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '5'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#969696" },
+        "stroke": {"value": "#969696"},
+        "x": { "value": 925 },
+        "y": { "value": 225 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '6'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 800 },
+        "x2": { "value": 1050 },
+        "y": { "value": 350 },
+        "y2": { "value": 500 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '6'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Text" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 925 },
+        "y": { "value": 437.5 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateSeats.csv" },
+      "transform": [
+        { "filter": "datum.Display == '6'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Numbers"},
+        "size": { "value": 36 },
+        "color": { "value": "#000" },
+        "stroke": {"value": "#000"},
+        "x": { "value": 925 },
+        "y": { "value": 400 }
       }
     }
   ]

@@ -1,33 +1,271 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 600,
   "width": "container",
-  "height": 400,
-    "config": {
+      "config": {
     "background": "white",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      },
       "axis": {
         "labelFont": "Verdana",
         "labelFontSize": 11,
         "labelFontWeight": "lighter",
         "titleFont": "Verdana",
         "titleFontSize": 14
-      },
-      "padding": 15
-  },
-  "data": {"url": "Data/SenateVotes.csv"},
-  "transform": [{"filter": "datum.Year == '2025' && datum.StateAb == 'SA' "}],
-  "mark": "bar",
-  "encoding": {
-    "x": {
-      "bin": {"step": 2},
-      "field": "TotalPercentage",
-      "title": "Voter Turnout (%)"
+      }
     },
-    "y": {"aggregate": "count", "title": "Number of Electoral Divisions"},
-    "color": {"value": "#faa18f"},
-    "stroke": {"value": "#000"},
+    "lineBreak": "#"
+  },
+  "params": [
+    {
+      "name": "zoom_level",
+      "value": 1800,
+      "bind": {
+        "input": "range",
+        "min": 1800,
+        "max": 15000,
+        "step": 100,
+        "name": "Zoom into Map: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "projection": {
+        "type": "equirectangular",
+        "center": [138, -35],
+        "scale": { "expr": "zoom_level" }
+      },
+      "data": {
+        "url": "Data/AUS_ELB_region.json",
+        "format": { "type": "topojson", "feature": "AUS_ELB_region" }
+      },
+      "transform": [
+        {
+          "lookup": "properties.Elect_div",
+          "from": {
+            "data": {
+              "url": "Data/HouseSeats2025.csv"
+            },
+            "key": "DivisionNm",
+            "fields": ["State", "DivisionNm", "Party", "ElectYear"]
+          }
+        },
+        {
+          "filter": "datum.State != 'South Australia'"
+        }
+      ],
+
+      "mark": { "type": "geoshape" },
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "zoom_level",
+            "value": "#404040"
+          },
+          "legend": null
+        },
+
+        "opacity": {
+          "value": 0.8
+        },
+        "strokeWidth": {
+          "value": 0.25
+        },
+        "stroke": { "value": "#fff" }
+      }
+    },
+    {
+      "projection": {
+        "type": "equirectangular",
+        "center": [138, -35],
+        "scale": { "expr": "zoom_level" }
+      },
+      "data": {
+        "url": "Data/AUS_ELB_region.json",
+        "format": { "type": "topojson", "feature": "AUS_ELB_region" }
+      },
+      "transform": [
+        {
+          "lookup": "properties.Elect_div",
+          "from": {
+            "data": {
+              "url": "Data/SenateVotes.csv"
+            },
+            "key": "DivisionNm",
+            "fields": ["State", "DivisionNm", "Percent", "ElectYear"]
+          }
+        },
+        {
+          "filter": "datum.State == 'South Australia'"
+        }
+      ],
+      "mark": { "type": "geoshape" },
+      "encoding": {
+        "fill": {
+          "field": "Percent",
+          "type": "quantitative",
+          "scale": {
+            "domain":[0.85,0.95],
+            "range": ["#a3ffce", "#0c753d"]
+          },
+          "legend": {
+            "format": ".2%",
+            "orient": "right",
+            "title": "Voter Turnout",
+            "labelFont": "Verdana",
+        "labelFontSize": 11,
+        "labelFontWeight": "lighter",
+        "titleFont": "Verdana",
+        "titleFontSize": 14
+          }
+        },
+        "stroke": { "value": "#000" },
         "tooltip": [
-      {"field": "Percent", "bin": true, "title": "Voter Turnout Percentage", "format": ".2%"},
-      {"aggregate": "count", "title": "Number of Electoral Divisions"}
-    ]
-  }
+          { "field": "DivisionNm", "type": "nominal", "title": "DivisionNm"},
+          { "field": "State", "type": "nominal" },
+          {"field": "Percent", "type": "quantitative", "title": "Voter Turnout Percentage", "format": ".2%"}
+        ]
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Spence'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 75 },
+        "x2": { "value": 325 },
+        "y": { "value": 450 },
+        "y2": { "value": 600 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Spence'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationSA" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 200 },
+        "y": { "value": 475 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Spence'" }
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%"},
+        "size": { "value": 36 },
+        "color": { "value": "#000" },
+        "stroke": {"value": "#000"},
+        "x": { "value": 200 },
+        "y": { "value": 550 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Sturt'" }
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 375 },
+        "x2": { "value": 625 },
+        "y": { "value": 450 },
+        "y2": { "value": 600 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Sturt'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationSA" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 500 },
+        "y": { "value": 475 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Sturt'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%"},
+        "size": { "value": 36 },
+        "color": { "value": "#000" },
+        "stroke": {"value": "#000"},
+        "x": { "value": 500 },
+        "y": { "value": 550 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Mayo'" }
+
+      ],
+      "mark": { "type": "rect" },
+      "encoding": {
+        "size": { "value": 11 },
+        "color": { "value": "#fee7e3" },
+        "x": { "value": 675 },
+        "x2": { "value": 925 },
+        "y": { "value": 450 },
+        "y2": { "value": 600 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Mayo'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "AnnotationSA" },
+        "size": { "value": 12 },
+        "color": { "value": "#000" },
+        "x": { "value": 800 },
+        "y": { "value": 475 }
+      }
+    },
+    {
+      "data": { "url": "Data/SenateVotes.csv" },
+      "transform": [
+        { "filter": "datum.DivisionNm == 'Mayo'" }
+
+      ],
+      "mark": { "type": "text" },
+      "encoding": {
+        "text": { "field": "Percent", "format": ".2%"},
+        "size": { "value": 36 },
+        "color": { "value": "#000" },
+        "stroke": {"value": "#000"},
+        "x": { "value": 800 },
+        "y": { "value": 550 }
+      }
+    }
+  ]
 }

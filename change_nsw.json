@@ -14,7 +14,7 @@
         {"key": {"stk1": "Australian Labor Party", "stk2": "Australian Labor Party"}, "doc_count": 26},
         {"key": {"stk1": "Independent", "stk2": "Independent"}, "doc_count": 4},
         {"key": {"stk1": "Liberal Party", "stk2": "Australian Labor Party"}, "doc_count": 2},
-        {"key": {"stk1": "Liberal Party", "stk2": "IndependentIND"}, "doc_count": 1},
+        {"key": {"stk1": "Liberal Party", "stk2": "Independent"}, "doc_count": 1},
         {"key": {"stk1": "Liberal Party", "stk2": "Liberal Party"}, "doc_count": 6},
         {"key": {"stk1": "The Nationals", "stk2": "Independent"}, "doc_count": 1},
         {"key": {"stk1": "The Nationals", "stk2": "The Nationals"}, "doc_count": 6}
@@ -219,6 +219,25 @@
           }
         },
         "hover": {"fillOpacity": {"value": 1}}
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "groups"},
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "scale('x', datum.stack) + (datum.rightLabel ? bandwidth('x') + 8 : -8)"
+          },
+          "yc": {"signal": "(datum.scaledY0 + datum.scaledY1)/2"},
+          "align": {"signal": "datum.rightLabel ? 'left' : 'right'"},
+          "baseline": {"value": "middle"},
+          "fontWeight": {"value": "bold"},
+          "text": {
+            "signal": "abs(datum.scaledY0-datum.scaledY1) > 13 ? datum.grpId : ''"
+          }
+        }
       }
     },
     {
